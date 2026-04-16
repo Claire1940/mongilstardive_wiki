@@ -428,207 +428,357 @@
     },
     "lucidBlocksFarmingAndGrowth": {
       "title": "MONGIL STAR DIVE Artifacts",
-      "displayType": "mixedCards",
-      "intro": "Artifact planning in MONGIL STAR DIVE should connect effect value, character fit, and content priority.",
-      "sections": [
+      "displayType": "artifactTable",
+      "intro": "Compare top MONGIL STAR DIVE artifacts by role, rarity, passive effect, and real user fit to plan stronger long-term builds.",
+      "artifacts": [
         {
-          "name": "Artifact Effect Summary",
-          "description": "List each artifact effect clearly so players can compare practical combat value quickly."
+          "artifact": "Wind-Harboring Broom",
+          "rarity": "5★",
+          "role": "Assassin",
+          "maxAtk": "883",
+          "equipEffect": "Crit DMG +45%",
+          "baseEffect": "ATK increases by 10%. Using a Special Skill increases Wind DMG by 35% for 10s.",
+          "fusionBonus": "Fusion Lv.3 gains Crit Rate from Assassin proficiency. Fusion Lv.5 gains ATK from Assassin proficiency.",
+          "bestUsers": [
+            "Esther"
+          ],
+          "whyUseIt": "Best pure damage artifact for Wind Assassins and especially strong on Esther.",
+          "grade": "Signature-tier DPS artifact"
         },
         {
-          "name": "Best Character Matches",
-          "description": "Map artifacts to character roles and common team cores for faster build decisions."
+          "artifact": "Frenzied Struggle",
+          "rarity": "5★",
+          "role": "Fighter",
+          "maxAtk": "-",
+          "equipEffect": "-",
+          "baseEffect": "Special Skill DMG increases by 10%. Landing an attack increases Crit DMG by 4% (max 2 stacks, duration 10s).",
+          "fusionBonus": "Fusion Lv.3 and Lv.5 increase ATK through Fighter proficiency scaling.",
+          "bestUsers": [
+            "Penny",
+            "Sangun",
+            "Ophelia",
+            "Sera"
+          ],
+          "whyUseIt": "Flexible Fighter artifact for multiple on-field damage dealers when signature pieces are unavailable.",
+          "grade": "General-use Fighter artifact"
         },
         {
-          "name": "Upgrade Priority",
-          "description": "Use upgrade order based on progression impact, not rarity alone."
+          "artifact": "Ground-Shaking Tremors",
+          "rarity": "4★",
+          "role": "Destroyer",
+          "maxAtk": "-",
+          "equipEffect": "-",
+          "baseEffect": "Taking a hit increases Neutralization DMG by 5% for 10s (cooldown: 15s).",
+          "fusionBonus": "Fusion Lv.5 increases ATK through Destroyer proficiency scaling.",
+          "bestUsers": [
+            "Cloud",
+            "Reina",
+            "Other Destroyers"
+          ],
+          "whyUseIt": "Reliable budget pick for Destroyers that emphasize stagger and neutralization pressure.",
+          "grade": "Reliable 4★ starter option"
         },
         {
-          "name": "Boss vs General Use",
-          "description": "Separate boss-oriented artifact picks from all-purpose progression picks."
+          "artifact": "Celestial Halo of Life",
+          "rarity": "5★",
+          "role": "Support",
+          "maxAtk": "663",
+          "equipEffect": "DEF +21%",
+          "baseEffect": "Ultimate Skill DMG increases by 11%. Landing an attack increases all teammates' ATK by 6% for 15s.",
+          "fusionBonus": "Fusion Lv.3 and Lv.5 increase ATK through Support proficiency scaling.",
+          "bestUsers": [
+            "Jiwon",
+            "Bonnie",
+            "Francis",
+            "Daisy"
+          ],
+          "whyUseIt": "Top generic Support artifact because its teamwide ATK buff fits many compositions.",
+          "grade": "Top generic Support artifact"
+        },
+        {
+          "artifact": "Melody Played on Heartstrings",
+          "rarity": "5★",
+          "role": "Support",
+          "maxAtk": "-",
+          "equipEffect": "-",
+          "baseEffect": "Using a Switch Skill grants Vitality to self and teammates. While Stamina is 90% or higher, Basic Attack, Special Skill, and Ultimate Skill DMG increase by 2.5% per second (max 20 stacks, duration 30s).",
+          "fusionBonus": "-",
+          "bestUsers": [
+            "Jiwon"
+          ],
+          "whyUseIt": "Premium stamina-based support artifact for lineups that maintain high Stamina uptime.",
+          "grade": "Premium stamina-based support artifact"
         }
       ],
-      "growthMilestones": [
-        "Catalog core MONGIL STAR DIVE artifacts",
-        "Assign artifact users by role",
-        "Define artifact upgrade order",
-        "Separate boss and general artifact routes"
+      "highlights": [
+        "MONGIL STAR DIVE artifact role-lock and fusion scaling comparison",
+        "MONGIL STAR DIVE signature-tier and budget artifact planning",
+        "MONGIL STAR DIVE best-user mapping by role and team shell",
+        "MONGIL STAR DIVE artifact grade snapshot for launch progression"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "MONGIL STAR DIVE Equipment Sets",
-      "displayType": "priorityCards",
-      "intro": "MONGIL STAR DIVE equipment sets should be evaluated by set bonus value and role fit across multiple teams.",
-      "priorities": [
+      "displayType": "equipmentTable",
+      "intro": "Use this MONGIL STAR DIVE set overview to match element-focused builds with the right 2-piece and 4-piece bonuses.",
+      "sets": [
         {
-          "name": "Burst Damage Set",
-          "priority": "Essential",
-          "description": "Core set for characters that rely on short damage windows and fast clear timing."
+          "set": "Hahnul's Roar",
+          "element": "Fire",
+          "bestFor": [
+            "Flare",
+            "Angel",
+            "Verna",
+            "Leeho"
+          ],
+          "twoSet": "When using ULT Skill, increases Fire Elemental DMG by 10% for 5s.",
+          "fourSet": "When attacking enemies with Fire Affliction, increases Crit DMG by 10%.",
+          "useCase": "Main Fire damage set for burst-oriented or affliction-enabled Fire units."
         },
         {
-          "name": "Sustain Set",
-          "priority": "Very High",
-          "description": "Strong set for safer progression and longer encounter consistency."
+          "set": "Mountain Peak Majesty",
+          "element": "Fire",
+          "bestFor": [
+            "Flare"
+          ],
+          "twoSet": "When Tag-Out Skill hits, reduces target Fire Elemental Resistance by 3% for 5s.",
+          "fourSet": "When attacking enemies with Fire Affliction, increases Fire Elemental DMG by 5%.",
+          "useCase": "Alternative Fire set for Tag-Out pressure and resistance shred routes."
         },
         {
-          "name": "Support Utility Set",
-          "priority": "Very High",
-          "description": "Improves team stability when paired with high-value support units."
+          "set": "Arbiter",
+          "element": "Ice",
+          "bestFor": [
+            "Cloud",
+            "Sera"
+          ],
+          "twoSet": "When using Tag Skill, increases Ice Elemental DMG by 10% for 5s.",
+          "fourSet": "When attacking enemies with Ice Affliction, increases Ice Elemental DMG by 10%.",
+          "useCase": "Core Ice DPS set with consistent Tag interaction synergy."
         },
         {
-          "name": "Boss Control Set",
-          "priority": "High",
-          "description": "Best for teams that focus on stagger timing and controlled burst windows."
+          "set": "Abyss",
+          "element": "Wind",
+          "bestFor": [
+            "Esther",
+            "Sangun",
+            "Bonnie"
+          ],
+          "twoSet": "When using SP Skill, increases Wind Elemental DMG by 10% for 5s.",
+          "fourSet": "On Critical Hit, increases Wind Elemental DMG by 10% for 5s.",
+          "useCase": "Top Wind set for crit-ready units and aggressive Wind lineups."
         },
         {
-          "name": "General Farming Set",
-          "priority": "High",
-          "description": "Efficient default setup for repeat farming and event tasks."
+          "set": "Spirit King",
+          "element": "Lightning",
+          "bestFor": [
+            "Penny",
+            "Reina",
+            "Benjamin"
+          ],
+          "twoSet": "When using Normal Attack, increases Lightning Elemental DMG by 8% for 3s.",
+          "fourSet": "When attacking enemies with Lightning Affliction, increases Lightning Elemental DMG by 10%.",
+          "useCase": "Natural fit for Lightning units looping Normal Attacks with affliction uptime."
         },
         {
-          "name": "Element Specialist Set",
-          "priority": "High",
-          "description": "Use only when your element-focused team route is already stable."
+          "set": "West Wind",
+          "element": "Earth",
+          "bestFor": [
+            "Ellie"
+          ],
+          "twoSet": "When using Normal Attack, increases Earth Elemental DMG by 8% for 3s.",
+          "fourSet": "When using Switch Skill against enemies with Earth Affliction, increases Earth Elemental DMG by 10% for 5s.",
+          "useCase": "Strong Earth option for repeated Normal Attack and Switch Skill windows."
         }
+      ],
+      "setNotes": [
+        "MONGIL STAR DIVE launch sets are strongest when they match natural affliction patterns.",
+        "MONGIL STAR DIVE set planning should prioritize 2-piece uptime before forcing 4-piece completion.",
+        "MONGIL STAR DIVE roster depth increases value of flexible element-aligned sets."
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "MONGIL STAR DIVE Characters",
-      "displayType": "achievementGrid",
-      "intro": "Use this MONGIL STAR DIVE character hub to compare rarity, role, element, and build links in one place.",
-      "groups": [
+      "displayType": "characterHub",
+      "intro": "Use this MONGIL STAR DIVE roster hub to compare rarity, element, and role for all currently indexed playable characters.",
+      "filters": {
+        "rarity": [
+          "5★",
+          "4★"
+        ],
+        "elements": [
+          "Fire",
+          "Ice",
+          "Wind",
+          "Earth",
+          "Lightning"
+        ],
+        "roles": [
+          "Fighter",
+          "Destroyer",
+          "Assassin",
+          "Support"
+        ]
+      },
+      "characters": [
         {
-          "name": "Starter and Core Picks",
-          "achievements": [
-            {
-              "title": "Flare",
-              "description": "High launch value and strong boss pressure."
-            },
-            {
-              "title": "Jiwon",
-              "description": "Reliable support value for wind-focused teams."
-            },
-            {
-              "title": "Gabi",
-              "description": "Strong Earth route for steady progression."
-            },
-            {
-              "title": "Esther",
-              "description": "Top-tier launch impact in broad content."
-            }
-          ]
+          "name": "Flare",
+          "rarity": "5★",
+          "element": "Fire",
+          "role": "Destroyer"
         },
         {
-          "name": "Strong Progression Options",
-          "achievements": [
-            {
-              "title": "Francis",
-              "description": "Consistent role value in many team shells."
-            },
-            {
-              "title": "Penny",
-              "description": "Solid account value with practical flexibility."
-            },
-            {
-              "title": "Ophelia",
-              "description": "Useful sustain options for longer fights."
-            },
-            {
-              "title": "Sangun",
-              "description": "Good fit for stable account progression routes."
-            }
-          ]
+          "name": "Ophelia",
+          "rarity": "5★",
+          "element": "Ice",
+          "role": "Fighter"
         },
         {
-          "name": "Mid Priority Roster",
-          "achievements": [
-            {
-              "title": "Ellie",
-              "description": "Usable mid-priority option for coverage."
-            },
-            {
-              "title": "Benjamin",
-              "description": "Works as filler while chasing top units."
-            },
-            {
-              "title": "Yeonwha",
-              "description": "Moderate value with situational strengths."
-            },
-            {
-              "title": "Cloud",
-              "description": "Useful in specific team planning windows."
-            }
-          ]
+          "name": "Penny",
+          "rarity": "5★",
+          "element": "Lightning",
+          "role": "Fighter"
         },
         {
-          "name": "Lower Priority Roster",
-          "achievements": [
-            {
-              "title": "Daisy",
-              "description": "Lower launch priority than top-tier picks."
-            },
-            {
-              "title": "Bonnie",
-              "description": "Situational value, lower general priority."
-            },
-            {
-              "title": "Reina",
-              "description": "Best used after core team is complete."
-            },
-            {
-              "title": "Sera",
-              "description": "Late investment option for niche routes."
-            }
-          ]
+          "name": "Sangun",
+          "rarity": "5★",
+          "element": "Wind",
+          "role": "Fighter"
         },
         {
-          "name": "Roster Management Notes",
-          "achievements": [
-            {
-              "title": "Element Filters",
-              "description": "Group MONGIL STAR DIVE units by element for team planning."
-            },
-            {
-              "title": "Role Filters",
-              "description": "Separate damage, support, and sustain roles clearly."
-            },
-            {
-              "title": "Build Links",
-              "description": "Connect each character to best-build summaries."
-            }
-          ]
+          "name": "Jiwon",
+          "rarity": "5★",
+          "element": "Wind",
+          "role": "Support"
+        },
+        {
+          "name": "Esther",
+          "rarity": "5★",
+          "element": "Wind",
+          "role": "Assassin"
+        },
+        {
+          "name": "Gabi",
+          "rarity": "5★",
+          "element": "Earth",
+          "role": "Fighter"
+        },
+        {
+          "name": "Verna",
+          "rarity": "4★",
+          "element": "Fire",
+          "role": "Fighter"
+        },
+        {
+          "name": "Leeho",
+          "rarity": "4★",
+          "element": "Fire",
+          "role": "Assassin"
+        },
+        {
+          "name": "Angel",
+          "rarity": "4★",
+          "element": "Fire",
+          "role": "Assassin"
+        },
+        {
+          "name": "Cloud",
+          "rarity": "4★",
+          "element": "Ice",
+          "role": "Destroyer"
+        },
+        {
+          "name": "Sera",
+          "rarity": "4★",
+          "element": "Ice",
+          "role": "Fighter"
+        },
+        {
+          "name": "Yeonhwa",
+          "rarity": "4★",
+          "element": "Lightning",
+          "role": "Assassin"
+        },
+        {
+          "name": "Benjamin",
+          "rarity": "4★",
+          "element": "Lightning",
+          "role": "Assassin"
+        },
+        {
+          "name": "Reina",
+          "rarity": "4★",
+          "element": "Lightning",
+          "role": "Destroyer"
+        },
+        {
+          "name": "Bonnie",
+          "rarity": "4★",
+          "element": "Wind",
+          "role": "Support"
+        },
+        {
+          "name": "Francis",
+          "rarity": "4★",
+          "element": "Earth",
+          "role": "Support"
+        },
+        {
+          "name": "Daisy",
+          "rarity": "4★",
+          "element": "Earth",
+          "role": "Support"
+        },
+        {
+          "name": "Ellie",
+          "rarity": "4★",
+          "element": "Earth",
+          "role": "Destroyer"
         }
+      ],
+      "managementNotes": [
+        "Use MONGIL STAR DIVE rarity filters before reroll lock-in decisions.",
+        "Use MONGIL STAR DIVE element filters to draft mono-element lineups faster.",
+        "Use MONGIL STAR DIVE role filters to balance damage, stagger, and support slots.",
+        "Review MONGIL STAR DIVE roster updates after major banner rotations."
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "MONGIL STAR DIVE Release Date",
-      "displayType": "accordion",
-      "intro": "This MONGIL STAR DIVE release summary tracks launch timing, current platform support, and future platform expectations.",
-      "faqs": [
+      "displayType": "releaseTimeline",
+      "intro": "This MONGIL STAR DIVE release timeline tracks launch announcements, unlock timing, and current platform rollout status.",
+      "timeline": [
         {
-          "question": "When did MONGIL STAR DIVE launch?",
-          "answer": "MONGIL STAR DIVE launched on April 15, 2026."
+          "date": "2026-03-11",
+          "label": "Global launch announcement",
+          "details": "Netmarble announced April 15, 2026 as the release date for PC, iOS, and Android, with PC launch on the Netmarble Launcher and Epic Games Store."
         },
         {
-          "question": "Which platforms currently support MONGIL STAR DIVE?",
-          "answer": "MONGIL STAR DIVE is currently available on iOS, Android, and PC."
+          "date": "2026-04-08",
+          "label": "First Dive Show livestream",
+          "details": "The launch-week livestream reiterated release plans and confirmed PlayStation 5 and Xbox Series X|S versions for a later date."
         },
         {
-          "question": "Is MONGIL STAR DIVE free to play?",
-          "answer": "Yes, MONGIL STAR DIVE is positioned as a free-to-play action RPG."
+          "date": "2026-04-14",
+          "label": "North America unlock time",
+          "details": "The global service opened at 9:00 PM ET / 6:00 PM PT on April 14 for North America."
         },
         {
-          "question": "Do regions share the same MONGIL STAR DIVE release date?",
-          "answer": "Global launch timing is centered on the April 15, 2026 release window, with local rollout differences by platform store."
+          "date": "2026-04-15",
+          "label": "Worldwide launch",
+          "details": "MONGIL STAR DIVE launched globally at 1:00 AM UTC for PC, Android, and iOS."
         },
         {
-          "question": "Will MONGIL STAR DIVE expand to more platforms later?",
-          "answer": "Future platform expansion is possible, and official announcements should be tracked through Netmarble channels."
-        },
-        {
-          "question": "Where should players confirm new MONGIL STAR DIVE release notices?",
-          "answer": "Use the official website, forum, and social channels for official MONGIL STAR DIVE release notices."
+          "date": "TBA",
+          "label": "Console release status",
+          "details": "PlayStation 5 and Xbox Series X|S versions are confirmed, but launch date details are still pending."
         }
+      ],
+      "platformSummary": [
+        "Current MONGIL STAR DIVE platforms: PC, iOS, Android",
+        "Confirmed future MONGIL STAR DIVE platforms: PlayStation 5, Xbox Series X|S",
+        "North America launch timing: 2026-04-14 at 9:00 PM ET / 6:00 PM PT",
+        "Worldwide launch timing: 2026-04-15 at 1:00 AM UTC"
       ]
     },
     "lucidBlocksSteamDeckAndController": {
