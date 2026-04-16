@@ -13,11 +13,18 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mongilstardive.wiki'
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
 			: `${siteUrl}/${locale}/${contentType}/${slug}`
+	const imageUrl = frontmatter.image
+		? frontmatter.image.startsWith('http://') || frontmatter.image.startsWith('https://')
+			? frontmatter.image
+			: frontmatter.image.startsWith('/')
+				? `${siteUrl}${frontmatter.image}`
+				: `${siteUrl}/${frontmatter.image}`
+		: `${siteUrl}/images/hero.webp`
 
 	const breadcrumbData = {
 		'@context': 'https://schema.org',
@@ -49,19 +56,19 @@ export function ArticleStructuredData({
 		'@type': 'Article',
 		headline: frontmatter.title,
 		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		image: imageUrl,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: 'MONGIL STAR DIVE Wiki Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: 'MONGIL STAR DIVE Wiki',
 			logo: {
 				'@type': 'ImageObject',
-				url: `${siteUrl}/images/hero.webp`,
+				url: `${siteUrl}/android-chrome-512x512.png`,
 			},
 		},
 		mainEntityOfPage: {

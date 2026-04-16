@@ -23,6 +23,16 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
 }
 
+function toAbsoluteImage(image: string | undefined, siteUrl: string): string {
+  if (!image) {
+    return `${siteUrl}/images/hero.webp`
+  }
+  if (image.startsWith('http://') || image.startsWith('https://')) {
+    return image
+  }
+  return image.startsWith('/') ? `${siteUrl}${image}` : `${siteUrl}/${image}`
+}
+
 export default async function UnifiedContentPage({ params }: PageProps) {
   const { locale, slug } = await params
 
@@ -214,7 +224,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mongilstardive.wiki'
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -238,7 +248,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         openGraph: {
           title,
           description,
+          siteName: 'MONGIL STAR DIVE Wiki',
+          images: [`${siteUrl}/images/hero.webp`],
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [`${siteUrl}/images/hero.webp`],
         },
         robots: {
           index: true,
@@ -254,13 +272,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - MONGIL STAR DIVE Wiki`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description: `Browse all ${contentType} content for MONGIL STAR DIVE Wiki`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for MONGIL STAR DIVE Wiki`,
+          siteName: 'MONGIL STAR DIVE Wiki',
+          images: [`${siteUrl}/images/hero.webp`],
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for MONGIL STAR DIVE Wiki`,
+          images: [`${siteUrl}/images/hero.webp`],
+        },
         robots: {
           index: true,
           follow: true,
@@ -288,16 +319,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const ogImage = toAbsoluteImage(metadata.image as string | undefined, siteUrl)
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
+        title: `${metadata.title} - MONGIL STAR DIVE Wiki`,
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
+          title: `${metadata.title} - MONGIL STAR DIVE Wiki`,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          siteName: 'MONGIL STAR DIVE Wiki',
+          images: [ogImage],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: `${metadata.title} - MONGIL STAR DIVE Wiki`,
+          description: metadata.description,
+          images: [ogImage],
         },
         robots: {
           index: true,
@@ -323,16 +362,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const ogImage = toAbsoluteImage(metadata.image as string | undefined, siteUrl)
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
+            title: `${metadata.title} - MONGIL STAR DIVE Wiki`,
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
+              title: `${metadata.title} - MONGIL STAR DIVE Wiki`,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              siteName: 'MONGIL STAR DIVE Wiki',
+              images: [ogImage],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title: `${metadata.title} - MONGIL STAR DIVE Wiki`,
+              description: metadata.description,
+              images: [ogImage],
             },
             robots: {
               index: true,

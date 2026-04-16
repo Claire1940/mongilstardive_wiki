@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Monster-Taming Action RPG",
+    "title": "MONGIL: STAR DIVE",
+    "description": "Monster collection, character switching combat, reroll planning, codes, banners, and beginner progression for Netmarble's anime-style action RPG on mobile and PC.",
+    "getFreeCodesCTA": "Visit MONGIL: STAR DIVE Official Site",
+    "playOnSteamCTA": "Join MONGIL: STAR DIVE Discord",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "500K+",
+        "label": "Downloads"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "30.7K",
+        "label": "Google Play Reviews"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "34.3K",
+        "label": "Discord Members"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "12",
+        "label": "Supported Text Languages"
       }
     }
   },
@@ -784,26 +784,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for MONGIL: STAR DIVE?",
+    "description": "Join the official MONGIL: STAR DIVE Discord and visit the official game website for launch news, events, and updates.",
+    "joinCommunity": "Join MONGIL: STAR DIVE Discord",
+    "joinGame": "Visit MONGIL: STAR DIVE Official Site"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "MONGIL STAR DIVE Wiki",
+    "description": "Your community resource hub for MONGIL: STAR DIVE reroll, codes, banners, characters, and progression guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "YouTube",
+    "steamStore": "Official Website",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 MONGIL STAR DIVE Wiki. Not affiliated with Netmarble.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
