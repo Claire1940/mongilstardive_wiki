@@ -122,22 +122,22 @@
       {
         "icon": "Settings",
         "title": "MONGIL STAR DIVE News",
-        "description": "Official notices and maintenance updates"
+        "description": "Launch notices, maintenance alerts, and live updates"
       },
       {
         "icon": "Star",
         "title": "MONGIL STAR DIVE System Requirements",
-        "description": "PC, Android, and iOS requirement summary"
+        "description": "Minimum and recommended specs across all platforms"
       },
       {
         "icon": "Gamepad2",
         "title": "MONGIL STAR DIVE Best Settings",
-        "description": "Graphics, controls, and performance setup"
+        "description": "PC and mobile presets for smooth combat clarity"
       },
       {
         "icon": "TrendingUp",
         "title": "MONGIL STAR DIVE Crossplay",
-        "description": "Cross-save and platform compatibility overview"
+        "description": "Cross-play, cross-save, and multiplayer support summary"
       }
     ]
   },
@@ -783,105 +783,200 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "MONGIL STAR DIVE News",
-      "displayType": "accordion",
-      "intro": "MONGIL STAR DIVE news should highlight official notices, maintenance updates, event posts, and major guide-site coverage.",
-      "faqs": [
+      "displayType": "timelineCards",
+      "intro": "MONGIL STAR DIVE news should focus on official launch-week notices, maintenance outcomes, and livestream updates in one chronological feed.",
+      "items": [
         {
-          "question": "Where can I track official MONGIL STAR DIVE maintenance notices?",
-          "answer": "The official forum and website are the primary channels for maintenance and service announcements."
+          "date": "2026-04-16",
+          "label": "Maintenance",
+          "headline": "MONGIL STAR DIVE Temporary Maintenance Completed",
+          "summary": "A temporary maintenance on April 16 stabilized service and fixed an issue where some field gathering and mining nodes did not reset correctly after daily reset.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/176",
+          "icon": "Settings"
         },
         {
-          "question": "What counts as high-priority MONGIL STAR DIVE news?",
-          "answer": "Patch notes, event schedule updates, banner changes, and launch support notices are high-priority updates."
+          "date": "2026-04-15",
+          "label": "Maintenance",
+          "headline": "MONGIL STAR DIVE Emergency Launch-Day Maintenance",
+          "summary": "Netmarble posted emergency maintenance notices on launch day to stabilize game servers during the initial global service window.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/173",
+          "icon": "AlertTriangle"
         },
         {
-          "question": "How often should MONGIL STAR DIVE news be refreshed?",
-          "answer": "Refresh news modules daily during launch windows and after every major official announcement."
+          "date": "2026-04-15",
+          "label": "Launch",
+          "headline": "MONGIL STAR DIVE Official Global Launch",
+          "summary": "MONGIL STAR DIVE launched globally on April 15, 2026 at 1:00 AM UTC, which was April 14 at 9:00 PM ET, across PC, Android, and iOS.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/122",
+          "icon": "TrendingUp"
         },
         {
-          "question": "Should MONGIL STAR DIVE news include external summaries?",
-          "answer": "Yes, external summaries are useful when clearly tied to official announcements and major gameplay impact."
+          "date": "2026-04-13",
+          "label": "Download",
+          "headline": "MONGIL STAR DIVE Pre-Download and Specs Notice",
+          "summary": "Netmarble published the pre-download schedule and minimum plus recommended specifications so players could prepare devices and storage before launch.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/116",
+          "icon": "Download"
         },
         {
-          "question": "Which MONGIL STAR DIVE channels matter most?",
-          "answer": "Official website, official forum, Discord, X, YouTube, and Reddit are the core monitoring channels."
+          "date": "2026-04-08",
+          "label": "Showcase",
+          "headline": "MONGIL STAR DIVE First Dive Show Livestream",
+          "summary": "The First Dive Show livestream aired on April 8 as the main pre-launch update broadcast with release information and gameplay previews.",
+          "href": "https://game8.co/games/Mongil-Star-Dive/archives/591697",
+          "icon": "Gamepad2"
+        },
+        {
+          "date": "2026-04-08",
+          "label": "Q&A",
+          "headline": "MONGIL STAR DIVE Developer Live Summary Q&A",
+          "summary": "The official forum summary Q&A included early post-launch update cadence notes, including a three-week cycle for rate-up characters.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/163",
+          "icon": "MessageCircle"
         }
+      ],
+      "highlights": [
+        "MONGIL STAR DIVE launched globally on 2026-04-15 at 01:00 UTC.",
+        "MONGIL STAR DIVE launch-week maintenance updates were published on 2026-04-15 and 2026-04-16.",
+        "MONGIL STAR DIVE First Dive Show and official Q&A on 2026-04-08 remain key pre-launch context."
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "MONGIL STAR DIVE System Requirements",
-      "displayType": "settingCards",
-      "intro": "Use this MONGIL STAR DIVE requirements block to compare minimum setup expectations across PC, Android, and iOS.",
-      "settings": [
+      "displayType": "specTable",
+      "intro": "Use this MONGIL STAR DIVE requirements table to compare minimum and recommended specs, storage targets, and install size notes for PC, iOS, and Android.",
+      "platforms": [
         {
-          "name": "PC Minimum Requirements",
-          "type": "PC",
-          "description": "Track baseline CPU, GPU, RAM, storage, and OS requirements for stable MONGIL STAR DIVE PC performance."
+          "platform": "PC",
+          "minimum": [
+            "OS: Windows 10",
+            "CPU: Intel Core i5 8th Gen or AMD Ryzen 5 2600",
+            "Memory: 8 GB RAM",
+            "GPU: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580 or Intel Arc A380",
+            "DirectX: 11",
+            "Storage: 20 GB"
+          ],
+          "recommended": [
+            "OS: Windows 11",
+            "CPU: Intel Core i7 9th Gen or AMD Ryzen 7 3700",
+            "Memory: 16 GB RAM",
+            "GPU: NVIDIA GeForce RTX 2060 or AMD Radeon RX 5700 XT or Intel Arc A750",
+            "DirectX: 12",
+            "Storage: 50 GB"
+          ],
+          "notes": "Initial MONGIL STAR DIVE PC download size is around 15 GB."
         },
         {
-          "name": "PC Recommended Requirements",
-          "type": "PC",
-          "description": "Use recommended specs for smoother frame pacing in high-action encounters."
+          "platform": "iOS",
+          "minimum": [
+            "Device: iPhone 11 or equivalent",
+            "OS: iOS 15",
+            "Storage: 10 GB"
+          ],
+          "recommended": [
+            "Device: iPhone 13 or above",
+            "Storage: 15 GB"
+          ],
+          "notes": "Initial MONGIL STAR DIVE iOS download size is around 7 GB."
         },
         {
-          "name": "Android Requirements",
-          "type": "Android",
-          "description": "Review required Android version, device performance tier, and install size expectations."
+          "platform": "Android",
+          "minimum": [
+            "OS: Android 10",
+            "Chipset: Snapdragon 865 (Galaxy S20 class)",
+            "Memory: 8 GB RAM",
+            "Storage: 10 GB"
+          ],
+          "recommended": [
+            "Chipset: Snapdragon 8 Gen 2 (Galaxy S23 class)",
+            "Memory: 12 GB RAM",
+            "Storage: 15 GB"
+          ],
+          "notes": "Initial MONGIL STAR DIVE Android download size is around 7 GB."
         },
         {
-          "name": "iOS Requirements",
-          "type": "iOS",
-          "description": "Review supported iOS versions and expected device performance class."
+          "platform": "PC Download Options",
+          "minimum": [
+            "Client: Netmarble Launcher or Epic Games"
+          ],
+          "recommended": [
+            "Availability: PC client available at launch"
+          ],
+          "notes": "MONGIL STAR DIVE PC can be played through Epic Games or the Netmarble Launcher."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "MONGIL STAR DIVE Best Settings",
-      "displayType": "timeline",
-      "intro": "These MONGIL STAR DIVE setting priorities improve performance, readability, and control comfort on both mobile and PC.",
-      "entries": [
+      "displayType": "accordion",
+      "intro": "Use these MONGIL STAR DIVE presets to balance performance, combat readability, and control comfort across PC and mobile.",
+      "presets": [
         {
-          "title": "Graphics Baseline Setup",
-          "type": "Performance",
-          "description": "Start with stable frame targets, then raise quality options gradually after combat testing."
+          "title": "MONGIL STAR DIVE PC High-End Preset",
+          "target": "PC",
+          "description": "For systems around recommended PC spec, prioritize full client image quality while keeping effects readable during dense combat. This preset fits Windows 11 systems with RTX 2060, RX 5700 XT, or Arc A750 class GPUs and 16 GB RAM."
         },
         {
-          "title": "Control Layout Optimization",
-          "type": "Controls",
-          "description": "Tune sensitivity and button placement for cleaner character-switch execution."
+          "title": "MONGIL STAR DIVE PC Stability Preset",
+          "target": "PC",
+          "description": "For minimum-spec PCs, lower graphics load first and prioritize stable battle performance. This preset fits Windows 10 systems around GTX 1060, RX 580, or Arc A380 class GPUs with 8 GB RAM."
         },
         {
-          "title": "Audio and Visibility Priorities",
-          "type": "Clarity",
-          "description": "Use clear combat audio and effect visibility settings to reduce missed mechanics during bosses."
+          "title": "MONGIL STAR DIVE Mobile Performance Preset",
+          "target": "Mobile",
+          "description": "On mobile, prioritize smooth gameplay over visual intensity during crowded action scenes and tag-skill effects. Baseline devices start around iPhone 11 on iOS 15 or Snapdragon 865 on Android 10."
+        },
+        {
+          "title": "MONGIL STAR DIVE Input Method Options",
+          "target": "Controls",
+          "description": "MONGIL STAR DIVE supports mouse and keyboard, controller, and touchscreen by platform. PC players can swap between keyboard precision and controller comfort, while mobile players use touchscreen controls."
+        },
+        {
+          "title": "MONGIL STAR DIVE Core Settings Checklist",
+          "target": "Checklist",
+          "description": "Review graphics, audio, language, and controls first whenever you switch between PC and mobile or optimize for stability."
+        },
+        {
+          "title": "MONGIL STAR DIVE Best First Tweaks",
+          "target": "Launch Week",
+          "description": "If launch performance feels heavy, reduce graphics load before touching other settings. If controls feel awkward, adjust input method and control layout for cleaner combat execution."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "MONGIL STAR DIVE Crossplay",
-      "displayType": "steps",
-      "intro": "MONGIL STAR DIVE crossplay planning should explain cross-save flow, platform compatibility, and account continuity across devices.",
-      "steps": [
+      "displayType": "accordion",
+      "intro": "MONGIL STAR DIVE crossplay guidance should separate cross-play and cross-save support from multiplayer expectations so account planning stays clear.",
+      "questions": [
         {
-          "title": "Check Cross-Save Availability",
-          "description": "Confirm whether your account progression is synchronized between mobile and PC before major spending decisions."
+          "question": "Does MONGIL STAR DIVE support cross-play?",
+          "answer": "Yes. MONGIL STAR DIVE supports cross-play across supported launch platforms."
         },
         {
-          "title": "Link the Correct Account",
-          "description": "Use the same official account binding method on every device to avoid split progression."
+          "question": "Does MONGIL STAR DIVE support cross-save?",
+          "answer": "Yes. MONGIL STAR DIVE supports cross-save, so the same save data can be used across supported platforms."
         },
         {
-          "title": "Review Region and Platform Limits",
-          "description": "Some multiplayer and matchmaking behavior can vary by region or platform policy."
+          "question": "Which platforms are included in MONGIL STAR DIVE support?",
+          "answer": "MONGIL STAR DIVE launched on PC, Android, and iOS. The PC version is available through Epic Games and the Netmarble Launcher."
         },
         {
-          "title": "Test Progress Continuity",
-          "description": "After linking, verify that inventory, roster, and progression states are identical across devices."
+          "question": "Can I continue one MONGIL STAR DIVE account on PC and mobile?",
+          "answer": "Yes. MONGIL STAR DIVE cross-save support allows the same account progress to continue across PC and mobile."
         },
         {
-          "title": "Track Official Crossplay Updates",
-          "description": "Monitor official channels for future changes to MONGIL STAR DIVE crossplay and cross-save features."
+          "question": "Is MONGIL STAR DIVE multiplayer confirmed at launch?",
+          "answer": "At launch, MONGIL STAR DIVE focuses on single-player progression centered on party building and tag-skill combat."
+        },
+        {
+          "question": "What should MONGIL STAR DIVE players prioritize first?",
+          "answer": "If you mainly switch devices, prioritize account binding and cross-save continuity checks first, then follow official platform updates for future feature additions."
         }
+      ],
+      "highlights": [
+        "MONGIL STAR DIVE cross-play and cross-save are confirmed across launch platforms.",
+        "MONGIL STAR DIVE launch platforms are PC, Android, and iOS.",
+        "MONGIL STAR DIVE launch gameplay focuses on single-player party progression."
       ]
     }
   },
@@ -912,7 +1007,7 @@
       },
       {
         "question": "Does MONGIL STAR DIVE support cross-save?",
-        "answer": "MONGIL STAR DIVE cross-save behavior depends on account binding and current platform support status."
+        "answer": "Yes. MONGIL STAR DIVE supports cross-save across PC, iOS, and Android when you use the same bound account."
       }
     ]
   },
