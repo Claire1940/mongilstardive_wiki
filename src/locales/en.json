@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "MONGIL STAR DIVE Wiki - Codes, Tier List & Beginner Guide",
+      "description": "MONGIL STAR DIVE Wiki tracks active codes, reroll paths, tier lists, builds, monsterlings, and progression tools for mobile and PC players.",
+      "keywords": "MONGIL STAR DIVE, MONGIL STAR DIVE wiki, codes, reroll, tier list, teams, builds, monsterlings",
+      "ogTitle": "MONGIL STAR DIVE Wiki - Codes, Tier List & Beginner Guide",
+      "ogDescription": "MONGIL STAR DIVE Wiki tracks active codes, reroll paths, tier lists, builds, monsterlings, and progression tools for mobile and PC players.",
+      "twitterTitle": "MONGIL STAR DIVE Wiki - Codes, Tier List & Beginner Guide",
+      "twitterDescription": "Get MONGIL STAR DIVE codes, reroll targets, team builds, and launch updates in one clean homepage hub."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Visit Official Site",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -28,9 +28,9 @@
   "hero": {
     "badge": "Monster-Taming Action RPG",
     "title": "MONGIL: STAR DIVE",
-    "description": "Monster collection, character switching combat, reroll planning, codes, banners, and beginner progression for Netmarble's anime-style action RPG on mobile and PC.",
-    "getFreeCodesCTA": "Visit MONGIL: STAR DIVE Official Site",
-    "playOnSteamCTA": "Join MONGIL: STAR DIVE Discord",
+    "description": "Monster collection, character-switch combat, reroll planning, and progression routes for Netmarble's action RPG on iOS, Android, and PC.",
+    "getFreeCodesCTA": "Visit MONGIL STAR DIVE Official Site",
+    "playOnSteamCTA": "Join MONGIL STAR DIVE Discord",
     "stats": {
       "stat1": {
         "value": "500K+",
@@ -51,740 +51,715 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "MONGIL STAR DIVE Gameplay",
+    "description": "Watch official combat footage, character switching flow, and monsterling action before planning your first team route."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "MONGIL STAR DIVE",
+    "titleHighlight": "Module Navigation",
+    "subtitle": "Jump to all 16 MONGIL STAR DIVE homepage modules",
     "cards": [
       {
+        "icon": "Download",
+        "title": "MONGIL STAR DIVE Codes",
+        "description": "Live redeem codes and launch reward status"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "MONGIL STAR DIVE Beginner Guide",
+        "description": "First-hour priorities and clean progression"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "icon": "Users",
+        "title": "MONGIL STAR DIVE Tier List",
+        "description": "Early roster tiers from S to C"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "title": "MONGIL STAR DIVE Reroll Guide",
+        "description": "Fast reroll routes and best launch targets"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Keyboard",
+        "title": "MONGIL STAR DIVE Best Teams",
+        "description": "Early game, mono-element, and boss teams"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "MONGIL STAR DIVE Best Builds",
+        "description": "Artifacts, equipment, and character build routes"
+      },
+      {
+        "icon": "Hammer",
+        "title": "MONGIL STAR DIVE Best Monsterlings",
+        "description": "Top picks and upgrade priority"
+      },
+      {
+        "icon": "Package",
+        "title": "MONGIL STAR DIVE Monster Codex",
+        "description": "Monsterling roles, acquisition, and collection notes"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "MONGIL STAR DIVE Artifacts",
+        "description": "Artifact effects and recommended users"
+      },
+      {
+        "icon": "Eye",
+        "title": "MONGIL STAR DIVE Equipment Sets",
+        "description": "Set bonuses and role-based usage examples"
+      },
+      {
+        "icon": "Home",
+        "title": "MONGIL STAR DIVE Characters",
+        "description": "Roster hub by rarity, role, and element"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "MONGIL STAR DIVE Release Date",
+        "description": "Launch timing and platform availability"
+      },
+      {
+        "icon": "Settings",
+        "title": "MONGIL STAR DIVE News",
+        "description": "Official notices and maintenance updates"
+      },
+      {
+        "icon": "Star",
+        "title": "MONGIL STAR DIVE System Requirements",
+        "description": "PC, Android, and iOS requirement summary"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "MONGIL STAR DIVE Best Settings",
+        "description": "Graphics, controls, and performance setup"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "MONGIL STAR DIVE Crossplay",
+        "description": "Cross-save and platform compatibility overview"
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+      "title": "MONGIL STAR DIVE Codes",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "MONGIL STAR DIVE launched on April 15, 2026, and code redemption remains one of the fastest ways to claim extra launch rewards.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "MONGIL STAR DIVE Code: MONGILDISCORD",
+          "description": "Rewards: Free Diamond x30, Glimmering Stardust x30, and Gold x300,000. Redeem this first if your account is fresh."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "MONGIL STAR DIVE Code: LOVEMONGIL",
+          "description": "Rewards: Artifact \"Overflowing Love\". This code gives immediate value for early build flexibility."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "MONGIL STAR DIVE Redemption Status: Live",
+          "description": "In-game redemption is available on iOS, Android, and PC. Check expiration timing before each new patch cycle."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "MONGIL STAR DIVE Redeem Path",
+          "description": "Open the in-game code menu, enter the code exactly, claim from mailbox, then relog if rewards are delayed."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Use MONGIL STAR DIVE codes before starting reroll comparisons so every account starts with the same bonus value.",
+        "Prioritize code rewards that improve early summon attempts and weapon progression resources.",
+        "Track launch-window code expiration windows and archive expired entries weekly.",
+        "Use one clean list that separates active, soon-expiring, and archived MONGIL STAR DIVE codes."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+      "title": "MONGIL STAR DIVE Beginner Guide",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "MONGIL STAR DIVE beginner progression should stay simple: clear the opening flow, unlock Recruit, and level only the team you actively use.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Push Story and Finish Tutorial",
+          "description": "Use the opening story flow to unlock core systems quickly instead of splitting resources across side tasks too early."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Unlock Recruit Before Major Decisions",
+          "description": "Recruit access is your first real account checkpoint for deciding whether to keep or reroll the account."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Spend EXP Books on Active Team",
+          "description": "Early EXP materials should be spent on your current core lineup to maintain combat momentum."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "Learn Character-Switch Combat Rhythm",
+          "description": "MONGIL STAR DIVE rewards smooth team rotations, role coverage, and consistent pressure during real-time fights."
         }
       ],
       "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+        "Finish MONGIL STAR DIVE tutorial flow",
+        "Unlock Recruit banners in MONGIL STAR DIVE",
+        "Level your active MONGIL STAR DIVE team with EXP Books",
+        "Stabilize your MONGIL STAR DIVE combat rotation"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
+      "title": "MONGIL STAR DIVE Tier List",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "This MONGIL STAR DIVE launch-tier snapshot helps players identify top-value characters for early progression and boss pressure.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "S Tier: Esther, Flare, Jiwon",
+          "type": "Top Early Picks",
+          "description": "These units provide the strongest launch impact in overall value and account acceleration."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "A Tier: Gabi, Francis, Penny, Ophelia, Sangun",
+          "type": "Strong Core Options",
+          "description": "Reliable core picks that perform well in common progression and event content."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "B Tier: Ellie, Benjamin, Yeonwha, Cloud, Leeho, Angel",
+          "type": "Usable Mid Priority",
+          "description": "Solid fallback options when top launch picks are unavailable in your account."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "C Tier: Daisy, Bonnie, Reina, Sera, Verna",
+          "type": "Lower Priority",
+          "description": "Lower launch priority compared with current top-tier roster impact picks."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "Mode-Based Tier Checks",
+          "type": "Review Rule",
+          "description": "Re-check MONGIL STAR DIVE rankings separately for general PVE, boss burst, and support value."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Patch-Aware Tier Updates",
+          "type": "Maintenance Rule",
+          "description": "Refresh tier assumptions after banner rotations and combat balance changes."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
+      "title": "MONGIL STAR DIVE Reroll Guide",
       "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "intro": "MONGIL STAR DIVE reroll efficiency depends on route choice, banner checkpoint timing, and clear launch target priorities.",
       "solutions": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "Short Standard Route (5-10 min)",
+          "role": "Route Choice",
+          "description": "Fastest path for repeated account attempts when you need many quick reroll cycles."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Long Event Route (around 20 min)",
+          "role": "Route Choice",
+          "description": "Longer route that unlocks additional event pulls and limited recruitment attempts."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "name": "Standard Checkpoint: To The Monster Tamers!",
+          "role": "Recruit Access",
+          "description": "Reach this checkpoint to claim rewards and start rolling on the New Expedition banner."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "name": "Event Checkpoint: Scrubs Up, Everyone",
+          "role": "Event Access",
+          "description": "Unlock Events and Compass of Destiny pulls for higher reroll upside."
         }
       ],
       "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+        "Target Flare first in MONGIL STAR DIVE reroll plans when boss stagger value is your priority.",
+        "Pick Jiwon for wind-team support consistency and smoother early resource usage.",
+        "Use Gabi for strong Earth damage starts with practical team support value.",
+        "Use a fresh normal email method for each MONGIL STAR DIVE reroll reset cycle."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+      "title": "MONGIL STAR DIVE Best Teams",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "MONGIL STAR DIVE team planning works best when split by progression phase, element focus, and target content style.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Early Progress Team",
+          "description": "Use stable sustain plus one burst unit to clear early progression without overcommitting resources."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Mono-Element Team",
+          "description": "Element-focused teams are efficient once your banner results support clear role coverage."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Boss Damage Team",
+          "description": "Build around stagger pressure, burst windows, and support timing for boss phases."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "name": "General Content Team",
+          "description": "Use a balanced setup with one flexible slot for daily farming and event rotation tasks."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "MONGIL STAR DIVE early progression team",
+        "MONGIL STAR DIVE mono-element route",
+        "MONGIL STAR DIVE boss-focused setup",
+        "MONGIL STAR DIVE flexible all-purpose team"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
+      "title": "MONGIL STAR DIVE Best Builds",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "MONGIL STAR DIVE build pages should combine artifacts, equipment sets, and practical role-specific recommendations.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Flare Build Route",
+          "type": "Boss Damage Build",
+          "description": "Prioritize burst synergy, stagger uptime, and equipment that supports repeated pressure cycles."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Jiwon Build Route",
+          "type": "Support Build",
+          "description": "Focus on utility uptime and team amplification for wind-oriented compositions."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Gabi Build Route",
+          "type": "Damage + Utility Build",
+          "description": "Balance Earth damage scaling with reliable team contribution for progression content."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Ophelia Build Route",
+          "type": "Sustain Build",
+          "description": "Choose artifact and equipment combinations that stabilize extended encounters."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+      "title": "MONGIL STAR DIVE Best Monsterlings",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "Monsterlings are central to MONGIL STAR DIVE identity, so early upgrade priority should focus on broad utility first.",
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "Top Monsterling Picks",
+          "role": "High Priority",
+          "description": "Start with monsterlings that improve clear speed, survivability, and repeatable event farming."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "Balanced Utility Picks",
+          "role": "Mid Priority",
+          "description": "Use these options when your account needs mixed value instead of one narrow role."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "Element-Specific Picks",
+          "role": "Team Priority",
+          "description": "Reserve element-focused monsterlings for lineups with strong role alignment."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "name": "Collection-First Picks",
+          "role": "Collection Value",
+          "description": "Track acquisition and codex progress while preserving resources for core combat upgrades."
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+          "name": "Late Investment Picks",
+          "role": "Low Priority",
+          "description": "Delay heavy investment until your main team path and artifact coverage are stable."
         },
         {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
+          "name": "Patch Watch Picks",
+          "role": "Review Priority",
+          "description": "Re-evaluate monsterling value after each MONGIL STAR DIVE balance patch."
         },
         {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Boss Utility Picks",
+          "role": "Boss Priority",
+          "description": "Select options that help control boss windows and improve burst stability."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
+      "title": "MONGIL STAR DIVE Monster Codex",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "The MONGIL STAR DIVE Monster Codex should function as a searchable hub for roles, acquisition, and collection value.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "Codex Role Tags",
+          "type": "Role Filter",
+          "description": "Classify monsterlings by damage, support, control, and sustain utility."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Acquisition Notes",
+          "type": "Source Filter",
+          "description": "Track where each monsterling is obtained to simplify farming plans."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "Collection Priority",
+          "type": "Progress Filter",
+          "description": "Highlight codex entries with high progression value for early account growth."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "name": "Upgrade Cost Index",
+          "type": "Resource Filter",
+          "description": "Show upgrade burden so players can choose efficient monsterling investments."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "name": "Team Compatibility",
+          "type": "Synergy Filter",
+          "description": "Tag monsterlings by common team templates and element pairings."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "Patch Revisions",
+          "type": "Update Filter",
+          "description": "Mark entries changed by major MONGIL STAR DIVE patches."
         }
       ],
       "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+        "Build your MONGIL STAR DIVE codex baseline",
+        "Tag monsterlings by role and source",
+        "Prioritize codex entries with upgrade value",
+        "Keep codex entries current after patch updates"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
+      "title": "MONGIL STAR DIVE Artifacts",
       "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+      "intro": "Artifact planning in MONGIL STAR DIVE should connect effect value, character fit, and content priority.",
       "sections": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "Artifact Effect Summary",
+          "description": "List each artifact effect clearly so players can compare practical combat value quickly."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "Best Character Matches",
+          "description": "Map artifacts to character roles and common team cores for faster build decisions."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "name": "Upgrade Priority",
+          "description": "Use upgrade order based on progression impact, not rarity alone."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "name": "Boss vs General Use",
+          "description": "Separate boss-oriented artifact picks from all-purpose progression picks."
         }
       ],
       "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
+        "Catalog core MONGIL STAR DIVE artifacts",
+        "Assign artifact users by role",
+        "Define artifact upgrade order",
+        "Separate boss and general artifact routes"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
+      "title": "MONGIL STAR DIVE Equipment Sets",
       "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+      "intro": "MONGIL STAR DIVE equipment sets should be evaluated by set bonus value and role fit across multiple teams.",
       "priorities": [
         {
-          "name": "Personal Qualia",
+          "name": "Burst Damage Set",
           "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "description": "Core set for characters that rely on short damage windows and fast clear timing."
         },
         {
-          "name": "Frost Pick",
+          "name": "Sustain Set",
           "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "description": "Strong set for safer progression and longer encounter consistency."
         },
         {
-          "name": "Cache Cube",
+          "name": "Support Utility Set",
           "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
+          "description": "Improves team stability when paired with high-value support units."
         },
         {
-          "name": "Hookshot",
+          "name": "Boss Control Set",
           "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "description": "Best for teams that focus on stagger timing and controlled burst windows."
         },
         {
-          "name": "Glider Glove",
+          "name": "General Farming Set",
           "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
+          "description": "Efficient default setup for repeat farming and event tasks."
         },
         {
-          "name": "Projectile Wand or Bombs",
+          "name": "Element Specialist Set",
           "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "description": "Use only when your element-focused team route is already stable."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
+      "title": "MONGIL STAR DIVE Characters",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "intro": "Use this MONGIL STAR DIVE character hub to compare rarity, role, element, and build links in one place.",
       "groups": [
         {
-          "name": "Exploration",
+          "name": "Starter and Core Picks",
           "achievements": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "title": "Flare",
+              "description": "High launch value and strong boss pressure."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
+              "title": "Jiwon",
+              "description": "Reliable support value for wind-focused teams."
             },
             {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
+              "title": "Gabi",
+              "description": "Strong Earth route for steady progression."
             },
             {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "title": "Esther",
+              "description": "Top-tier launch impact in broad content."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
+          "name": "Strong Progression Options",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "title": "Francis",
+              "description": "Consistent role value in many team shells."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "title": "Penny",
+              "description": "Solid account value with practical flexibility."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
+              "title": "Ophelia",
+              "description": "Useful sustain options for longer fights."
             },
             {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "title": "Sangun",
+              "description": "Good fit for stable account progression routes."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
+          "name": "Mid Priority Roster",
           "achievements": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "title": "Ellie",
+              "description": "Usable mid-priority option for coverage."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "title": "Benjamin",
+              "description": "Works as filler while chasing top units."
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
+              "title": "Yeonwha",
+              "description": "Moderate value with situational strengths."
             },
             {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "title": "Cloud",
+              "description": "Useful in specific team planning windows."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
+          "name": "Lower Priority Roster",
           "achievements": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "title": "Daisy",
+              "description": "Lower launch priority than top-tier picks."
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
+              "title": "Bonnie",
+              "description": "Situational value, lower general priority."
             },
             {
-              "title": "Angel β",
-              "description": "Die."
+              "title": "Reina",
+              "description": "Best used after core team is complete."
             },
             {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
+              "title": "Sera",
+              "description": "Late investment option for niche routes."
             }
           ]
         },
         {
-          "name": "Growth and Farming",
+          "name": "Roster Management Notes",
           "achievements": [
             {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
+              "title": "Element Filters",
+              "description": "Group MONGIL STAR DIVE units by element for team planning."
             },
             {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
+              "title": "Role Filters",
+              "description": "Separate damage, support, and sustain roles clearly."
             },
             {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "title": "Build Links",
+              "description": "Connect each character to best-build summaries."
             }
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+      "title": "MONGIL STAR DIVE Release Date",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "This MONGIL STAR DIVE release summary tracks launch timing, current platform support, and future platform expectations.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "When did MONGIL STAR DIVE launch?",
+          "answer": "MONGIL STAR DIVE launched on April 15, 2026."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "question": "Which platforms currently support MONGIL STAR DIVE?",
+          "answer": "MONGIL STAR DIVE is currently available on iOS, Android, and PC."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "question": "Is MONGIL STAR DIVE free to play?",
+          "answer": "Yes, MONGIL STAR DIVE is positioned as a free-to-play action RPG."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "question": "Do regions share the same MONGIL STAR DIVE release date?",
+          "answer": "Global launch timing is centered on the April 15, 2026 release window, with local rollout differences by platform store."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "question": "Will MONGIL STAR DIVE expand to more platforms later?",
+          "answer": "Future platform expansion is possible, and official announcements should be tracked through Netmarble channels."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "question": "Where should players confirm new MONGIL STAR DIVE release notices?",
+          "answer": "Use the official website, forum, and social channels for official MONGIL STAR DIVE release notices."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+      "title": "MONGIL STAR DIVE News",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "MONGIL STAR DIVE news should highlight official notices, maintenance updates, event posts, and major guide-site coverage.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "question": "Where can I track official MONGIL STAR DIVE maintenance notices?",
+          "answer": "The official forum and website are the primary channels for maintenance and service announcements."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "question": "What counts as high-priority MONGIL STAR DIVE news?",
+          "answer": "Patch notes, event schedule updates, banner changes, and launch support notices are high-priority updates."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "question": "How often should MONGIL STAR DIVE news be refreshed?",
+          "answer": "Refresh news modules daily during launch windows and after every major official announcement."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "question": "Should MONGIL STAR DIVE news include external summaries?",
+          "answer": "Yes, external summaries are useful when clearly tied to official announcements and major gameplay impact."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "question": "Which MONGIL STAR DIVE channels matter most?",
+          "answer": "Official website, official forum, Discord, X, YouTube, and Reddit are the core monitoring channels."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+      "title": "MONGIL STAR DIVE System Requirements",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "Use this MONGIL STAR DIVE requirements block to compare minimum setup expectations across PC, Android, and iOS.",
       "settings": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "name": "PC Minimum Requirements",
+          "type": "PC",
+          "description": "Track baseline CPU, GPU, RAM, storage, and OS requirements for stable MONGIL STAR DIVE PC performance."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "name": "PC Recommended Requirements",
+          "type": "PC",
+          "description": "Use recommended specs for smoother frame pacing in high-action encounters."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "name": "Android Requirements",
+          "type": "Android",
+          "description": "Review required Android version, device performance tier, and install size expectations."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "name": "iOS Requirements",
+          "type": "iOS",
+          "description": "Review supported iOS versions and expected device performance class."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+      "title": "MONGIL STAR DIVE Best Settings",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "These MONGIL STAR DIVE setting priorities improve performance, readability, and control comfort on both mobile and PC.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "title": "Graphics Baseline Setup",
+          "type": "Performance",
+          "description": "Start with stable frame targets, then raise quality options gradually after combat testing."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "title": "Control Layout Optimization",
+          "type": "Controls",
+          "description": "Tune sensitivity and button placement for cleaner character-switch execution."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "title": "Audio and Visibility Priorities",
+          "type": "Clarity",
+          "description": "Use clear combat audio and effect visibility settings to reduce missed mechanics during bosses."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+      "title": "MONGIL STAR DIVE Crossplay",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+      "intro": "MONGIL STAR DIVE crossplay planning should explain cross-save flow, platform compatibility, and account continuity across devices.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Check Cross-Save Availability",
+          "description": "Confirm whether your account progression is synchronized between mobile and PC before major spending decisions."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Link the Correct Account",
+          "description": "Use the same official account binding method on every device to avoid split progression."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Review Region and Platform Limits",
+          "description": "Some multiplayer and matchmaking behavior can vary by region or platform policy."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Test Progress Continuity",
+          "description": "After linking, verify that inventory, roster, and progression states are identical across devices."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Track Official Crossplay Updates",
+          "description": "Monitor official channels for future changes to MONGIL STAR DIVE crossplay and cross-save features."
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
+    "title": "MONGIL STAR DIVE Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Core answers for MONGIL STAR DIVE players",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is MONGIL STAR DIVE?",
+        "answer": "MONGIL STAR DIVE is Netmarble's monster-taming action RPG with character-switch combat on iOS, Android, and PC."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem MONGIL STAR DIVE codes?",
+        "answer": "Open the in-game redemption menu, enter active MONGIL STAR DIVE codes exactly, and claim rewards from your mailbox."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Is rerolling in MONGIL STAR DIVE worth it?",
+        "answer": "MONGIL STAR DIVE rerolling is valuable if you want stronger launch starters and cleaner early progression."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Which MONGIL STAR DIVE units are top launch priorities?",
+        "answer": "Flare, Esther, and Jiwon are common MONGIL STAR DIVE launch priorities in early ranking snapshots."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Where can I follow MONGIL STAR DIVE updates?",
+        "answer": "Track MONGIL STAR DIVE updates through the official website, forum, Discord, X, and YouTube channels."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Does MONGIL STAR DIVE support cross-save?",
+        "answer": "MONGIL STAR DIVE cross-save behavior depends on account binding and current platform support status."
       }
     ]
   },
   "cta": {
-    "title": "Ready for MONGIL: STAR DIVE?",
-    "description": "Join the official MONGIL: STAR DIVE Discord and visit the official game website for launch news, events, and updates.",
-    "joinCommunity": "Join MONGIL: STAR DIVE Discord",
-    "joinGame": "Visit MONGIL: STAR DIVE Official Site"
+    "title": "Ready for MONGIL STAR DIVE?",
+    "description": "Join the official MONGIL STAR DIVE Discord and check the official website for launch events, banners, and updates.",
+    "joinCommunity": "Join MONGIL STAR DIVE Discord",
+    "joinGame": "Visit MONGIL STAR DIVE Official Site"
   },
   "footer": {
     "title": "MONGIL STAR DIVE Wiki",
-    "description": "Your community resource hub for MONGIL: STAR DIVE reroll, codes, banners, characters, and progression guides.",
+    "description": "Community resource hub for MONGIL STAR DIVE codes, reroll routes, tier lists, teams, builds, and progression guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -801,10 +776,10 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
+      "title": "MONGIL STAR DIVE Guides",
       "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "metaTitle": "MONGIL STAR DIVE Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete MONGIL STAR DIVE guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
       "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
@@ -821,10 +796,10 @@
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
+      "title": "MONGIL STAR DIVE Crafting",
       "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "metaTitle": "MONGIL STAR DIVE Crafting - Apotheosis System & Recipes",
+      "metaDescription": "Master MONGIL STAR DIVE Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
       "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
@@ -841,10 +816,10 @@
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
+      "title": "MONGIL STAR DIVE Items",
       "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "metaTitle": "MONGIL STAR DIVE Items - Tools, Weapons & Gear Guide",
+      "metaDescription": "Complete item database for MONGIL STAR DIVE including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
       "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
@@ -861,10 +836,10 @@
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
+      "title": "MONGIL STAR DIVE Biomes",
       "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "metaTitle": "MONGIL STAR DIVE Biomes - World Regions & Exploration",
+      "metaDescription": "Explore MONGIL STAR DIVE biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
       "categoryLabel": "WORLD REGIONS",
       "whatIs": "What are Biomes?",
       "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
@@ -881,10 +856,10 @@
       "all": "All Biomes"
     },
     "building": {
-      "title": "Lucid Blocks Building",
+      "title": "MONGIL STAR DIVE Building",
       "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
+      "metaTitle": "MONGIL STAR DIVE Building - Qualia & Base Construction",
+      "metaDescription": "Master MONGIL STAR DIVE building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
       "categoryLabel": "BUILDING & BASES",
       "whatIs": "What is Building?",
       "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
@@ -901,10 +876,10 @@
       "all": "All Building Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "MONGIL STAR DIVE Support",
       "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "metaTitle": "MONGIL STAR DIVE Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for MONGIL STAR DIVE including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
       "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
