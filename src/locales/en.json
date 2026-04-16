@@ -82,22 +82,22 @@
       {
         "icon": "Keyboard",
         "title": "MONGIL STAR DIVE Best Teams",
-        "description": "Early game, mono-element, and boss teams"
+        "description": "Boss, progression, and mono-element team comps"
       },
       {
         "icon": "Shield",
         "title": "MONGIL STAR DIVE Best Builds",
-        "description": "Artifacts, equipment, and character build routes"
+        "description": "Artifact, monsterling, and lineup build recommendations"
       },
       {
         "icon": "Hammer",
         "title": "MONGIL STAR DIVE Best Monsterlings",
-        "description": "Top picks and upgrade priority"
+        "description": "S/A-tier monsterlings to raise first"
       },
       {
         "icon": "Package",
         "title": "MONGIL STAR DIVE Monster Codex",
-        "description": "Monsterling roles, acquisition, and collection notes"
+        "description": "Codex entries by region, effect, and capture route"
       },
       {
         "icon": "AlertTriangle",
@@ -273,142 +273,157 @@
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "MONGIL STAR DIVE Best Teams",
       "displayType": "cards",
-      "intro": "MONGIL STAR DIVE team planning works best when split by progression phase, element focus, and target content style.",
+      "intro": "These MONGIL STAR DIVE lineups cover launch bossing, budget progression, and mono-element plans built around current 1.0 synergy.",
       "cards": [
         {
-          "name": "Early Progress Team",
-          "description": "Use stable sustain plus one burst unit to clear early progression without overcommitting resources."
+          "name": "Esther + Flare or Ellie + Jiwon",
+          "description": "Boss Focus: Esther drives finisher damage while Jiwon groups targets and Flare or Ellie add burst neutralization for fast stagger breaks."
         },
         {
-          "name": "Mono-Element Team",
-          "description": "Element-focused teams are efficient once your banner results support clear role coverage."
+          "name": "Sangun + Flare or Ellie + Jiwon",
+          "description": "Balanced Standard: Sangun takes the main fighter slot, Jiwon supports repositioning, and Flare or Ellie maintain strong neutralization pressure."
         },
         {
-          "name": "Boss Damage Team",
-          "description": "Build around stagger pressure, burst windows, and support timing for boss phases."
+          "name": "Gabi + Flex + Francis",
+          "description": "Earth Core: Keep Gabi active while Francis supplies Earth affliction, healing, and Earth support; flex with Yeonhwa, Benjamin, Angel, or Esther."
         },
         {
-          "name": "General Content Team",
-          "description": "Use a balanced setup with one flexible slot for daily farming and event rotation tasks."
+          "name": "Verna or Sera or Ophelia + Cloud + Francis",
+          "description": "Budget Progression: A practical early lineup with Cloud and Francis as low-investment supports and Sera or Ophelia as stronger upgrades over Verna."
+        },
+        {
+          "name": "Gabi + Ellie + Francis",
+          "description": "Mono Earth: Keeps Gabi and Francis synergy while adding Ellie's burst neutralization to improve boss control and elemental focus."
+        },
+        {
+          "name": "Sangun + Esther + Jiwon",
+          "description": "Mono Wind: A premium Wind lineup that combines damage, grouping, and flexible pressure once your roster is built out."
         }
       ],
       "highlights": [
-        "MONGIL STAR DIVE early progression team",
-        "MONGIL STAR DIVE mono-element route",
-        "MONGIL STAR DIVE boss-focused setup",
-        "MONGIL STAR DIVE flexible all-purpose team"
+        "MONGIL STAR DIVE boss-focused launch teams",
+        "MONGIL STAR DIVE balanced progression teams",
+        "MONGIL STAR DIVE Earth core team routes",
+        "MONGIL STAR DIVE budget-friendly early teams",
+        "MONGIL STAR DIVE mono Earth pressure teams",
+        "MONGIL STAR DIVE mono Wind premium teams"
       ]
     },
     "lucidBlocksWorldRegions": {
       "title": "MONGIL STAR DIVE Best Builds",
       "displayType": "regionCards",
-      "intro": "MONGIL STAR DIVE build pages should combine artifacts, equipment sets, and practical role-specific recommendations.",
+      "intro": "These MONGIL STAR DIVE build picks summarize artifact and monsterling recommendations featured across current character pages.",
       "regions": [
         {
-          "name": "Flare Build Route",
-          "type": "Boss Damage Build",
-          "description": "Prioritize burst synergy, stagger uptime, and equipment that supports repeated pressure cycles."
+          "name": "MONGIL STAR DIVE Flare Build",
+          "type": "Burst Neutralization / Damage",
+          "description": "Core artifact: Exquisite Dragon Fire. This setup improves multi-stat damage scaling and fits launch teams built around Esther or Sangun."
         },
         {
-          "name": "Jiwon Build Route",
-          "type": "Support Build",
-          "description": "Focus on utility uptime and team amplification for wind-oriented compositions."
+          "name": "MONGIL STAR DIVE Ophelia Build",
+          "type": "Main DPS",
+          "description": "Core picks: Amon's Shadow for crit-support counters and Taglock for consecutive-hit attack boosts. Commonly paired with Cloud and Francis."
         },
         {
-          "name": "Gabi Build Route",
-          "type": "Damage + Utility Build",
-          "description": "Balance Earth damage scaling with reliable team contribution for progression content."
+          "name": "MONGIL STAR DIVE Jiwon Build",
+          "type": "Wind Support",
+          "description": "Core monsterling: Leafy Mama, which restores HP when she uses Special Skill and helps her maintain stable utility uptime in long fights."
         },
         {
-          "name": "Ophelia Build Route",
-          "type": "Sustain Build",
-          "description": "Choose artifact and equipment combinations that stabilize extended encounters."
+          "name": "MONGIL STAR DIVE Francis Build",
+          "type": "Earth Support",
+          "description": "Core picks: Overflowing Love plus Avardan to improve switch-based attack value, Earth attacker support, and burst charge consistency."
+        },
+        {
+          "name": "MONGIL STAR DIVE Sangun Build",
+          "type": "Wind Fighter",
+          "description": "Focus on survivability-aware Wind teams that keep Wind Affliction active, with Esther, Bonnie, and Jiwon as highlighted partners."
+        },
+        {
+          "name": "MONGIL STAR DIVE Yeonhwa Build",
+          "type": "Lightning Assassin",
+          "description": "Core pick: Taglock for party attack boosts after consecutive hits, with Amon as an alternate option for crit-oriented pressure."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
       "title": "MONGIL STAR DIVE Best Monsterlings",
       "displayType": "creatureCards",
-      "intro": "Monsterlings are central to MONGIL STAR DIVE identity, so early upgrade priority should focus on broad utility first.",
+      "intro": "These MONGIL STAR DIVE Monsterlings stand out in launch builds because they provide broad crit, attack, weakness, or sustain value.",
       "creatures": [
         {
-          "name": "Top Monsterling Picks",
-          "role": "High Priority",
-          "description": "Start with monsterlings that improve clear speed, survivability, and repeatable event farming."
+          "name": "Amon's Shadow",
+          "role": "S Tier Priority",
+          "description": "Varhine. Effect: All teammates' Crit Rate +11.55% for 10s on Counter. A premier offensive support pick for counter-enabled teams."
         },
         {
-          "name": "Balanced Utility Picks",
-          "role": "Mid Priority",
-          "description": "Use these options when your account needs mixed value instead of one narrow role."
+          "name": "Taglock",
+          "role": "S Tier Priority",
+          "description": "Elendor. Effect: ATK +5.5% for 10s after 20 successful attacks. Flexible on fast-hit characters and easy to trigger."
         },
         {
-          "name": "Element-Specific Picks",
-          "role": "Team Priority",
-          "description": "Reserve element-focused monsterlings for lineups with strong role alignment."
+          "name": "El Dorado Guardian",
+          "role": "S Tier Priority",
+          "description": "Elendor. Effect: Team ATK +5.78% for 10s after hitting a boss with elemental weakness. Excellent for boss-focused lineups."
         },
         {
-          "name": "Collection-First Picks",
-          "role": "Collection Value",
-          "description": "Track acquisition and codex progress while preserving resources for core combat upgrades."
+          "name": "Big Bro Goblin",
+          "role": "A Tier Priority",
+          "description": "Elendor. Effect: Restores 3.47% HP for all teammates after 10 Basic Attacks. A practical sustain option for early and midgame teams."
         },
         {
-          "name": "Late Investment Picks",
-          "role": "Low Priority",
-          "description": "Delay heavy investment until your main team path and artifact coverage are stable."
+          "name": "Monk's Shadow",
+          "role": "A Tier Priority",
+          "description": "Varhine. Effect: Elemental Weakness DMG +6.57% for 5s when hit. Useful for weakness-window and boss-pattern strategies."
         },
         {
-          "name": "Patch Watch Picks",
-          "role": "Review Priority",
-          "description": "Re-evaluate monsterling value after each MONGIL STAR DIVE balance patch."
-        },
-        {
-          "name": "Boss Utility Picks",
-          "role": "Boss Priority",
-          "description": "Select options that help control boss windows and improve burst stability."
+          "name": "Tealtaur",
+          "role": "A Tier Priority",
+          "description": "Varhine. Effect: Fire DMG +11.55%. A direct elemental-damage pick once you commit to Fire-focused team investment."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
       "title": "MONGIL STAR DIVE Monster Codex",
       "displayType": "itemCards",
-      "intro": "The MONGIL STAR DIVE Monster Codex should function as a searchable hub for roles, acquisition, and collection value.",
+      "intro": "This MONGIL STAR DIVE Monster Codex block gives a quick read on codex number, region, effect, and capture notes before farming routes.",
       "items": [
         {
-          "name": "Codex Role Tags",
-          "type": "Role Filter",
-          "description": "Classify monsterlings by damage, support, control, and sustain utility."
+          "name": "No.18 Taglock",
+          "type": "Elendor",
+          "description": "ATK +5.5% for 10s after 20 successful attacks (20s cooldown). Capture in Elendor after defeating the matching field monster."
         },
         {
-          "name": "Acquisition Notes",
-          "type": "Source Filter",
-          "description": "Track where each monsterling is obtained to simplify farming plans."
+          "name": "No.19 Big Bro Goblin",
+          "type": "Elendor",
+          "description": "Restores 3.47% HP to all teammates after 10 Basic Attacks (20s cooldown). Available through Elendor capture routes."
         },
         {
-          "name": "Collection Priority",
-          "type": "Progress Filter",
-          "description": "Highlight codex entries with high progression value for early account growth."
+          "name": "No.03 El Dorado Guardian",
+          "type": "Elendor",
+          "description": "Team ATK +5.78% for 10s after exploiting boss elemental weakness (20s cooldown). A practical codex target for boss progression."
         },
         {
-          "name": "Upgrade Cost Index",
-          "type": "Resource Filter",
-          "description": "Show upgrade burden so players can choose efficient monsterling investments."
+          "name": "No.66 Tealtaur",
+          "type": "Varhine",
+          "description": "Fire DMG +11.55%. Capture in Varhine for Fire-oriented lineups and elemental codex completion."
         },
         {
-          "name": "Team Compatibility",
-          "type": "Synergy Filter",
-          "description": "Tag monsterlings by common team templates and element pairings."
+          "name": "Amon's Shadow",
+          "type": "Varhine",
+          "description": "All teammates' Crit Rate +11.55% for 10s on Counter. Capturable in Varhine after defeating its matching monster."
         },
         {
-          "name": "Patch Revisions",
-          "type": "Update Filter",
-          "description": "Mark entries changed by major MONGIL STAR DIVE patches."
+          "name": "Monk's Shadow",
+          "type": "Varhine",
+          "description": "Elemental Weakness DMG +6.57% for 5s when hit (20s cooldown). Capturable in Varhine after defeating its matching monster."
         }
       ],
       "unlockMilestones": [
-        "Build your MONGIL STAR DIVE codex baseline",
-        "Tag monsterlings by role and source",
-        "Prioritize codex entries with upgrade value",
-        "Keep codex entries current after patch updates"
+        "Build a MONGIL STAR DIVE codex shortlist for core teams",
+        "Prioritize Monsterlings with reusable account-wide effects",
+        "Track region-based capture routes before stamina spending",
+        "Refresh MONGIL STAR DIVE codex notes after major patches"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {

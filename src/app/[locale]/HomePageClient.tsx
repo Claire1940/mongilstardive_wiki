@@ -509,7 +509,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Module 5: Qualia and Base Building */}
+      {/* Module 5: Best Teams */}
       <section id="qualia-base-building" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -539,7 +539,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Module 6: World Regions */}
+      {/* Module 6: Best Builds */}
       <section id="world-regions" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -565,7 +565,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Module 7: Creatures and Enemies */}
+      {/* Module 7: Best Monsterlings */}
       <section id="creatures-enemies" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -576,7 +576,17 @@ export default function HomePageClient({
             {t.modules.lucidBlocksCreaturesAndEnemies.creatures.map((c: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="mb-3">
-                  <span className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy","Major Threat","Elite Threat"].includes(c.role) ? "bg-[hsl(var(--nav-theme)/0.18)] border-[hsl(var(--nav-theme)/0.45)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{c.role}</span>
+                  <span
+                    className={`text-xs px-2 py-1 rounded-full border ${
+                      c.role.includes('S Tier')
+                        ? 'bg-[hsl(var(--nav-theme)/0.22)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]'
+                        : c.role.includes('A Tier')
+                          ? 'bg-[hsl(var(--nav-theme)/0.16)] border-[hsl(var(--nav-theme)/0.38)] text-[hsl(var(--nav-theme-light))]'
+                          : 'bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]'
+                    }`}
+                  >
+                    {c.role}
+                  </span>
                 </div>
                 <h3 className="font-bold mb-2">
                   <LinkedTitle linkData={moduleLinkMap[`lucidBlocksCreaturesAndEnemies::creatures::${index}`]} locale={locale}>
@@ -590,7 +600,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Module 8: Mobility Gear */}
+      {/* Module 8: Monster Codex */}
       <section id="mobility-gear" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
