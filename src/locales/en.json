@@ -10,7 +10,15 @@
       "twitterDescription": "Get MONGIL STAR DIVE codes, reroll targets, team builds, and launch updates in one clean homepage hub."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "tierList": "Tier List",
+    "characters": "Characters",
+    "download": "Download",
+    "release": "Release",
+    "system": "System"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1035,125 +1043,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "MONGIL STAR DIVE Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "MONGIL STAR DIVE Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete MONGIL STAR DIVE guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "MONGIL STAR DIVE Codes",
+      "description": "Latest active MONGIL STAR DIVE codes for free gems, summon tickets, and launch rewards.",
+      "metaTitle": "MONGIL STAR DIVE Codes - Active Redeem List and Rewards",
+      "metaDescription": "Get active MONGIL STAR DIVE codes with redemption steps, reward details, and expiration tracking for each update cycle.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are MONGIL STAR DIVE Codes?",
+      "whatIsDescription": "MONGIL STAR DIVE codes are limited coupon strings released through events, milestones, and maintenance notices. Redeeming them gives account resources that speed up early progression.",
+      "why": "Why check MONGIL STAR DIVE codes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Claim Fast Resources",
+        "step1Description": "Get free items like gems, tickets, and currency without extra grind.",
+        "step2Title": "Avoid Expired Entries",
+        "step2Description": "Use an updated list so you do not waste time on invalid rewards.",
+        "step3Title": "Plan Pull Timing",
+        "step3Description": "Match available code rewards with current banner priorities."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All MONGIL STAR DIVE Codes"
     },
-    "crafting": {
-      "title": "MONGIL STAR DIVE Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "MONGIL STAR DIVE Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master MONGIL STAR DIVE Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "guide": {
+      "title": "MONGIL STAR DIVE Guide",
+      "description": "Practical MONGIL STAR DIVE guides for reroll priorities, daily loops, and progression planning.",
+      "metaTitle": "MONGIL STAR DIVE Guide - Beginner to Midgame Progression",
+      "metaDescription": "Read practical MONGIL STAR DIVE guides for starter setup, resource usage, account progression, and efficient daily routines.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the MONGIL STAR DIVE Guide category?",
+      "whatIsDescription": "This category collects actionable walkthrough content for core systems, team setup, and day-by-day progression choices.",
+      "why": "Why use MONGIL STAR DIVE guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Start With A Clear Route",
+        "step1Description": "Follow a tested opening path instead of trial-and-error spending.",
+        "step2Title": "Use Resources Efficiently",
+        "step2Description": "Prioritize upgrades that give immediate combat and farming value.",
+        "step3Title": "Progress Consistently",
+        "step3Description": "Build routines that keep your account growing every day."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All MONGIL STAR DIVE Guides"
     },
-    "items": {
-      "title": "MONGIL STAR DIVE Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "MONGIL STAR DIVE Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for MONGIL STAR DIVE including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "tier-list": {
+      "title": "MONGIL STAR DIVE Tier List",
+      "description": "Current MONGIL STAR DIVE tier list rankings for story clear, boss damage, and auto-farming reliability.",
+      "metaTitle": "MONGIL STAR DIVE Tier List - Meta Rankings by Role",
+      "metaDescription": "Check the latest MONGIL STAR DIVE tier list with role-based rankings, mode-specific value, and roster-building priorities.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the MONGIL STAR DIVE Tier List?",
+      "whatIsDescription": "The MONGIL STAR DIVE tier list ranks units by practical performance across campaign, boss content, and repeated farming stages.",
+      "why": "Why review the MONGIL STAR DIVE tier list?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Build A Strong Core",
+        "step1Description": "Focus investment on units that perform well in multiple modes.",
+        "step2Title": "Reduce Upgrade Waste",
+        "step2Description": "Avoid overcommitting to units with weak long-term value.",
+        "step3Title": "Adapt To Meta Changes",
+        "step3Description": "Update your roster plan after each balance and banner cycle."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All MONGIL STAR DIVE Tier Lists"
     },
-    "biomes": {
-      "title": "MONGIL STAR DIVE Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "MONGIL STAR DIVE Biomes - World Regions & Exploration",
-      "metaDescription": "Explore MONGIL STAR DIVE biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "characters": {
+      "title": "MONGIL STAR DIVE Characters",
+      "description": "MONGIL STAR DIVE character guides by role, strengths, team fit, and upgrade priority.",
+      "metaTitle": "MONGIL STAR DIVE Characters - Role and Build Priorities",
+      "metaDescription": "Browse MONGIL STAR DIVE character guides with role breakdowns, synergy notes, and upgrade priorities for stable progression.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What is the MONGIL STAR DIVE Characters category?",
+      "whatIsDescription": "This category explains each MONGIL STAR DIVE character through role identity, team function, and investment impact.",
+      "why": "Why check MONGIL STAR DIVE character guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Pick Better Team Roles",
+        "step1Description": "Balance DPS, support, and sustain for reliable clears.",
+        "step2Title": "Upgrade The Right Units",
+        "step2Description": "Invest first in characters with broad account value.",
+        "step3Title": "Improve Team Synergy",
+        "step3Description": "Match skills and passives for smoother combat rotations."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All MONGIL STAR DIVE Character Guides"
     },
-    "building": {
-      "title": "MONGIL STAR DIVE Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "MONGIL STAR DIVE Building - Qualia & Base Construction",
-      "metaDescription": "Master MONGIL STAR DIVE building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "download": {
+      "title": "MONGIL STAR DIVE Download",
+      "description": "Official MONGIL STAR DIVE download guidance for PC and mobile platforms.",
+      "metaTitle": "MONGIL STAR DIVE Download - PC and Mobile Install Guide",
+      "metaDescription": "Find official MONGIL STAR DIVE download options for PC and mobile with install steps, launch checks, and account setup tips.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "What is the MONGIL STAR DIVE Download category?",
+      "whatIsDescription": "The MONGIL STAR DIVE download category covers official install channels, launcher setup, and first-boot checklist items.",
+      "why": "Why use MONGIL STAR DIVE download guides?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Use Official Sources",
+        "step1Description": "Install from trusted channels to avoid outdated clients.",
+        "step2Title": "Set Up Faster",
+        "step2Description": "Finish account link and patch steps without confusion.",
+        "step3Title": "Avoid Launch Errors",
+        "step3Description": "Apply basic checks before troubleshooting deeper issues."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All MONGIL STAR DIVE Download Guides"
     },
-    "support": {
-      "title": "MONGIL STAR DIVE Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "MONGIL STAR DIVE Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for MONGIL STAR DIVE including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "release": {
+      "title": "MONGIL STAR DIVE Release",
+      "description": "Track MONGIL STAR DIVE release timing, patch cadence, and event schedule changes.",
+      "metaTitle": "MONGIL STAR DIVE Release - Timeline and Update Schedule",
+      "metaDescription": "Follow MONGIL STAR DIVE release updates, maintenance windows, patch cadence, and event timing for better resource planning.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the MONGIL STAR DIVE Release category?",
+      "whatIsDescription": "This section tracks MONGIL STAR DIVE release milestones, major patch windows, and live update timing changes.",
+      "why": "Why follow MONGIL STAR DIVE release updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
+        "step1Title": "Plan Banner Spending",
+        "step1Description": "Save key resources ahead of expected updates.",
+        "step2Title": "Prepare For Maintenance",
+        "step2Description": "Complete time-limited tasks before reset windows.",
+        "step3Title": "Time Progression Goals",
+        "step3Description": "Align upgrades with incoming content requirements."
+      },
+      "featured": "Featured & Essential",
+      "all": "All MONGIL STAR DIVE Release Updates"
+    },
+    "system": {
+      "title": "MONGIL STAR DIVE System",
+      "description": "MONGIL STAR DIVE system requirements and performance tuning for stable play on PC and mobile.",
+      "metaTitle": "MONGIL STAR DIVE System Requirements - PC and Mobile Performance",
+      "metaDescription": "Check MONGIL STAR DIVE system requirements, recommended settings, and practical fixes for frame drops, heat, and load issues.",
+      "categoryLabel": "SYSTEM",
+      "whatIs": "What is the MONGIL STAR DIVE System category?",
+      "whatIsDescription": "The MONGIL STAR DIVE system category explains hardware expectations, graphics settings, and practical optimization steps.",
+      "why": "Why use MONGIL STAR DIVE system guides?",
+      "whySteps": {
+        "step1Title": "Check Device Readiness",
+        "step1Description": "Confirm your setup can run the game smoothly.",
         "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step2Description": "Tune settings for stable frame pacing and responsiveness.",
+        "step3Title": "Fix Common Issues",
+        "step3Description": "Resolve stutter, overheating, and load failures quickly."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All MONGIL STAR DIVE System Guides"
     }
   }
 }

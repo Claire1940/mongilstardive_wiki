@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "codes": "Codes",
+    "guide": "Guide",
+    "tierList": "Tier List",
+    "characters": "Characters",
+    "download": "Download",
+    "release": "Release",
+    "system": "System"
   },
   "common": {
     "home": "Início",
