@@ -1,11 +1,1187 @@
 {
+  "seo": {
+    "home": {
+      "title": "MONGIL STAR DIVE Wiki - 兌換碼、強度排行與新手指南",
+      "description": "MONGIL STAR DIVE Wiki 為手機與 PC 玩家追蹤最新兌換碼、首抽流程、強度排行、角色培養、小怪獸以及進度工具。",
+      "keywords": "MONGIL STAR DIVE, MONGIL STAR DIVE wiki, 兌換碼, 首抽, 強度排行, 隊伍, 角色培養, 小怪獸",
+      "ogTitle": "MONGIL STAR DIVE Wiki - 兌換碼、強度排行與新手指南",
+      "ogDescription": "MONGIL STAR DIVE Wiki 為手機與 PC 玩家追蹤最新兌換碼、首抽流程、強度排行、角色培養、小怪獸以及進度工具。",
+      "twitterTitle": "MONGIL STAR DIVE Wiki - 兌換碼、強度排行與新手指南",
+      "twitterDescription": "在簡潔的首頁中心獲取 MONGIL STAR DIVE 兌換碼、首抽目標、隊伍配置及開服更新資訊。"
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "tierList": "Tier List",
-    "characters": "Characters",
-    "download": "Download",
-    "release": "Release",
-    "system": "System"
+    "codes": "兌換碼",
+    "guide": "指南",
+    "tierList": "強度排行",
+    "characters": "角色",
+    "download": "下載",
+    "release": "發布資訊",
+    "system": "系統"
+  },
+  "common": {
+    "home": "首頁",
+    "more": "更多",
+    "playNow": "造訪官方網站",
+    "switchLanguage": "切換語言",
+    "switchTheme": "切換主題",
+    "lightMode": "淺色模式",
+    "darkMode": "深色模式",
+    "notFound": "找不到頁面",
+    "notFoundDescription": "您尋找的頁面不存在。",
+    "backToHome": "返回首頁",
+    "relatedArticles": "相關內容",
+    "readMore": "閱讀更多"
+  },
+  "hero": {
+    "badge": "馴獸動作 RPG",
+    "title": "MONGIL: STAR DIVE",
+    "description": "Netmarble 動作 RPG 的怪獸收集、角色切換戰鬥、首抽規劃與進度路線，支援 iOS、Android 及 PC。",
+    "getFreeCodesCTA": "造訪 MONGIL STAR DIVE 官方網站",
+    "playOnSteamCTA": "加入 MONGIL STAR DIVE Discord",
+    "stats": {
+      "stat1": {
+        "value": "500K+",
+        "label": "下載次數"
+      },
+      "stat2": {
+        "value": "30.7K",
+        "label": "Google Play 評論"
+      },
+      "stat3": {
+        "value": "34.3K",
+        "label": "Discord 成員"
+      },
+      "stat4": {
+        "value": "12",
+        "label": "支援語言"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "MONGIL STAR DIVE 遊戲玩法",
+    "description": "在規劃首支隊伍前，先觀看官方戰鬥畫面、角色切換流程以及小怪獸動作。"
+  },
+  "tools": {
+    "title": "MONGIL STAR DIVE",
+    "titleHighlight": "模組導覽",
+    "subtitle": "快速跳轉至所有 16 個 MONGIL STAR DIVE 首頁模組",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "MONGIL STAR DIVE 兌換碼",
+        "description": "最新兌換碼與開服獎勵狀態"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "MONGIL STAR DIVE 新手指南",
+        "description": "首小時優先事項與流暢進度指南"
+      },
+      {
+        "icon": "Users",
+        "title": "MONGIL STAR DIVE 強度排行",
+        "description": "早期角色強度排行（S 至 C 級）"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "MONGIL STAR DIVE 首抽指南",
+        "description": "快速首抽路線與最佳開局目標"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "MONGIL STAR DIVE 最佳隊伍",
+        "description": "首領戰、推圖及純色隊伍配置"
+      },
+      {
+        "icon": "Shield",
+        "title": "MONGIL STAR DIVE 最佳培養",
+        "description": "神器、小怪獸與陣容培養建議"
+      },
+      {
+        "icon": "Hammer",
+        "title": "MONGIL STAR DIVE 最佳小怪獸",
+        "description": "優先培育的 S/A 級小怪獸"
+      },
+      {
+        "icon": "Package",
+        "title": "MONGIL STAR DIVE 怪獸圖鑑",
+        "description": "按區域、效果與捕捉路線分類的圖鑑條目"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "MONGIL STAR DIVE 神器",
+        "description": "神器效果與推薦使用者"
+      },
+      {
+        "icon": "Eye",
+        "title": "MONGIL STAR DIVE 裝備套裝",
+        "description": "套裝加成與各定位使用範例"
+      },
+      {
+        "icon": "Home",
+        "title": "MONGIL STAR DIVE 角色",
+        "description": "依稀有度、定位與屬性分類的角色中心"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "MONGIL STAR DIVE 發售日期",
+        "description": "上市時間與支援平台"
+      },
+      {
+        "icon": "Settings",
+        "title": "MONGIL STAR DIVE 新聞",
+        "description": "上市公告、維護通知與即時更新"
+      },
+      {
+        "icon": "Star",
+        "title": "MONGIL STAR DIVE 系統需求",
+        "description": "所有平台的最低與建議配置"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "MONGIL STAR DIVE 最佳設定",
+        "description": "PC 與行動裝置預設設定，確保流暢清晰的戰鬥體驗"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "MONGIL STAR DIVE 跨平台遊玩",
+        "description": "跨平台遊玩、跨平台存檔及多人連線支援摘要"
+      }
+    ]
+  },
+  "modules": {
+    "lucidBlocksBeginnerGuide": {
+      "title": "MONGIL STAR DIVE 兌換碼",
+      "displayType": "steps",
+      "intro": "MONGIL STAR DIVE 於 2026 年 4 月 15 日上市，兌換代碼仍是領取額外上市獎勵最快的方式之一。",
+      "steps": [
+        {
+          "title": "MONGIL STAR DIVE 兌換碼：MONGILDISCORD",
+          "description": "獎勵：免費鑽石 x30、閃耀星塵 x30、金幣 x300,000。如果是新帳號，請優先兌換此代碼。"
+        },
+        {
+          "title": "MONGIL STAR DIVE 兌換碼：LOVEMONGIL",
+          "description": "獎勵：神器「Overflowing Love」。此代碼能為早期配置靈活性提供即時價值。"
+        },
+        {
+          "title": "MONGIL STAR DIVE 兌換狀態：進行中",
+          "description": "遊戲內兌換支援 iOS、Android 與 PC。請在每次新改版週期前確認過期時間。"
+        },
+        {
+          "title": "MONGIL STAR DIVE 兌換路徑",
+          "description": "開啟遊戲內兌換碼選單，準確輸入代碼，從信箱領取。若獎勵延遲，請重新登入。"
+        }
+      ],
+      "quickTips": [
+        "在開始刷首抽比較前，先使用 MONGIL STAR DIVE 兌換碼，確保每個帳號都有相同的初始獎勵價值。",
+        "優先考慮能增加早期召喚次數與武器成長資源的代碼獎勵。",
+        "追蹤上市期間的代碼有效期限，並每週歸檔已過期的項目。",
+        "使用一份清晰的清單，區分有效、即將過期以及已歸檔的 MONGIL STAR DIVE 兌換碼。"
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "MONGIL STAR DIVE 新手指南",
+      "displayType": "cards",
+      "intro": "MONGIL STAR DIVE 的新手進度應保持簡單：完成開場流程、解鎖招募，並僅升級你目前使用的隊伍。",
+      "cards": [
+        {
+          "name": "推進劇情並完成教學",
+          "description": "利用開場劇情流程快速解鎖核心系統，避免過早將資源分散到支線任務。"
+        },
+        {
+          "name": "在做出重大決定前解鎖招募",
+          "description": "解鎖招募是決定保留帳號或刷首抽的第一個重要檢查點。"
+        },
+        {
+          "name": "將經驗書用於主力隊伍",
+          "description": "早期的經驗材料應投入到當前的核心陣容中，以維持戰鬥節奏。"
+        },
+        {
+          "name": "學習角色切換的戰鬥節奏",
+          "description": "MONGIL STAR DIVE 獎勵流暢的隊伍輪換、定位互補，以及在即時戰鬥中持續施壓。"
+        }
+      ],
+      "milestones": [
+        "完成 MONGIL STAR DIVE 教學流程",
+        "解鎖 MONGIL STAR DIVE 的招募橫幅",
+        "使用經驗書升級你的 MONGIL STAR DIVE 主力隊伍",
+        "穩定你的 MONGIL STAR DIVE 戰鬥輪換"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "MONGIL STAR DIVE 強度排行榜",
+      "displayType": "itemCards",
+      "intro": "這份 MONGIL STAR DIVE 上市強度快照可幫助玩家識別早期進度與首領戰中價值最高的角色。",
+      "items": [
+        {
+          "name": "S 級：Esther, Flare, Jiwon",
+          "type": "早期首選",
+          "description": "這些單位在整體價值與帳號成長速度方面提供最強大的上市影響力。"
+        },
+        {
+          "name": "A 級：Gabi, Francis, Penny, Ophelia, Sangun",
+          "type": "強力核心選擇",
+          "description": "可靠的核心選擇，在一般進度與活動內容中表現出色。"
+        },
+        {
+          "name": "B 級：Ellie, Benjamin, Yeonwha, Cloud, Leeho, Angel",
+          "type": "可用（中優先度）",
+          "description": "當帳號中沒有頂級上市首選時，這些是穩健的備選方案。"
+        },
+        {
+          "name": "C 級：Daisy, Bonnie, Reina, Sera, Verna",
+          "type": "低優先度",
+          "description": "與目前的頂級角色相比，上市優先度較低。"
+        },
+        {
+          "name": "依模式進行強度檢查",
+          "type": "審查規則",
+          "description": "分別針對一般 PVE、首領爆發與支援價值重新檢查 MONGIL STAR DIVE 排名。"
+        },
+        {
+          "name": "隨版本更新強度",
+          "type": "維護規則",
+          "description": "在招募輪換與戰鬥平衡調整後，更新強度評估。"
+        }
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "MONGIL STAR DIVE 刷首抽指南",
+      "displayType": "solutionCards",
+      "intro": "MONGIL STAR DIVE 的刷首抽效率取決於路線選擇、招募檢查點時機以及明確的上市目標優先順序。",
+      "solutions": [
+        {
+          "name": "短期標準路線 (5-10 分鐘)",
+          "role": "路線選擇",
+          "description": "需要多次快速首抽循環時，重複嘗試帳號的最快路徑。"
+        },
+        {
+          "name": "長線活動路線（約 20 分鐘）",
+          "role": "路線選擇",
+          "description": "較長的路線，可解鎖額外的活動抽卡與限定招募嘗試。"
+        },
+        {
+          "name": "標準檢查點：前往馴獸師！",
+          "role": "開放招募",
+          "description": "到達此檢查點以領取獎勵，並開始在「新遠征」卡池進行首抽。"
+        },
+        {
+          "name": "活動檢查點：大家動起來",
+          "role": "開放活動",
+          "description": "解鎖活動與「命運指南針」抽卡，以獲得更高的首抽收益。"
+        }
+      ],
+      "managementTips": [
+        "在 MONGIL STAR DIVE 首抽計畫中，若以 Boss 氣絕值為優先，請先鎖定 Flare。",
+        "選擇 Jiwon 以獲得風隊支援的穩定性，並讓早期資源使用更順暢。",
+        "使用 Gabi 以強大的土屬性傷害起手，並具備實用的團隊支援價值。",
+        "在每個 MONGIL STAR DIVE 首抽重置循環中，使用全新的普通電子郵件方式。"
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "MONGIL STAR DIVE 最強隊伍",
+      "displayType": "cards",
+      "intro": "這些 MONGIL STAR DIVE 陣容涵蓋了開服 Boss 戰、平民進度以及圍繞當前 1.0 版本協同效應構建的純色隊計畫。",
+      "cards": [
+        {
+          "name": "Esther + Flare 或 Ellie + Jiwon",
+          "description": "Boss 核心：Esther 負責終結傷害，Jiwon 負責聚怪，而 Flare 或 Ellie 則提供爆發中和，以快速擊破氣絕值。"
+        },
+        {
+          "name": "Sangun + Flare 或 Ellie + Jiwon",
+          "description": "平衡標準：Sangun 擔任主戰力，Jiwon 輔助位移，Flare 或 Ellie 保持強大的中和壓力。"
+        },
+        {
+          "name": "Gabi + 靈活位 + Francis",
+          "description": "土系核心：保持 Gabi 在場，Francis 提供土屬性異常、治療與土系支援；可靈活搭配 Yeonhwa、Benjamin、Angel 或 Esther。"
+        },
+        {
+          "name": "Verna 或 Sera 或 Ophelia + Cloud + Francis",
+          "description": "平民進度：實用的早期陣容，Cloud 和 Francis 作為低投入支援，Sera 或 Ophelia 則是優於 Verna 的強大升級選擇。"
+        },
+        {
+          "name": "Gabi + Ellie + Francis",
+          "description": "純土隊：保持 Gabi 與 Francis 的協同效應，同時加入 Ellie 的爆發中和，以提升 Boss 控制與屬性專精。"
+        },
+        {
+          "name": "Sangun + Esther + Jiwon",
+          "description": "純風隊：頂級風屬性陣容，在角色齊全後結合了傷害、聚怪與靈活的壓制力。"
+        }
+      ],
+      "highlights": [
+        "MONGIL STAR DIVE 開服 Boss 核心隊伍",
+        "MONGIL STAR DIVE 平衡進度隊伍",
+        "MONGIL STAR DIVE 土系核心隊伍路線",
+        "MONGIL STAR DIVE 平民友善早期隊伍",
+        "MONGIL STAR DIVE 純土壓制隊伍",
+        "MONGIL STAR DIVE 純風頂級隊伍"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "MONGIL STAR DIVE 最強配置",
+      "displayType": "regionCards",
+      "intro": "這些 MONGIL STAR DIVE 配置精選總結了當前角色頁面中推薦的遺物與守護靈建議。",
+      "regions": [
+        {
+          "name": "MONGIL STAR DIVE Flare 配置",
+          "type": "爆發中和 / 傷害",
+          "description": "核心遺物：精緻龍火。此配置提升了多項屬性的傷害加成，適合以 Esther 或 Sangun 為核心的開服隊伍。"
+        },
+        {
+          "name": "MONGIL STAR DIVE Ophelia 配置",
+          "type": "主輸出",
+          "description": "核心選擇：Amon's Shadow 用於暴擊支援反擊，Taglock 用於連擊攻擊加成。通常與 Cloud 和 Francis 搭配。"
+        },
+        {
+          "name": "MONGIL STAR DIVE Jiwon 配置",
+          "type": "風系支援",
+          "description": "核心守護靈：Leafy Mama，使用特殊技能時可恢復生命值，幫助她在長線戰鬥中保持穩定的功能性。"
+        },
+        {
+          "name": "MONGIL STAR DIVE Francis 配置",
+          "type": "土系支援",
+          "description": "核心選擇：Overflowing Love 加上 Avardan，以提升切換攻擊價值、土系輸出支援以及爆發充能的穩定性。"
+        },
+        {
+          "name": "MONGIL STAR DIVE Sangun 配置",
+          "type": "風系戰士",
+          "description": "專注於具備生存意識且能保持風屬性異常狀態的風隊，推薦夥伴為 Esther、Bonnie 與 Jiwon。"
+        },
+        {
+          "name": "MONGIL STAR DIVE Yeonhwa 配置",
+          "type": "雷系刺客",
+          "description": "核心選擇：Taglock 用於連擊後的隊伍攻擊加成，Amon 作為暴擊導向壓制的備選方案。"
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "MONGIL STAR DIVE 最強守護靈",
+      "displayType": "creatureCards",
+      "intro": "這些 MONGIL STAR DIVE 守護靈在開服配置中脫穎而出，因為它們提供了廣泛的暴擊、攻擊、弱點或續航價值。",
+      "creatures": [
+        {
+          "name": "Amon's Shadow",
+          "role": "S 級優先",
+          "description": "Varhine。效果：反擊時全體隊友暴擊率 +11.55%，持續 10 秒。具備反擊機制隊伍的首選進攻支援。"
+        },
+        {
+          "name": "Taglock",
+          "role": "S 級優先",
+          "description": "Elendor。效果：成功攻擊 20 次後，攻擊力 +5.5%，持續 10 秒。適合高攻速角色且易於觸發。"
+        },
+        {
+          "name": "El Dorado Guardian",
+          "role": "S 級優先",
+          "description": "Elendor。效果：擊中具備屬性弱點的 Boss 後，全隊攻擊力 +5.78%，持續 10 秒。非常適合以 Boss 戰為主的陣容。"
+        },
+        {
+          "name": "Big Bro Goblin",
+          "role": "A 級優先",
+          "description": "Elendor。效果：普通攻擊 10 次後，為全體隊友恢復 3.47% 生命值。早期與中期隊伍的實用續航選擇。"
+        },
+        {
+          "name": "Monk's Shadow",
+          "role": "A 級優先",
+          "description": "Varhine。效果：被擊中時，屬性弱點傷害 +6.57%，持續 5 秒。適用於弱點輸出時機與 Boss 機制應對策略。"
+        },
+        {
+          "name": "提爾陶爾",
+          "role": "A 級優先度",
+          "description": "瓦爾海恩。效果：火屬性傷害 +11.55%。一旦決定投入火屬性隊伍，這是一個直接的屬性傷害選擇。"
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "MONGIL STAR DIVE 魔物圖鑑",
+      "displayType": "itemCards",
+      "intro": "此 MONGIL STAR DIVE 魔物圖鑑區塊可在前往刷怪路線前，快速查看圖鑑編號、區域、效果及捕捉筆記。",
+      "items": [
+        {
+          "name": "No.18 泰格洛克",
+          "type": "艾倫多",
+          "description": "成功攻擊 20 次後，攻擊力 +5.5%，持續 10 秒（冷卻時間 20 秒）。在艾倫多擊敗對應的野外魔物後捕捉。"
+        },
+        {
+          "name": "No.19 哥布林大哥",
+          "type": "艾倫多",
+          "description": "進行 10 次普通攻擊後，為全體隊友恢復 3.47% 的生命值（冷卻時間 20 秒）。可透過艾倫多捕捉路線獲得。"
+        },
+        {
+          "name": "No.03 黃金國守護者",
+          "type": "艾倫多",
+          "description": "利用首領屬性弱點後，全隊攻擊力 +5.78%，持續 10 秒（冷卻時間 20 秒）。首領攻略過程中一個實用的圖鑑目標。"
+        },
+        {
+          "name": "No.66 提爾陶爾",
+          "type": "瓦爾海恩",
+          "description": "火屬性傷害 +11.55%。在瓦爾海恩捕捉，用於火屬性陣容及完成屬性圖鑑。"
+        },
+        {
+          "name": "亞蒙之影",
+          "type": "瓦爾海恩",
+          "description": "反擊時，全體隊友暴擊率 +11.55%，持續 10 秒。在瓦爾海恩擊敗對應魔物後可捕捉。"
+        },
+        {
+          "name": "修道士之影",
+          "type": "瓦爾海恩",
+          "description": "受到攻擊時，屬性弱點傷害 +6.57%，持續 5 秒（冷卻時間 20 秒）。在瓦爾海恩擊敗對應魔物後可捕捉。"
+        }
+      ],
+      "unlockMilestones": [
+        "為核心隊伍建立 MONGIL STAR DIVE 圖鑑精選清單",
+        "優先考慮具有可重複使用的全帳號效果的小魔物",
+        "在消耗體力前追蹤基於區域的捕捉路線",
+        "在重大改版後更新 MONGIL STAR DIVE 圖鑑筆記"
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "MONGIL STAR DIVE 神器",
+      "displayType": "artifactTable",
+      "intro": "根據定位、稀有度、被動效果及實際角色契合度比較頂尖的 MONGIL STAR DIVE 神器，以規劃更強大的長期配置。",
+      "artifacts": [
+        {
+          "artifact": "乘風掃帚",
+          "rarity": "5★",
+          "role": "暗殺者",
+          "maxAtk": "883",
+          "equipEffect": "暴擊傷害 +45%",
+          "baseEffect": "攻擊力增加 10%。使用特殊技能後，風屬性傷害增加 35%，持續 10 秒。",
+          "fusionBonus": "融合等級 3 根據暗殺者熟練度獲得暴擊率。融合等級 5 根據暗殺者熟練度獲得攻擊力。",
+          "bestUsers": [
+            "艾絲特"
+          ],
+          "whyUseIt": "風屬性暗殺者最強的純傷害神器，對艾絲特尤其強大。",
+          "grade": "專屬級輸出神器"
+        },
+        {
+          "artifact": "瘋狂掙扎",
+          "rarity": "5★",
+          "role": "戰士",
+          "maxAtk": "-",
+          "equipEffect": "-",
+          "baseEffect": "特殊技能傷害增加 10%。攻擊命中時，暴擊傷害增加 4%（最多疊加 2 層，持續 10 秒）。",
+          "fusionBonus": "融合等級 3 與等級 5 透過戰士熟練度加成增加攻擊力。",
+          "bestUsers": [
+            "潘妮",
+            "山君",
+            "奧菲莉亞",
+            "塞拉"
+          ],
+          "whyUseIt": "當沒有專屬神器時，適用於多位場上輸出角色的通用戰士神器。",
+          "grade": "通用型戰士神器"
+        },
+        {
+          "artifact": "撼地劇震",
+          "rarity": "4★",
+          "role": "破壞者",
+          "maxAtk": "-",
+          "equipEffect": "-",
+          "baseEffect": "受到攻擊時，中和傷害增加 5%，持續 10 秒（冷卻時間 15 秒）。",
+          "fusionBonus": "融合等級 5 透過破壞者熟練度加成增加攻擊力。",
+          "bestUsers": [
+            "克勞德",
+            "蕾娜",
+            "其他破壞者"
+          ],
+          "whyUseIt": "強調削韌與中和壓力的破壞者可靠平民選擇。",
+          "grade": "可靠的 4★ 入門選項"
+        },
+        {
+          "artifact": "生命之天界光環",
+          "rarity": "5★",
+          "role": "支援者",
+          "maxAtk": "663",
+          "equipEffect": "防禦力 +21%",
+          "baseEffect": "終極技能傷害增加 11%。攻擊命中時，全體隊友攻擊力增加 6%，持續 15 秒。",
+          "fusionBonus": "融合等級 3 與等級 5 透過支援者熟練度加成增加攻擊力。",
+          "bestUsers": [
+            "智媛",
+            "邦妮",
+            "弗朗西斯",
+            "黛西"
+          ],
+          "whyUseIt": "最頂級的通用輔助神器，其全隊攻擊力加成適用於多種陣容。",
+          "grade": "最頂級通用輔助神器"
+        },
+        {
+          "artifact": "撥動心弦的旋律",
+          "rarity": "5★",
+          "role": "輔助",
+          "maxAtk": "-",
+          "equipEffect": "-",
+          "baseEffect": "使用切換技能時，為自己和隊友提供活力。當體力在 90% 或以上時，普通攻擊、特殊技能和終極技能傷害每秒增加 2.5%（最高 20 層，持續 30 秒）。",
+          "fusionBonus": "-",
+          "bestUsers": [
+            "智媛"
+          ],
+          "whyUseIt": "適用於能保持高體力覆蓋率陣容的高級體力型輔助神器。",
+          "grade": "高級體力型輔助神器"
+        }
+      ],
+      "highlights": [
+        "MONGIL STAR DIVE 神器職業限制與融合成長對比",
+        "MONGIL STAR DIVE 專屬級與平民級神器規劃",
+        "MONGIL STAR DIVE 各職業與隊伍體系最佳使用者對照",
+        "MONGIL STAR DIVE 開服進度神器評級概覽"
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "MONGIL STAR DIVE 裝備套裝",
+      "displayType": "equipmentTable",
+      "intro": "使用此 MONGIL STAR DIVE 套裝概覽，為專注於元素的配置搭配正確的 2 件套和 4 件套獎勵。",
+      "sets": [
+        {
+          "set": "夏努爾的咆哮",
+          "element": "火",
+          "bestFor": [
+            "弗萊爾",
+            "安琪兒",
+            "薇勒娜",
+            "梨湖"
+          ],
+          "twoSet": "使用終極技能時，火元素傷害增加 10%，持續 5 秒。",
+          "fourSet": "攻擊處於火元素異常狀態的敵人時，暴擊傷害增加 10%。",
+          "useCase": "適用於爆發型或依賴異常狀態火屬性單位的核心火傷套裝。"
+        },
+        {
+          "set": "山巔威嚴",
+          "element": "火",
+          "bestFor": [
+            "弗萊爾"
+          ],
+          "twoSet": "換場技能命中時，降低目標 3% 火元素抗性，持續 5 秒。",
+          "fourSet": "攻擊處於火元素異常狀態的敵人時，火元素傷害增加 5%。",
+          "useCase": "適用於換場壓制和減抗路線的備選火傷套裝。"
+        },
+        {
+          "set": "仲裁者",
+          "element": "冰",
+          "bestFor": [
+            "克勞德",
+            "塞拉"
+          ],
+          "twoSet": "使用換場技能時，冰元素傷害增加 10%，持續 5 秒。",
+          "fourSet": "攻擊處於冰元素異常狀態的敵人時，冰元素傷害增加 10%。",
+          "useCase": "具有穩定換場互動協同作用的核心冰傷輸出套裝。"
+        },
+        {
+          "set": "深淵",
+          "element": "風",
+          "bestFor": [
+            "艾絲特",
+            "山君",
+            "邦妮"
+          ],
+          "twoSet": "使用特殊技能時，風元素傷害增加 10%，持續 5 秒。",
+          "fourSet": "觸發暴擊時，風元素傷害增加 10%，持續 5 秒。",
+          "useCase": "適用於高暴擊單位和進攻型風屬性陣容的頂級風傷套裝。"
+        },
+        {
+          "set": "精靈王",
+          "element": "雷",
+          "bestFor": [
+            "佩妮",
+            "蕾娜",
+            "本傑明"
+          ],
+          "twoSet": "使用普通攻擊時，雷元素傷害增加 8%，持續 3 秒。",
+          "fourSet": "攻擊處於雷元素異常狀態的敵人時，雷元素傷害增加 10%。",
+          "useCase": "非常適合循環使用普通攻擊並維持異常狀態的雷屬性單位。"
+        },
+        {
+          "set": "西風",
+          "element": "土",
+          "bestFor": [
+            "艾莉"
+          ],
+          "twoSet": "使用普通攻擊時，土元素傷害增加 8%，持續 3 秒。",
+          "fourSet": "對處於土元素異常狀態的敵人使用切換技能時，土元素傷害增加 10%，持續 5 秒。",
+          "useCase": "適用於頻繁使用普通攻擊和切換技能時機的強力土傷選擇。"
+        }
+      ],
+      "setNotes": [
+        "MONGIL STAR DIVE 開服套裝在與自然異常模式匹配時最強。",
+        "MONGIL STAR DIVE 套裝規劃應在強求 4 件套完整之前，優先考慮 2 件套的覆蓋率。",
+        "MONGIL STAR DIVE 角色陣容深度增加了靈活元素對齊套裝的價值。"
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "MONGIL STAR DIVE 角色",
+      "displayType": "characterHub",
+      "intro": "使用此 MONGIL STAR DIVE 角色中心來比較目前收錄的所有可玩角色的稀有度、元素和職業。",
+      "filters": {
+        "rarity": [
+          "5★",
+          "4★"
+        ],
+        "elements": [
+          "火",
+          "冰",
+          "風",
+          "土",
+          "雷"
+        ],
+        "roles": [
+          "戰士",
+          "破壞者",
+          "刺客",
+          "輔助"
+        ]
+      },
+      "characters": [
+        {
+          "name": "弗萊爾",
+          "rarity": "5★",
+          "element": "火",
+          "role": "破壞者"
+        },
+        {
+          "name": "奧菲莉亞",
+          "rarity": "5★",
+          "element": "冰",
+          "role": "戰士"
+        },
+        {
+          "name": "潘妮",
+          "rarity": "5★",
+          "element": "雷",
+          "role": "戰士"
+        },
+        {
+          "name": "山君",
+          "rarity": "5★",
+          "element": "風",
+          "role": "戰士"
+        },
+        {
+          "name": "智媛",
+          "rarity": "5★",
+          "element": "風",
+          "role": "輔助"
+        },
+        {
+          "name": "以斯帖",
+          "rarity": "5★",
+          "element": "風",
+          "role": "刺客"
+        },
+        {
+          "name": "嘉比",
+          "rarity": "5★",
+          "element": "土",
+          "role": "戰士"
+        },
+        {
+          "name": "薇娜",
+          "rarity": "4★",
+          "element": "火",
+          "role": "戰士"
+        },
+        {
+          "name": "梨湖",
+          "rarity": "4★",
+          "element": "火",
+          "role": "刺客"
+        },
+        {
+          "name": "安琪兒",
+          "rarity": "4★",
+          "element": "火",
+          "role": "刺客"
+        },
+        {
+          "name": "克勞德",
+          "rarity": "4★",
+          "element": "冰",
+          "role": "破壞者"
+        },
+        {
+          "name": "塞拉",
+          "rarity": "4★",
+          "element": "冰",
+          "role": "戰士"
+        },
+        {
+          "name": "蓮花",
+          "rarity": "4★",
+          "element": "雷",
+          "role": "刺客"
+        },
+        {
+          "name": "本傑明",
+          "rarity": "4★",
+          "element": "雷",
+          "role": "刺客"
+        },
+        {
+          "name": "蕾娜",
+          "rarity": "4★",
+          "element": "雷",
+          "role": "破壞者"
+        },
+        {
+          "name": "邦妮",
+          "rarity": "4★",
+          "element": "風",
+          "role": "輔助"
+        },
+        {
+          "name": "弗朗西斯",
+          "rarity": "4★",
+          "element": "大地",
+          "role": "輔助"
+        },
+        {
+          "name": "黛西",
+          "rarity": "4★",
+          "element": "大地",
+          "role": "輔助"
+        },
+        {
+          "name": "艾莉",
+          "rarity": "4★",
+          "element": "大地",
+          "role": "破壞者"
+        }
+      ],
+      "managementNotes": [
+        "在鎖定首抽決定前，請使用 MONGIL STAR DIVE 稀有度篩選功能。",
+        "使用 MONGIL STAR DIVE 屬性篩選功能，更快速地編組單一屬性陣容。",
+        "使用 MONGIL STAR DIVE 職業篩選功能，平衡傷害、失衡與輔助欄位。",
+        "在重大卡池輪替後，查看 MONGIL STAR DIVE 角色名單更新。"
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "MONGIL STAR DIVE 發售日期",
+      "displayType": "releaseTimeline",
+      "intro": "此 MONGIL STAR DIVE 發售時間軸追蹤了上市公告、解鎖時間以及目前的平台推出狀態。",
+      "timeline": [
+        {
+          "date": "2026-03-11",
+          "label": "全球上線公告",
+          "details": "Netmarble 宣布 2026 年 4 月 15 日為 PC、iOS 與 Android 的發售日期，PC 版將於 Netmarble Launcher 與 Epic Games Store 上線。"
+        },
+        {
+          "date": "2026-04-08",
+          "label": "First Dive Show 直播",
+          "details": "上線週直播重申了發售計畫，並確認 PlayStation 5 與 Xbox Series X|S 版本將於稍後日期推出。"
+        },
+        {
+          "date": "2026-04-14",
+          "label": "北美解鎖時間",
+          "details": "全球服務於北美時間 4 月 14 日晚上 9:00 ET / 下午 6:00 PT 開放。"
+        },
+        {
+          "date": "2026-04-15",
+          "label": "全球同步上線",
+          "details": "MONGIL STAR DIVE 於 4 月 15 日凌晨 1:00 UTC 在 PC、Android 與 iOS 全球同步上線。"
+        },
+        {
+          "date": "待定",
+          "label": "家機版發售狀態",
+          "details": "PlayStation 5 與 Xbox Series X|S 版本已確認，但發售日期詳情仍待定。"
+        }
+      ],
+      "platformSummary": [
+        "目前 MONGIL STAR DIVE 平台：PC、iOS、Android",
+        "已確認的未來 MONGIL STAR DIVE 平台：PlayStation 5、Xbox Series X|S",
+        "北美上線時間：2026-04-14 晚上 9:00 ET / 下午 6:00 PT",
+        "全球上線時間：2026-04-15 凌晨 1:00 UTC"
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "MONGIL STAR DIVE 新聞",
+      "displayType": "timelineCards",
+      "intro": "MONGIL STAR DIVE 新聞應集中在官方上線週公告、維護結果以及直播更新，並以時間順序排列。",
+      "items": [
+        {
+          "date": "2026-04-16",
+          "label": "維護",
+          "headline": "MONGIL STAR DIVE 臨時維護已完成",
+          "summary": "4 月 16 日的臨時維護穩定了服務，並修復了部分野外採集與採礦點在每日重置後未正確重置的問題。",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/176",
+          "icon": "Settings"
+        },
+        {
+          "date": "2026-04-15",
+          "label": "維護",
+          "headline": "MONGIL STAR DIVE 上線首日緊急維護",
+          "summary": "Netmarble 在上線首日發布了緊急維護公告，以在初始全球服務期間穩定遊戲伺服器。",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/173",
+          "icon": "AlertTriangle"
+        },
+        {
+          "date": "2026-04-15",
+          "label": "上線",
+          "headline": "MONGIL STAR DIVE 官方全球上線",
+          "summary": "MONGIL STAR DIVE 於 2026 年 4 月 15 日凌晨 1:00 UTC（即 4 月 14 日晚上 9:00 ET）在 PC、Android 與 iOS 全球同步上線。",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/122",
+          "icon": "TrendingUp"
+        },
+        {
+          "date": "2026-04-13",
+          "label": "下載",
+          "headline": "MONGIL STAR DIVE 預先下載與規格需求公告",
+          "summary": "Netmarble 公布了預先下載時程以及最低與建議規格，以便玩家在上線前準備好裝置與儲存空間。",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/116",
+          "icon": "Download"
+        },
+        {
+          "date": "2026-04-08",
+          "label": "發表會",
+          "headline": "MONGIL STAR DIVE First Dive Show 直播",
+          "summary": "First Dive Show 直播於 4 月 8 日播出，作為主要的上線前更新廣播，包含發售資訊與遊戲玩法預覽。",
+          "href": "https://game8.co/games/Mongil-Star-Dive/archives/591697",
+          "icon": "Gamepad2"
+        },
+        {
+          "date": "2026-04-08",
+          "label": "問答",
+          "headline": "MONGIL STAR DIVE 開發者直播總結問答",
+          "summary": "官方論壇的總結問答包含了早期的上線後更新節奏說明，包括機率提升角色每三週一次的循環。",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/163",
+          "icon": "MessageCircle"
+        }
+      ],
+      "highlights": [
+        "MONGIL STAR DIVE 於 2026-04-15 01:00 UTC 全球發布。",
+        "MONGIL STAR DIVE 上線首週的維護更新已於 2026-04-15 和 2026-04-16 發布。",
+        "2026-04-08 的 MONGIL STAR DIVE First Dive Show 與官方問答仍是上線前的重要參考資訊。"
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "MONGIL STAR DIVE 系統需求",
+      "displayType": "specTable",
+      "intro": "使用此 MONGIL STAR DIVE 需求表來比較 PC、iOS 和 Android 的最低與建議規格、儲存空間目標以及安裝大小說明。",
+      "platforms": [
+        {
+          "platform": "PC",
+          "minimum": [
+            "作業系統：Windows 10",
+            "處理器：Intel Core i5 第 8 代或 AMD Ryzen 5 2600",
+            "記憶體：8 GB RAM",
+            "顯示卡：NVIDIA GeForce GTX 1060 或 AMD Radeon RX 580 或 Intel Arc A380",
+            "DirectX：11",
+            "儲存空間：20 GB"
+          ],
+          "recommended": [
+            "作業系統：Windows 11",
+            "處理器：Intel Core i7 第 9 代或 AMD Ryzen 7 3700",
+            "記憶體：16 GB RAM",
+            "顯示卡：NVIDIA GeForce RTX 2060 或 AMD Radeon RX 5700 XT 或 Intel Arc A750",
+            "DirectX：12",
+            "儲存空間：50 GB"
+          ],
+          "notes": "MONGIL STAR DIVE PC 版初始下載大小約為 15 GB。"
+        },
+        {
+          "platform": "iOS",
+          "minimum": [
+            "裝置：iPhone 11 或同等裝置",
+            "作業系統：iOS 15",
+            "儲存空間：10 GB"
+          ],
+          "recommended": [
+            "裝置：iPhone 13 或以上",
+            "儲存空間：15 GB"
+          ],
+          "notes": "MONGIL STAR DIVE iOS 版初始下載大小約為 7 GB。"
+        },
+        {
+          "platform": "Android",
+          "minimum": [
+            "作業系統：Android 10",
+            "晶片組：Snapdragon 865 (Galaxy S20 等級)",
+            "記憶體：8 GB RAM",
+            "儲存空間：10 GB"
+          ],
+          "recommended": [
+            "晶片組：Snapdragon 8 Gen 2 (Galaxy S23 等級)",
+            "記憶體：12 GB RAM",
+            "儲存空間：15 GB"
+          ],
+          "notes": "MONGIL STAR DIVE Android 版初始下載大小約為 7 GB。"
+        },
+        {
+          "platform": "PC 下載選項",
+          "minimum": [
+            "客戶端：Netmarble Launcher 或 Epic Games"
+          ],
+          "recommended": [
+            "可用性：PC 客戶端於上線時提供"
+          ],
+          "notes": "MONGIL STAR DIVE PC 版可透過 Epic Games 或 Netmarble Launcher 遊玩。"
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "MONGIL STAR DIVE 最佳設定",
+      "displayType": "accordion",
+      "intro": "使用這些 MONGIL STAR DIVE 預設設定，在 PC 和行動裝置上平衡效能、戰鬥清晰度與操作舒適度。",
+      "presets": [
+        {
+          "title": "MONGIL STAR DIVE PC 高階預設",
+          "target": "PC",
+          "description": "對於達到 PC 建議規格的系統，優先考慮完整的客戶端畫質，同時在激烈戰鬥中保持特效清晰。此預設適用於配備 RTX 2060、RX 5700 XT 或 Arc A750 等級顯示卡及 16 GB RAM 的 Windows 11 系統。"
+        },
+        {
+          "title": "MONGIL STAR DIVE PC 穩定預設",
+          "target": "PC",
+          "description": "對於最低規格的 PC，優先降低圖形負載並確保穩定的戰鬥表現。此預設適用於配備 GTX 1060、RX 580 或 Arc A380 等級顯示卡及 8 GB RAM 的 Windows 10 系統。"
+        },
+        {
+          "title": "MONGIL STAR DIVE 行動裝置效能預設",
+          "target": "行動裝置",
+          "description": "在行動裝置上，於擁擠的動作場景和切換技能特效期間，優先考慮流暢的遊戲體驗而非視覺強度。基準裝置從 iOS 15 的 iPhone 11 或 Android 10 的 Snapdragon 865 開始。"
+        },
+        {
+          "title": "MONGIL STAR DIVE 輸入方式選項",
+          "target": "操作",
+          "description": "MONGIL STAR DIVE 根據平台支援滑鼠與鍵盤、控制器及觸控螢幕。PC 玩家可以在鍵盤的精準度與控制器的舒適度之間切換，而行動裝置玩家則使用觸控操作。"
+        },
+        {
+          "title": "MONGIL STAR DIVE 核心設定檢查清單",
+          "target": "檢查清單",
+          "description": "每當在 PC 與行動裝置之間切換或為了穩定性進行優化時，請先檢查圖形、音訊、語言和控制設定。"
+        },
+        {
+          "title": "MONGIL STAR DIVE 最佳初始調整",
+          "target": "上線首週",
+          "description": "如果上線效能感覺吃力，請在調整其他設定前先降低圖形負載。如果操作感覺彆扭，請調整輸入方式和控制佈局，以獲得更流暢的戰鬥執行。"
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "MONGIL STAR DIVE 跨平台遊玩",
+      "displayType": "accordion",
+      "intro": "MONGIL STAR DIVE 跨平台遊玩指南應將跨平台遊玩與跨平台存檔支援與多人遊戲預期分開，以便帳號規劃保持清晰。",
+      "questions": [
+        {
+          "question": "MONGIL STAR DIVE 支援跨平台遊玩嗎？",
+          "answer": "是的。MONGIL STAR DIVE 在支援的上線平台之間支援跨平台遊玩。"
+        },
+        {
+          "question": "MONGIL STAR DIVE 支援跨平台存檔嗎？",
+          "answer": "是的。MONGIL STAR DIVE 支援跨平台存檔，因此可以在支援的平台之間使用相同的存檔數據。"
+        },
+        {
+          "question": "MONGIL STAR DIVE 支援哪些平台？",
+          "answer": "MONGIL STAR DIVE 已在 PC、Android 和 iOS 上線。PC 版可透過 Epic Games 和 Netmarble Launcher 取得。"
+        },
+        {
+          "question": "我可以在 PC 和行動裝置上繼續使用同一個 MONGIL STAR DIVE 帳號嗎？",
+          "answer": "是的。MONGIL STAR DIVE 的跨平台存檔支援允許在 PC 和行動裝置上延續相同的帳號進度。"
+        },
+        {
+          "question": "MONGIL STAR DIVE 上線時是否確認支援多人模式？",
+          "answer": "在上線初期，MONGIL STAR DIVE 專注於以隊伍組建和切換技能戰鬥為核心的單人進度。"
+        },
+        {
+          "question": "MONGIL STAR DIVE 玩家應該優先考慮什麼？",
+          "answer": "如果您經常切換裝置，請優先進行帳號綁定和跨平台存檔連貫性檢查，然後關注官方平台的未來功能更新。"
+        }
+      ],
+      "highlights": [
+        "MONGIL STAR DIVE 已確認在所有上線平台支援跨平台遊玩與跨平台存檔。",
+        "MONGIL STAR DIVE 的上線平台為 PC、Android 和 iOS。",
+        "MONGIL STAR DIVE 上線時的玩法專注於單人隊伍進度。"
+      ]
+    }
+  },
+  "faq": {
+    "title": "MONGIL STAR DIVE 常見",
+    "titleHighlight": "問題",
+    "subtitle": "MONGIL STAR DIVE 玩家的核心解答",
+    "questions": [
+      {
+        "question": "什麼是 MONGIL STAR DIVE？",
+        "answer": "MONGIL STAR DIVE 是 Netmarble 推出的一款馴服怪獸動作 RPG，在 iOS、Android 和 PC 上支援角色切換戰鬥。"
+      },
+      {
+        "question": "如何兌換 MONGIL STAR DIVE 兌換碼？",
+        "answer": "打開遊戲內的兌換選單，準確輸入有效的 MONGIL STAR DIVE 兌換碼，並從郵件箱領取獎勵。"
+      },
+      {
+        "question": "在 MONGIL STAR DIVE 中刷首抽值得嗎？",
+        "answer": "如果您想要更強的開局角色和更順暢的早期進度，在 MONGIL STAR DIVE 中刷首抽是非常有價值的。"
+      },
+      {
+        "question": "哪些 MONGIL STAR DIVE 角色是上線時的首選？",
+        "answer": "在早期的排名快照中，Flare、Esther 和 Jiwon 是常見的 MONGIL STAR DIVE 上線首選角色。"
+      },
+      {
+        "question": "我可以在哪裡關注 MONGIL STAR DIVE 的更新？",
+        "answer": "透過官方網站、論壇、Discord、X 和 YouTube 頻道追蹤 MONGIL STAR DIVE 的更新。"
+      },
+      {
+        "question": "MONGIL STAR DIVE 支援跨平台存檔嗎？",
+        "answer": "是的。當您使用同一個綁定帳號時，MONGIL STAR DIVE 支援 PC、iOS 和 Android 之間的跨平台存檔。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "準備好迎接 MONGIL STAR DIVE 了嗎？",
+    "description": "加入官方 MONGIL STAR DIVE Discord 並查看官方網站以獲取上線活動、卡池和更新資訊。",
+    "joinCommunity": "加入 MONGIL STAR DIVE Discord",
+    "joinGame": "訪問 MONGIL STAR DIVE 官方網站"
+  },
+  "footer": {
+    "title": "MONGIL STAR DIVE Wiki",
+    "description": "MONGIL STAR DIVE 兌換碼、首抽路線、強度排行、隊伍、配置和進度指南的社群資源中心。",
+    "resources": "資源",
+    "community": "社群",
+    "legal": "法律資訊",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "YouTube",
+    "steamStore": "官方網站",
+    "about": "關於",
+    "privacy": "隱私權政策",
+    "terms": "服務條款",
+    "copyrightNotice": "版權",
+    "copyright": "© 2026 MONGIL STAR DIVE Wiki。與 Netmarble 無關。",
+    "disclaimer": "非官方粉絲製作的資源網站。"
+  },
+  "pages": {
+    "codes": {
+      "title": "MONGIL STAR DIVE 兌換碼",
+      "description": "最新的有效 MONGIL STAR DIVE 兌換碼，可獲得免費寶石、召喚券和上線獎勵。",
+      "metaTitle": "MONGIL STAR DIVE 兌換碼 - 有效兌換列表與獎勵",
+      "metaDescription": "獲取有效的 MONGIL STAR DIVE 兌換碼，包含兌換步驟、獎勵詳情以及每個更新週期的過期追蹤。",
+      "categoryLabel": "兌換碼",
+      "whatIs": "什麼是 MONGIL STAR DIVE 兌換碼？",
+      "whatIsDescription": "MONGIL STAR DIVE 兌換碼是透過活動、里程碑和維護公告發布的限量優惠券代碼。兌換這些代碼可獲得帳號資源，加速早期進度。",
+      "why": "為什麼要查看 MONGIL STAR DIVE 兌換碼？",
+      "whySteps": {
+        "step1Title": "快速領取資源",
+        "step1Description": "無需額外刷怪即可獲得寶石、票券和貨幣等免費道具。",
+        "step2Title": "避免過期條目",
+        "step2Description": "使用更新後的列表，以免在無效獎勵上浪費時間。",
+        "step3Title": "規劃抽卡時機",
+        "step3Description": "將可用的兌換碼獎勵與當前的卡池優先級相匹配。"
+      },
+      "featured": "精選與必備",
+      "all": "所有 MONGIL STAR DIVE 兌換碼"
+    },
+    "guide": {
+      "title": "MONGIL STAR DIVE 指南",
+      "description": "實用的 MONGIL STAR DIVE 指南，涵蓋首抽優先級、每日循環和進度規劃。",
+      "metaTitle": "MONGIL STAR DIVE 指南 - 從新手到中期的進度",
+      "metaDescription": "閱讀實用的 MONGIL STAR DIVE 指南，了解初始設置、資源使用、帳號進度和高效的每日例行任務。",
+      "categoryLabel": "遊戲指南",
+      "whatIs": "什麼是 MONGIL STAR DIVE 指南類別？",
+      "whatIsDescription": "此類別收集了針對核心系統、隊伍設置和每日進度選擇的可操作攻略內容。",
+      "why": "為什麼要使用 MONGIL STAR DIVE 指南？",
+      "whySteps": {
+        "step1Title": "從清晰的路線開始",
+        "step1Description": "遵循經過測試的開局路徑，而不是反覆試錯。",
+        "step2Title": "高效使用資源",
+        "step2Description": "優先考慮能立即提供戰鬥和刷怪價值的升級。",
+        "step3Title": "持續進步",
+        "step3Description": "建立能讓您的帳號每天持續成長的例行任務。"
+      },
+      "featured": "精選與必備",
+      "all": "所有 MONGIL STAR DIVE 指南"
+    },
+    "tier-list": {
+      "title": "MONGIL STAR DIVE 強度排行",
+      "description": "目前的 MONGIL STAR DIVE 強度排行，涵蓋劇情通關、首領傷害及自動掛機穩定性。",
+      "metaTitle": "MONGIL STAR DIVE 強度排行 - 各定位 Meta 排名",
+      "metaDescription": "查看最新的 MONGIL STAR DIVE 強度排行，包含基於角色的排名、特定模式價值以及陣容組建優先級。",
+      "categoryLabel": "強度排行",
+      "whatIs": "什麼是 MONGIL STAR DIVE 強度排行？",
+      "whatIsDescription": "MONGIL STAR DIVE 強度排行根據角色在戰役、首領內容及重複刷關關卡中的實際表現進行分級。",
+      "why": "為什麼要參考 MONGIL STAR DIVE 強度排行？",
+      "whySteps": {
+        "step1Title": "打造強力核心",
+        "step1Description": "集中資源投入在多種模式中表現優異的角色。",
+        "step2Title": "減少升級浪費",
+        "step2Description": "避免過度投入於長期價值較低的角色。",
+        "step3Title": "適應 Meta 變化",
+        "step3Description": "在每次平衡調整與卡池週期後更新您的陣容計劃。"
+      },
+      "featured": "精選與必看",
+      "all": "所有 MONGIL STAR DIVE 強度排行"
+    },
+    "characters": {
+      "title": "MONGIL STAR DIVE 角色",
+      "description": "MONGIL STAR DIVE 角色指南，包含定位、優勢、隊伍搭配及升級優先級。",
+      "metaTitle": "MONGIL STAR DIVE 角色 - 定位與培養優先級",
+      "metaDescription": "瀏覽 MONGIL STAR DIVE 角色指南，包含定位分析、協同說明及穩定進度的升級優先級。",
+      "categoryLabel": "角色",
+      "whatIs": "什麼是 MONGIL STAR DIVE 角色類別？",
+      "whatIsDescription": "此類別透過角色定位、隊伍功能及投資效益來解析每位 MONGIL STAR DIVE 角色。",
+      "why": "為什麼要查看 MONGIL STAR DIVE 角色指南？",
+      "whySteps": {
+        "step1Title": "選擇更好的隊伍定位",
+        "step1Description": "平衡輸出 (DPS)、支援與續航，以實現穩定通關。",
+        "step2Title": "升級正確的角色",
+        "step2Description": "優先投資於具有廣泛帳號價值的角色。",
+        "step3Title": "提升隊伍協同",
+        "step3Description": "搭配技能與被動，使戰鬥循環更流暢。"
+      },
+      "featured": "精選與必看",
+      "all": "所有 MONGIL STAR DIVE 角色指南"
+    },
+    "download": {
+      "title": "MONGIL STAR DIVE 下載",
+      "description": "MONGIL STAR DIVE PC 與行動平台的官方下載指南。",
+      "metaTitle": "MONGIL STAR DIVE 下載 - PC 與行動端安裝指南",
+      "metaDescription": "尋找 MONGIL STAR DIVE 官方下載選項，包含 PC 與行動端的安裝步驟、啟動檢查及帳號設置提示。",
+      "categoryLabel": "下載",
+      "whatIs": "什麼是 MONGIL STAR DIVE 下載類別？",
+      "whatIsDescription": "MONGIL STAR DIVE 下載類別涵蓋官方安裝管道、啟動器設置及首次啟動檢查清單。",
+      "why": "為什麼要使用 MONGIL STAR DIVE 下載指南？",
+      "whySteps": {
+        "step1Title": "使用官方來源",
+        "step1Description": "從 Netmarble 等信任的管道安裝，以避免使用舊版客戶端。",
+        "step2Title": "更快速地完成設置",
+        "step2Description": "毫無障礙地完成帳號綁定與補丁更新步驟。",
+        "step3Title": "避免啟動錯誤",
+        "step3Description": "在進行深入的疑難排解前先執行基本檢查。"
+      },
+      "featured": "精選與必看",
+      "all": "所有 MONGIL STAR DIVE 下載指南"
+    },
+    "release": {
+      "title": "MONGIL STAR DIVE 發布",
+      "description": "追蹤 MONGIL STAR DIVE 發布時間、補丁節奏及活動時程變化。",
+      "metaTitle": "MONGIL STAR DIVE 發布 - 時間線與更新時程",
+      "metaDescription": "關注 MONGIL STAR DIVE 發布更新、維護時間、補丁節奏及活動時間，以便更好地規劃資源。",
+      "categoryLabel": "發布",
+      "whatIs": "什麼是 MONGIL STAR DIVE 發布類別？",
+      "whatIsDescription": "此部分追蹤 MONGIL STAR DIVE 發布里程碑、重大補丁時間窗口及即時更新時間變化。",
+      "why": "為什麼要關注 MONGIL STAR DIVE 發布更新？",
+      "whySteps": {
+        "step1Title": "規劃卡池消費",
+        "step1Description": "在預期更新前儲存關鍵資源。",
+        "step2Title": "為維護做準備",
+        "step2Description": "在重置時間前完成限時任務。",
+        "step3Title": "規劃進度目標",
+        "step3Description": "根據即將推出的內容需求調整升級計劃。"
+      },
+      "featured": "精選與必看",
+      "all": "所有 MONGIL STAR DIVE 發布更新"
+    },
+    "system": {
+      "title": "MONGIL STAR DIVE 系統",
+      "description": "MONGIL STAR DIVE 系統需求與性能調優，確保在 PC 與行動端穩定遊玩。",
+      "metaTitle": "MONGIL STAR DIVE 系統需求 - PC 與行動端性能",
+      "metaDescription": "檢查 MONGIL STAR DIVE 系統需求、推薦設置，以及針對掉幀、發熱與加載問題的實用修復方法。",
+      "categoryLabel": "系統",
+      "whatIs": "什麼是 MONGIL STAR DIVE 系統類別？",
+      "whatIsDescription": "MONGIL STAR DIVE 系統類別說明硬體要求、畫面設置及實用的優化步驟。",
+      "why": "為什麼要使用 MONGIL STAR DIVE 系統指南？",
+      "whySteps": {
+        "step1Title": "檢查設備準備情況",
+        "step1Description": "確認您的設備可以流暢運行遊戲。",
+        "step2Title": "優化性能表現",
+        "step2Description": "調整設置以獲得穩定的幀率與響應速度。",
+        "step3Title": "修復常見問題",
+        "step3Description": "快速解決卡頓、過熱及加載失敗問題。"
+      },
+      "featured": "精選與必看",
+      "all": "所有 MONGIL STAR DIVE 系統指南"
+    }
   }
 }

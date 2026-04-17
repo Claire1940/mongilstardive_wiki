@@ -14,7 +14,7 @@
   "default_language": "en",
   "output_dir": "src/locales/",
 
-  "use_value_extraction": false,
+  "use_value_extraction": true,
 
   "protected_terms": {
     "game_names": ["MONGIL: STAR DIVE", "몬길: STAR DIVE", "モンギル：STAR DIVE", "MONGIL：STAR DIVE"],

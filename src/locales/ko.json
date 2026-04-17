@@ -1,11 +1,1187 @@
 {
+  "seo": {
+    "home": {
+      "title": "MONGIL STAR DIVE 위키 - 쿠폰, 티어표 및 초보자 가이드",
+      "description": "MONGIL STAR DIVE 위키는 모바일 및 PC 플레이어를 위한 활성 쿠폰, 리세마라 경로, 티어표, 빌드, 몬스터링 및 성장 도구를 제공합니다.",
+      "keywords": "MONGIL STAR DIVE, MONGIL STAR DIVE 위키, 쿠폰, 리세마라, 티어표, 팀, 빌드, 몬스터링",
+      "ogTitle": "MONGIL STAR DIVE 위키 - 쿠폰, 티어표 및 초보자 가이드",
+      "ogDescription": "MONGIL STAR DIVE 위키는 모바일 및 PC 플레이어를 위한 활성 쿠폰, 리세마라 경로, 티어표, 빌드, 몬스터링 및 성장 도구를 제공합니다.",
+      "twitterTitle": "MONGIL STAR DIVE 위키 - 쿠폰, 티어표 및 초보자 가이드",
+      "twitterDescription": "MONGIL STAR DIVE 쿠폰, 리세마라 목표, 팀 빌드 및 출시 업데이트를 하나의 깔끔한 홈페이지 허브에서 확인하세요."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "tierList": "Tier List",
-    "characters": "Characters",
-    "download": "Download",
-    "release": "Release",
-    "system": "System"
+    "codes": "쿠폰",
+    "guide": "가이드",
+    "tierList": "티어표",
+    "characters": "캐릭터",
+    "download": "다운로드",
+    "release": "출시",
+    "system": "시스템"
+  },
+  "common": {
+    "home": "홈",
+    "more": "더 보기",
+    "playNow": "공식 사이트 방문",
+    "switchLanguage": "언어 변경",
+    "switchTheme": "테마 변경",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "relatedArticles": "관련 기사",
+    "readMore": "더 읽어보기"
+  },
+  "hero": {
+    "badge": "몬스터 수집형 액션 RPG",
+    "title": "MONGIL: STAR DIVE",
+    "description": "iOS, Android 및 PC에서 즐기는 Netmarble의 액션 RPG를 위한 몬스터 수집, 캐릭터 교체 전투, 리세마라 계획 및 성장 경로.",
+    "getFreeCodesCTA": "MONGIL STAR DIVE 공식 사이트 방문",
+    "playOnSteamCTA": "MONGIL STAR DIVE Discord 참여",
+    "stats": {
+      "stat1": {
+        "value": "500K+",
+        "label": "다운로드"
+      },
+      "stat2": {
+        "value": "30.7K",
+        "label": "Google Play 리뷰"
+      },
+      "stat3": {
+        "value": "34.3K",
+        "label": "Discord 멤버"
+      },
+      "stat4": {
+        "value": "12",
+        "label": "지원 텍스트 언어"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "MONGIL STAR DIVE 게임플레이",
+    "description": "첫 팀 구성을 계획하기 전에 공식 전투 영상, 캐릭터 교체 흐름 및 몬스터링 액션을 확인하세요."
+  },
+  "tools": {
+    "title": "MONGIL STAR DIVE",
+    "titleHighlight": "모듈 내비게이션",
+    "subtitle": "16개의 MONGIL STAR DIVE 홈페이지 모듈로 바로 이동",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "MONGIL STAR DIVE 쿠폰",
+        "description": "실시간 사용 가능 쿠폰 및 출시 보상 현황"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "MONGIL STAR DIVE 초보자 가이드",
+        "description": "초반 1시간 우선순위 및 깔끔한 성장 가이드"
+      },
+      {
+        "icon": "Users",
+        "title": "MONGIL STAR DIVE 티어표",
+        "description": "S부터 C까지의 초기 로스터 티어"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "MONGIL STAR DIVE 리세마라 가이드",
+        "description": "빠른 리세마라 경로 및 최적의 출시 목표"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "MONGIL STAR DIVE 추천 팀",
+        "description": "보스전, 성장 및 단일 속성 팀 조합"
+      },
+      {
+        "icon": "Shield",
+        "title": "MONGIL STAR DIVE 추천 빌드",
+        "description": "아티팩트, 몬스터링 및 라인업 빌드 추천"
+      },
+      {
+        "icon": "Hammer",
+        "title": "MONGIL STAR DIVE 추천 몬스터링",
+        "description": "가장 먼저 육성해야 할 S/A 티어 몬스터링"
+      },
+      {
+        "icon": "Package",
+        "title": "MONGIL STAR DIVE 몬스터 도감",
+        "description": "지역, 효과 및 포획 경로별 도감 항목"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "MONGIL STAR DIVE 아티팩트",
+        "description": "아티팩트 효과 및 추천 캐릭터"
+      },
+      {
+        "icon": "Eye",
+        "title": "MONGIL STAR DIVE 장비 세트",
+        "description": "세트 보너스 및 역할별 사용 예시"
+      },
+      {
+        "icon": "Home",
+        "title": "몬길: STAR DIVE 캐릭터",
+        "description": "등급, 역할, 속성별 캐릭터 정보 허브"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "몬길: STAR DIVE 출시일",
+        "description": "출시 일정 및 지원 플랫폼 정보"
+      },
+      {
+        "icon": "Settings",
+        "title": "몬길: STAR DIVE 소식",
+        "description": "출시 공지, 점검 알림 및 실시간 업데이트"
+      },
+      {
+        "icon": "Star",
+        "title": "몬길: STAR DIVE 시스템 사양",
+        "description": "모든 플랫폼의 최소 및 권장 사양"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "몬길: STAR DIVE 최적 설정",
+        "description": "부드러운 전투 연출을 위한 PC 및 모바일 프리셋"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "몬길: STAR DIVE 크로스플레이",
+        "description": "크로스플레이, 크로스세이브 및 멀티플레이어 지원 요약"
+      }
+    ]
+  },
+  "modules": {
+    "lucidBlocksBeginnerGuide": {
+      "title": "몬길: STAR DIVE 쿠폰 코드",
+      "displayType": "steps",
+      "intro": "몬길: STAR DIVE는 2026년 4월 15일에 출시되었으며, 쿠폰 코드 입력은 추가 출시 보상을 받는 가장 빠른 방법 중 하나입니다.",
+      "steps": [
+        {
+          "title": "몬길: STAR DIVE 쿠폰: MONGILDISCORD",
+          "description": "보상: 무료 다이아몬드 x30, 희미한 별가루 x30, 골드 x300,000. 신규 계정이라면 가장 먼저 사용하세요."
+        },
+        {
+          "title": "몬길: STAR DIVE 쿠폰: LOVEMONGIL",
+          "description": "보상: 아티팩트 \"넘치는 사랑\". 이 코드는 초반 빌드 구성에 즉각적인 도움을 줍니다."
+        },
+        {
+          "title": "몬길: STAR DIVE 쿠폰 사용 상태: 활성화됨",
+          "description": "iOS, 안드로이드, PC에서 게임 내 쿠폰 입력이 가능합니다. 새로운 패치 주기마다 만료 시간을 확인하세요."
+        },
+        {
+          "title": "몬길: STAR DIVE 쿠폰 입력 경로",
+          "description": "게임 내 쿠폰 메뉴를 열고 코드를 정확히 입력한 뒤 우편함에서 보상을 받으세요. 보상 지급이 지연될 경우 다시 로그인해 보세요."
+        }
+      ],
+      "quickTips": [
+        "리세마라 비교를 시작하기 전에 몬길: STAR DIVE 쿠폰을 사용하여 모든 계정이 동일한 보너스 가치를 가진 상태에서 시작하세요.",
+        "초반 소환 횟수와 무기 성장 재화를 늘려주는 쿠폰 보상을 우선적으로 챙기세요.",
+        "출시 기념 쿠폰의 만료 기간을 확인하고 만료된 항목은 매주 정리하세요.",
+        "활성화된 쿠폰, 곧 만료될 쿠폰, 만료된 몬길: STAR DIVE 쿠폰을 구분하여 깔끔하게 정리된 목록을 활용하세요."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "몬길: STAR DIVE 초보자 가이드",
+      "displayType": "cards",
+      "intro": "몬길: STAR DIVE 초보자 성장은 간단합니다. 오프닝 스토리를 클리어하고, 소환을 해금한 뒤, 실제로 사용하는 팀만 레벨업하세요.",
+      "cards": [
+        {
+          "name": "스토리 진행 및 튜토리얼 완료",
+          "description": "초반에 자원을 분산시키기보다 오프닝 스토리를 따라가며 핵심 시스템을 빠르게 해금하세요."
+        },
+        {
+          "name": "주요 결정 전 소환 해금",
+          "description": "소환 해금은 계정을 유지할지 리세마라를 할지 결정하는 첫 번째 중요한 분기점입니다."
+        },
+        {
+          "name": "주력 팀에 경험치 책 사용",
+          "description": "초반 경험치 재료는 전투 흐름을 유지하기 위해 현재 주력 라인업에 집중 투자해야 합니다."
+        },
+        {
+          "name": "캐릭터 교체 전투 리듬 익히기",
+          "description": "몬길: STAR DIVE는 실시간 전투 중 매끄러운 팀 교체, 역할 분담, 지속적인 압박에 대해 보상을 제공합니다."
+        }
+      ],
+      "milestones": [
+        "몬길: STAR DIVE 튜토리얼 완료",
+        "몬길: STAR DIVE 소환 배너 해금",
+        "경험치 책으로 몬길: STAR DIVE 주력 팀 레벨업",
+        "몬길: STAR DIVE 전투 로테이션 안정화"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "몬길: STAR DIVE 티어표",
+      "displayType": "itemCards",
+      "intro": "이 몬길: STAR DIVE 출시 티어 요약은 초반 성장과 보스 공략에 가장 가치 있는 캐릭터를 파악하는 데 도움을 줍니다.",
+      "items": [
+        {
+          "name": "S 티어: 에스더, 플레어, 지원",
+          "type": "초반 최고의 선택",
+          "description": "이 유닛들은 전반적인 가치와 계정 성장 속도 면에서 출시 초기 가장 강력한 영향력을 발휘합니다."
+        },
+        {
+          "name": "A 티어: 가비, 프란시스, 페니, 오필리아, 산군",
+          "type": "강력한 핵심 옵션",
+          "description": "일반적인 성장 및 이벤트 콘텐츠에서 우수한 성능을 보이는 신뢰할 수 있는 핵심 캐릭터들입니다."
+        },
+        {
+          "name": "B 티어: 엘리, 벤자민, 연화, 클라우드, 리호, 엔젤",
+          "type": "사용 가능한 중간 순위",
+          "description": "최상위 캐릭터가 없을 때 선택할 수 있는 견고한 차선책입니다."
+        },
+        {
+          "name": "C 티어: 데이지, 보니, 레이나, 세라, 베르나",
+          "type": "낮은 우선순위",
+          "description": "현재 최상위 티어 캐릭터들에 비해 출시 초기 우선순위가 낮습니다."
+        },
+        {
+          "name": "모드별 티어 확인",
+          "type": "검토 규칙",
+          "description": "일반 PVE, 보스 폭딜, 서포트 가치 등 몬길: STAR DIVE 순위를 별도로 다시 확인하세요."
+        },
+        {
+          "name": "패치 반영 티어 업데이트",
+          "type": "유지 관리 규칙",
+          "description": "배너 교체 및 전투 밸런스 조정 후 티어 정보를 갱신하세요."
+        }
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "몬길: STAR DIVE 리세마라 가이드",
+      "displayType": "solutionCards",
+      "intro": "몬길: STAR DIVE 리세마라 효율은 경로 선택, 배너 체크포인트 타이밍, 명확한 목표 설정에 따라 달라집니다.",
+      "solutions": [
+        {
+          "name": "단기 표준 경로 (5-10분)",
+          "role": "경로 선택",
+          "description": "빠른 리세마라 사이클이 많이 필요할 때 반복적인 계정 시도를 위한 가장 빠른 경로입니다."
+        },
+        {
+          "name": "긴 이벤트 루트 (약 20분)",
+          "role": "루트 선택",
+          "description": "추가 이벤트 뽑기와 한정 모집 시도를 잠금 해제하는 더 긴 루트입니다."
+        },
+        {
+          "name": "표준 체크포인트: 몬스터 테이머를 향해!",
+          "role": "모집 접근",
+          "description": "이 체크포인트에 도달하여 보상을 수령하고 신규 원정대 배너에서 뽑기를 시작하세요."
+        },
+        {
+          "name": "이벤트 체크포인트: 모두 깨끗하게",
+          "role": "이벤트 접근",
+          "description": "더 높은 리세마라 기대값을 위해 이벤트와 운명의 나침반 뽑기를 잠금 해제하세요."
+        }
+      ],
+      "managementTips": [
+        "보스 무력화 수치가 우선순위라면 몬길: STAR DIVE 리세마라 계획에서 플레어를 먼저 목표로 하세요.",
+        "바람 속성 팀 서포트의 일관성과 원활한 초반 자원 사용을 위해 지원을 선택하세요.",
+        "실용적인 팀 서포트 가치와 함께 강력한 땅 속성 피해로 시작하려면 가비를 사용하세요.",
+        "각 몬길: STAR DIVE 리세마라 초기화 사이클마다 새로운 일반 이메일 방식을 사용하세요."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "몬길: STAR DIVE 최고의 팀",
+      "displayType": "cards",
+      "intro": "이 몬길: STAR DIVE 라인업은 현재 1.0 시너지를 기반으로 구축된 출시 초기 보스전, 가성비 진행 및 단일 속성 계획을 다룹니다.",
+      "cards": [
+        {
+          "name": "에스더 + 플레어 또는 엘리 + 지원",
+          "description": "보스 집중: 에스더가 피니시 피해를 주도하고 지원이 적을 모으며, 플레어 또는 엘리가 빠른 무력화 파괴를 위해 폭발적인 무력화를 더합니다."
+        },
+        {
+          "name": "산군 + 플레어 또는 엘리 + 지원",
+          "description": "균형 잡힌 표준: 산군이 메인 파이터 자리를 맡고, 지원이 위치 선정을 돕고, 플레어 또는 엘리가 강력한 무력화 압박을 유지합니다."
+        },
+        {
+          "name": "가비 + 플렉스 + 프란시스",
+          "description": "땅 속성 핵심: 가비를 활성 상태로 유지하면서 프란시스가 땅 속성 상태 이상, 힐링 및 땅 속성 서포트를 제공합니다. 연화, 벤자민, 엔젤 또는 에스더를 유동적으로 선택하세요."
+        },
+        {
+          "name": "베르나 또는 세라 또는 오필리아 + 클라우드 + 프란시스",
+          "description": "가성비 진행: 클라우드와 프란시스를 저투자 서포터로 사용하고 베르나보다 강력한 상위 호환인 세라 또는 오필리아를 사용하는 실용적인 초반 라인업입니다."
+        },
+        {
+          "name": "가비 + 엘리 + 프란시스",
+          "description": "단일 땅 속성: 가비와 프란시스의 시너지를 유지하면서 엘리의 폭발적인 무력화를 추가하여 보스 제어와 속성 집중력을 향상시킵니다."
+        },
+        {
+          "name": "산군 + 에스더 + 지원",
+          "description": "단일 바람 속성: 로스터가 구축된 후 피해량, 몹 몰이, 유연한 압박을 결합한 프리미엄 바람 속성 라인업입니다."
+        }
+      ],
+      "highlights": [
+        "몬길: STAR DIVE 보스 집중형 출시 팀",
+        "몬길: STAR DIVE 균형 잡힌 진행 팀",
+        "몬길: STAR DIVE 땅 속성 핵심 팀 루트",
+        "몬길: STAR DIVE 가성비 좋은 초반 팀",
+        "몬길: STAR DIVE 단일 땅 속성 압박 팀",
+        "몬길: STAR DIVE 단일 바람 속성 프리미엄 팀"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "몬길: STAR DIVE 최고의 빌드",
+      "displayType": "regionCards",
+      "intro": "이 몬길: STAR DIVE 빌드 선택은 현재 캐릭터 페이지에서 다루는 아티팩트 및 몬스터링 추천을 요약합니다.",
+      "regions": [
+        {
+          "name": "몬길: STAR DIVE 플레어 빌드",
+          "type": "폭발적인 무력화 / 피해",
+          "description": "핵심 아티팩트: 정교한 용의 화염. 이 설정은 다중 스탯 피해 계수를 개선하며 에스더나 산군을 중심으로 구축된 출시 팀에 적합합니다."
+        },
+        {
+          "name": "몬길: STAR DIVE 오필리아 빌드",
+          "type": "메인 DPS",
+          "description": "핵심 선택: 치명타 지원 반격을 위한 아몬의 그림자와 연속 적중 시 공격력 증가를 위한 태그락입니다. 주로 클라우드 및 프란시스와 함께 사용됩니다."
+        },
+        {
+          "name": "몬길: STAR DIVE 지원 빌드",
+          "type": "바람 속성 서포트",
+          "description": "핵심 몬스터링: 리피마마. 특수 스킬 사용 시 HP를 회복하며 긴 전투에서 안정적인 유틸리티 유지 시간을 유지하도록 돕습니다."
+        },
+        {
+          "name": "몬길: STAR DIVE 프란시스 빌드",
+          "type": "땅 속성 서포트",
+          "description": "핵심 선택: 교체 기반 공격 가치, 땅 속성 공격수 지원 및 버스트 충전 안정성을 개선하기 위한 넘치는 사랑과 아바르단입니다."
+        },
+        {
+          "name": "몬길: STAR DIVE 산군 빌드",
+          "type": "바람 속성 파이터",
+          "description": "에스더, 보니, 지원을 주요 파트너로 하여 바람 속성 상태 이상을 활성 상태로 유지하는 생존력을 고려한 바람 속성 팀에 집중하세요."
+        },
+        {
+          "name": "몬길: STAR DIVE 연화 빌드",
+          "type": "번개 속성 암살자",
+          "description": "핵심 선택: 연속 적중 후 파티 공격력 증가를 위한 태그락이며, 치명타 중심의 압박을 위한 대체 옵션으로 아몬이 있습니다."
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "몬길: STAR DIVE 최고의 몬스터링",
+      "displayType": "creatureCards",
+      "intro": "이 몬길: STAR DIVE 몬스터링들은 광범위한 치명타, 공격력, 약점 또는 유지력 가치를 제공하기 때문에 출시 빌드에서 돋보입니다.",
+      "creatures": [
+        {
+          "name": "아몬의 그림자",
+          "role": "S티어 우선순위",
+          "description": "바인. 효과: 반격 시 10초 동안 모든 팀원의 치명타 확률 +11.55%. 반격 가능 팀을 위한 최고의 공격형 서포트 선택입니다."
+        },
+        {
+          "name": "태그락",
+          "role": "S티어 우선순위",
+          "description": "엘렌도르. 효과: 공격 20회 성공 후 10초 동안 공격력 +5.5%. 타수가 많은 캐릭터에게 유연하게 사용 가능하며 발동이 쉽습니다."
+        },
+        {
+          "name": "엘도라도 수호자",
+          "role": "S티어 우선순위",
+          "description": "엘렌도르. 효과: 속성 약점으로 보스 타격 시 10초 동안 팀 공격력 +5.78%. 보스 중심 라인업에 탁월합니다."
+        },
+        {
+          "name": "고블린 형님",
+          "role": "A티어 우선순위",
+          "description": "엘렌도르. 효과: 일반 공격 10회 후 모든 팀원의 HP 3.47% 회복. 초반 및 중반 팀을 위한 실용적인 유지력 옵션입니다."
+        },
+        {
+          "name": "수도사의 그림자",
+          "role": "A티어 우선순위",
+          "description": "바인. 효과: 피격 시 5초 동안 속성 약점 피해 +6.57%. 약점 타이밍 및 보스 패턴 공략 전략에 유용합니다."
+        },
+        {
+          "name": "틸타우르",
+          "role": "A티어 우선순위",
+          "description": "바르하인. 효과: 화염 피해 +11.55%. 화염 중심 팀 투자를 결정했다면 선택하기 좋은 직접적인 속성 피해 옵션입니다."
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "몬길: STAR DIVE 몬스터 도감",
+      "displayType": "아이템 카드",
+      "intro": "이 몬길: STAR DIVE 몬스터 도감 블록은 파밍 경로를 확인하기 전 도감 번호, 지역, 효과 및 포획 노트를 빠르게 확인할 수 있게 해줍니다.",
+      "items": [
+        {
+          "name": "No.18 태글록",
+          "type": "엘렌도르",
+          "description": "공격 20회 성공 시 10초 동안 공격력 +5.5% (재사용 대기시간 20초). 엘렌도르에서 해당 필드 몬스터 처치 후 포획 가능."
+        },
+        {
+          "name": "No.19 고블린 형님",
+          "type": "엘렌도르",
+          "description": "일반 공격 10회 후 모든 팀원의 HP를 3.47% 회복 (재사용 대기시간 20초). 엘렌도르 포획 경로를 통해 획득 가능."
+        },
+        {
+          "name": "No.03 엘도라도 수호자",
+          "type": "엘렌도르",
+          "description": "보스 속성 약점 공략 시 10초 동안 팀 공격력 +5.78% (재사용 대기시간 20초). 보스 공략을 위한 실용적인 도감 목표."
+        },
+        {
+          "name": "No.66 틸타우르",
+          "type": "바르하인",
+          "description": "화염 피해 +11.55%. 화염 속성 라인업 및 속성 도감 완성을 위해 바르하인에서 포획."
+        },
+        {
+          "name": "아몬의 그림자",
+          "type": "바르하인",
+          "description": "반격 시 10초 동안 모든 팀원의 치명타 확률 +11.55%. 바르하인에서 해당 몬스터 처치 후 포획 가능."
+        },
+        {
+          "name": "수도사의 그림자",
+          "type": "바르하인",
+          "description": "피격 시 5초 동안 속성 약점 피해 +6.57% (재사용 대기시간 20초). 바르하인에서 해당 몬스터 처치 후 포획 가능."
+        }
+      ],
+      "unlockMilestones": [
+        "핵심 팀을 위한 몬길: STAR DIVE 도감 요약 목록 작성",
+        "계정 전체에 적용되는 재사용 가능 효과를 가진 몬스터링 우선순위 지정",
+        "스태미나 소모 전 지역별 포획 경로 추적",
+        "주요 패치 후 몬길: STAR DIVE 도감 노트 갱신"
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "몬길: STAR DIVE 아티팩트",
+      "displayType": "아티팩트 테이블",
+      "intro": "역할, 희귀도, 패시브 효과 및 실제 사용자 적합도별로 최상위 몬길: STAR DIVE 아티팩트를 비교하여 더 강력한 장기 빌드를 계획하세요.",
+      "artifacts": [
+        {
+          "artifact": "바람을 품은 빗자루",
+          "rarity": "5★",
+          "role": "암살자",
+          "maxAtk": "883",
+          "equipEffect": "치명타 피해 +45%",
+          "baseEffect": "공격력이 10% 증가합니다. 특수 스킬 사용 시 10초 동안 바람 피해가 35% 증가합니다.",
+          "fusionBonus": "융합 3단계에서 암살자 숙련도에 따른 치명타 확률 획득. 융합 5단계에서 암살자 숙련도에 따른 공격력 획득.",
+          "bestUsers": [
+            "에스더"
+          ],
+          "whyUseIt": "바람 속성 암살자를 위한 최고의 순수 데미지 아티팩트이며, 특히 에스더에게 강력합니다.",
+          "grade": "시그니처급 DPS 아티팩트"
+        },
+        {
+          "artifact": "광란의 투쟁",
+          "rarity": "5★",
+          "role": "투사",
+          "maxAtk": "-",
+          "equipEffect": "-",
+          "baseEffect": "특수 스킬 피해가 10% 증가합니다. 공격 적중 시 치명타 피해가 4% 증가합니다 (최대 2중첩, 지속 시간 10초).",
+          "fusionBonus": "융합 3단계 및 5단계에서 투사 숙련도 계수에 따라 공격력이 증가합니다.",
+          "bestUsers": [
+            "페니",
+            "산군",
+            "오필리아",
+            "세라"
+          ],
+          "whyUseIt": "시그니처 장비가 없을 때 여러 온필드 딜러가 사용할 수 있는 유연한 투사 아티팩트입니다.",
+          "grade": "범용 투사 아티팩트"
+        },
+        {
+          "artifact": "대지를 흔드는 진동",
+          "rarity": "4★",
+          "role": "파괴자",
+          "maxAtk": "-",
+          "equipEffect": "-",
+          "baseEffect": "피격 시 10초 동안 무력화 피해가 5% 증가합니다 (재사용 대기시간 15초).",
+          "fusionBonus": "융합 5단계에서 파괴자 숙련도 계수에 따라 공격력이 증가합니다.",
+          "bestUsers": [
+            "클라우드",
+            "레이나",
+            "기타 파괴자"
+          ],
+          "whyUseIt": "경직과 무력화 압박을 강조하는 파괴자를 위한 신뢰할 수 있는 가성비 선택지입니다.",
+          "grade": "신뢰할 수 있는 4★ 입문용 옵션"
+        },
+        {
+          "artifact": "생명의 천상 헤일로",
+          "rarity": "5★",
+          "role": "지원가",
+          "maxAtk": "663",
+          "equipEffect": "방어력 +21%",
+          "baseEffect": "궁극기 피해가 11% 증가합니다. 공격 적중 시 15초 동안 모든 팀원의 공격력이 6% 증가합니다.",
+          "fusionBonus": "융합 3단계 및 5단계에서 지원가 숙련도 계수에 따라 공격력이 증가합니다.",
+          "bestUsers": [
+            "지원",
+            "보니",
+            "프란시스",
+            "데이지"
+          ],
+          "whyUseIt": "팀 전체 공격력 버프가 다양한 조합에 어울리는 최고의 범용 서포트 아티팩트입니다.",
+          "grade": "최고의 범용 서포트 아티팩트"
+        },
+        {
+          "artifact": "심금을 울리는 선율",
+          "rarity": "5★",
+          "role": "서포터",
+          "maxAtk": "-",
+          "equipEffect": "-",
+          "baseEffect": "교체 스킬 사용 시 자신과 팀원에게 활력을 부여합니다. 스태미나가 90% 이상일 때 일반 공격, 특수 스킬, 궁극기 피해량이 초당 2.5% 증가합니다 (최대 20중첩, 지속 시간 30초).",
+          "fusionBonus": "-",
+          "bestUsers": [
+            "지원"
+          ],
+          "whyUseIt": "높은 스태미나 유지력을 가진 조합을 위한 프리미엄 스태미나 기반 서포트 아티팩트입니다.",
+          "grade": "프리미엄 스태미나 기반 서포트 아티팩트"
+        }
+      ],
+      "highlights": [
+        "몬길: STAR DIVE 아티팩트 역할 고정 및 융합 효율 비교",
+        "몬길: STAR DIVE 전용 티어 및 가성비 아티팩트 계획",
+        "몬길: STAR DIVE 역할 및 팀 구성별 최적 사용자 매핑",
+        "몬길: STAR DIVE 출시 초기 진행을 위한 아티팩트 등급 요약"
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "몬길: STAR DIVE 장비 세트",
+      "displayType": "equipmentTable",
+      "intro": "이 몬길: STAR DIVE 세트 개요를 사용하여 속성 중심 빌드에 적합한 2세트 및 4세트 보너스를 맞추어 보세요.",
+      "sets": [
+        {
+          "set": "하늘의 포효",
+          "element": "불",
+          "bestFor": [
+            "플레어",
+            "엔젤",
+            "베르나",
+            "이호"
+          ],
+          "twoSet": "궁극기 사용 시 5초 동안 불 속성 피해량이 10% 증가합니다.",
+          "fourSet": "불 상태 이상에 걸린 적 공격 시 치명타 피해량이 10% 증가합니다.",
+          "useCase": "폭발적인 딜링 또는 상태 이상 중심의 불 속성 캐릭터를 위한 주력 불 속성 세트입니다."
+        },
+        {
+          "set": "산맥의 위엄",
+          "element": "불",
+          "bestFor": [
+            "플레어"
+          ],
+          "twoSet": "태그 아웃 스킬 적중 시 5초 동안 대상의 불 속성 저항이 3% 감소합니다.",
+          "fourSet": "불 상태 이상에 걸린 적 공격 시 불 속성 피해량이 5% 증가합니다.",
+          "useCase": "태그 아웃 압박 및 저항 감소 루트를 위한 대안용 불 속성 세트입니다."
+        },
+        {
+          "set": "중재자",
+          "element": "얼음",
+          "bestFor": [
+            "클라우드",
+            "세라"
+          ],
+          "twoSet": "태그 스킬 사용 시 5초 동안 얼음 속성 피해량이 10% 증가합니다.",
+          "fourSet": "얼음 상태 이상에 걸린 적 공격 시 얼음 속성 피해량이 10% 증가합니다.",
+          "useCase": "일관된 태그 상호작용 시너지를 가진 핵심 얼음 속성 DPS 세트입니다."
+        },
+        {
+          "set": "심연",
+          "element": "바람",
+          "bestFor": [
+            "에스더",
+            "산군",
+            "보니"
+          ],
+          "twoSet": "특수 스킬 사용 시 5초 동안 바람 속성 피해량이 10% 증가합니다.",
+          "fourSet": "치명타 발생 시 5초 동안 바람 속성 피해량이 10% 증가합니다.",
+          "useCase": "치명타 세팅이 완료된 캐릭터와 공격적인 바람 속성 조합을 위한 최고의 바람 속성 세트입니다."
+        },
+        {
+          "set": "정령왕",
+          "element": "번개",
+          "bestFor": [
+            "페니",
+            "레이나",
+            "벤자민"
+          ],
+          "twoSet": "일반 공격 시 3초 동안 번개 속성 피해량이 8% 증가합니다.",
+          "fourSet": "번개 상태 이상에 걸린 적 공격 시 번개 속성 피해량이 10% 증가합니다.",
+          "useCase": "상태 이상을 유지하며 일반 공격을 반복하는 번개 속성 캐릭터에게 적합합니다."
+        },
+        {
+          "set": "서풍",
+          "element": "땅",
+          "bestFor": [
+            "엘리"
+          ],
+          "twoSet": "일반 공격 시 3초 동안 땅 속성 피해량이 8% 증가합니다.",
+          "fourSet": "땅 상태 이상에 걸린 적에게 교체 스킬 사용 시 5초 동안 땅 속성 피해량이 10% 증가합니다.",
+          "useCase": "반복적인 일반 공격 및 교체 스킬 타이밍을 활용하는 강력한 땅 속성 옵션입니다."
+        }
+      ],
+      "setNotes": [
+        "몬길: STAR DIVE 출시 세트는 캐릭터 고유의 상태 이상 패턴과 일치할 때 가장 강력합니다.",
+        "몬길: STAR DIVE 세트 계획 시 4세트 완성을 강제하기보다 2세트 유지력을 우선시해야 합니다.",
+        "몬길: STAR DIVE 캐릭터 풀이 넓어질수록 유연한 속성 맞춤형 세트의 가치가 높아집니다."
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "몬길: STAR DIVE 캐릭터",
+      "displayType": "characterHub",
+      "intro": "이 몬길: STAR DIVE 캐릭터 허브를 사용하여 현재 등록된 모든 플레이어블 캐릭터의 등급, 속성, 역할을 비교해 보세요.",
+      "filters": {
+        "rarity": [
+          "5★",
+          "4★"
+        ],
+        "elements": [
+          "불",
+          "얼음",
+          "바람",
+          "대지",
+          "번개"
+        ],
+        "roles": [
+          "파이터",
+          "디스트로이어",
+          "어쌔신",
+          "서포터"
+        ]
+      },
+      "characters": [
+        {
+          "name": "플레어",
+          "rarity": "5★",
+          "element": "불",
+          "role": "디스트로이어"
+        },
+        {
+          "name": "오필리아",
+          "rarity": "5★",
+          "element": "얼음",
+          "role": "파이터"
+        },
+        {
+          "name": "페니",
+          "rarity": "5★",
+          "element": "번개",
+          "role": "파이터"
+        },
+        {
+          "name": "산군",
+          "rarity": "5★",
+          "element": "바람",
+          "role": "파이터"
+        },
+        {
+          "name": "지원",
+          "rarity": "5★",
+          "element": "바람",
+          "role": "서포터"
+        },
+        {
+          "name": "에스더",
+          "rarity": "5★",
+          "element": "바람",
+          "role": "어쌔신"
+        },
+        {
+          "name": "가비",
+          "rarity": "5★",
+          "element": "대지",
+          "role": "파이터"
+        },
+        {
+          "name": "베르나",
+          "rarity": "4★",
+          "element": "불",
+          "role": "파이터"
+        },
+        {
+          "name": "이호",
+          "rarity": "4★",
+          "element": "불",
+          "role": "어쌔신"
+        },
+        {
+          "name": "엔젤",
+          "rarity": "4★",
+          "element": "불",
+          "role": "어쌔신"
+        },
+        {
+          "name": "클라우드",
+          "rarity": "4★",
+          "element": "얼음",
+          "role": "디스트로이어"
+        },
+        {
+          "name": "세라",
+          "rarity": "4★",
+          "element": "얼음",
+          "role": "파이터"
+        },
+        {
+          "name": "연화",
+          "rarity": "4★",
+          "element": "번개",
+          "role": "어쌔신"
+        },
+        {
+          "name": "벤자민",
+          "rarity": "4★",
+          "element": "번개",
+          "role": "어쌔신"
+        },
+        {
+          "name": "레이나",
+          "rarity": "4★",
+          "element": "번개",
+          "role": "디스트로이어"
+        },
+        {
+          "name": "보니",
+          "rarity": "4★",
+          "element": "바람",
+          "role": "서포터"
+        },
+        {
+          "name": "프란시스",
+          "rarity": "4★",
+          "element": "땅",
+          "role": "서포터"
+        },
+        {
+          "name": "데이지",
+          "rarity": "4★",
+          "element": "땅",
+          "role": "서포터"
+        },
+        {
+          "name": "엘리",
+          "rarity": "4★",
+          "element": "땅",
+          "role": "파괴자"
+        }
+      ],
+      "managementNotes": [
+        "리세마라 확정 결정을 내리기 전에 MONGIL STAR DIVE 등급 필터를 사용하세요.",
+        "단일 속성 라인업을 더 빠르게 구성하려면 MONGIL STAR DIVE 속성 필터를 사용하세요.",
+        "데미지, 무력화, 서포트 슬롯의 균형을 맞추려면 MONGIL STAR DIVE 역할 필터를 사용하세요.",
+        "주요 배너 로테이션 후에는 MONGIL STAR DIVE 로스터 업데이트를 확인하세요."
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "MONGIL STAR DIVE 출시일",
+      "displayType": "releaseTimeline",
+      "intro": "이 MONGIL STAR DIVE 출시 타임라인은 출시 발표, 잠금 해제 시간 및 현재 플랫폼 출시 상태를 추적합니다.",
+      "timeline": [
+        {
+          "date": "2026-03-11",
+          "label": "글로벌 출시 발표",
+          "details": "Netmarble은 2026년 4월 15일을 PC, iOS, Android 출시일로 발표했으며, PC 버전은 Netmarble 런처와 Epic Games Store를 통해 출시됩니다."
+        },
+        {
+          "date": "2026-04-08",
+          "label": "First Dive Show 라이브 스트림",
+          "details": "출시 주간 라이브 스트림에서 출시 계획을 재확인했으며, PlayStation 5 및 Xbox Series X|S 버전의 추후 출시를 확정했습니다."
+        },
+        {
+          "date": "2026-04-14",
+          "label": "북미 지역 잠금 해제 시간",
+          "details": "북미 지역의 글로벌 서비스는 4월 14일 오후 9:00(ET) / 오후 6:00(PT)에 시작되었습니다."
+        },
+        {
+          "date": "2026-04-15",
+          "label": "전 세계 동시 출시",
+          "details": "MONGIL STAR DIVE는 UTC 기준 4월 15일 오전 1시에 PC, Android, iOS로 전 세계에 출시되었습니다."
+        },
+        {
+          "date": "TBA",
+          "label": "콘솔 출시 상태",
+          "details": "PlayStation 5 및 Xbox Series X|S 버전 출시가 확정되었으나, 구체적인 출시일은 아직 미정입니다."
+        }
+      ],
+      "platformSummary": [
+        "현재 MONGIL STAR DIVE 지원 플랫폼: PC, iOS, Android",
+        "확정된 향후 MONGIL STAR DIVE 지원 플랫폼: PlayStation 5, Xbox Series X|S",
+        "북미 출시 시간: 2026-04-14 오후 9:00(ET) / 오후 6:00(PT)",
+        "전 세계 출시 시간: 2026-04-15 오전 1:00(UTC)"
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "MONGIL STAR DIVE 소식",
+      "displayType": "timelineCards",
+      "intro": "MONGIL STAR DIVE 소식은 공식 출시 주간 공지, 점검 결과, 라이브 스트림 업데이트를 하나의 연대순 피드로 제공하는 데 중점을 둡니다.",
+      "items": [
+        {
+          "date": "2026-04-16",
+          "label": "점검",
+          "headline": "MONGIL STAR DIVE 임시 점검 완료",
+          "summary": "4월 16일 임시 점검을 통해 서비스를 안정화하고, 일일 초기화 후 일부 필드 채집 및 채광 노드가 올바르게 초기화되지 않던 문제를 수정했습니다.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/176",
+          "icon": "Settings"
+        },
+        {
+          "date": "2026-04-15",
+          "label": "점검",
+          "headline": "MONGIL STAR DIVE 출시 당일 긴급 점검",
+          "summary": "Netmarble은 초기 글로벌 서비스 기간 동안 게임 서버를 안정화하기 위해 출시 당일 긴급 점검 공지를 게시했습니다.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/173",
+          "icon": "AlertTriangle"
+        },
+        {
+          "date": "2026-04-15",
+          "label": "출시",
+          "headline": "MONGIL STAR DIVE 공식 글로벌 출시",
+          "summary": "MONGIL STAR DIVE는 2026년 4월 15일 오전 1시(UTC), 북미 기준 4월 14일 오후 9시(ET)에 PC, Android, iOS로 전 세계에 출시되었습니다.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/122",
+          "icon": "TrendingUp"
+        },
+        {
+          "date": "2026-04-13",
+          "label": "다운로드",
+          "headline": "MONGIL STAR DIVE 사전 다운로드 및 사양 안내",
+          "summary": "Netmarble은 플레이어들이 출시 전 기기와 저장 공간을 준비할 수 있도록 사전 다운로드 일정과 최소 및 권장 사양을 공개했습니다.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/116",
+          "icon": "Download"
+        },
+        {
+          "date": "2026-04-08",
+          "label": "쇼케이스",
+          "headline": "MONGIL STAR DIVE First Dive Show 라이브 스트림",
+          "summary": "4월 8일에 방영된 First Dive Show 라이브 스트림은 출시 정보와 게임 플레이 미리보기를 담은 주요 출시 전 업데이트 방송이었습니다.",
+          "href": "https://game8.co/games/Mongil-Star-Dive/archives/591697",
+          "icon": "Gamepad2"
+        },
+        {
+          "date": "2026-04-08",
+          "label": "Q&A",
+          "headline": "MONGIL STAR DIVE 개발자 라이브 요약 Q&A",
+          "summary": "공식 포럼 요약 Q&A에는 확률 업 캐릭터의 3주 주기 등 출시 후 초기 업데이트 일정에 대한 내용이 포함되었습니다.",
+          "href": "https://forum.netmarble.com/stardive_gl/view/2/163",
+          "icon": "MessageCircle"
+        }
+      ],
+      "highlights": [
+        "MONGIL STAR DIVE가 2026-04-15 01:00 UTC에 전 세계 출시되었습니다.",
+        "MONGIL STAR DIVE 출시 주간 점검 업데이트가 2026-04-15와 2026-04-16에 게시되었습니다.",
+        "2026-04-08에 진행된 MONGIL STAR DIVE 퍼스트 다이브 쇼와 공식 Q&A는 출시 전 주요 맥락으로 남아 있습니다."
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "MONGIL STAR DIVE 시스템 사양",
+      "displayType": "specTable",
+      "intro": "이 MONGIL STAR DIVE 사양 표를 사용하여 PC, iOS 및 Android의 최소 및 권장 사양, 저장 공간 목표 및 설치 크기 참고 사항을 비교해 보세요.",
+      "platforms": [
+        {
+          "platform": "PC",
+          "minimum": [
+            "OS: Windows 10",
+            "CPU: Intel Core i5 8세대 또는 AMD Ryzen 5 2600",
+            "메모리: 8 GB RAM",
+            "GPU: NVIDIA GeForce GTX 1060 또는 AMD Radeon RX 580 또는 Intel Arc A380",
+            "DirectX: 11",
+            "저장 공간: 20 GB"
+          ],
+          "recommended": [
+            "OS: Windows 11",
+            "CPU: Intel Core i7 9세대 또는 AMD Ryzen 7 3700",
+            "메모리: 16 GB RAM",
+            "GPU: NVIDIA GeForce RTX 2060 또는 AMD Radeon RX 5700 XT 또는 Intel Arc A750",
+            "DirectX: 12",
+            "저장 공간: 50 GB"
+          ],
+          "notes": "MONGIL STAR DIVE PC 초기 다운로드 크기는 약 15 GB입니다."
+        },
+        {
+          "platform": "iOS",
+          "minimum": [
+            "기기: iPhone 11 또는 동급 사양",
+            "OS: iOS 15",
+            "저장 공간: 10 GB"
+          ],
+          "recommended": [
+            "기기: iPhone 13 이상",
+            "저장 공간: 15 GB"
+          ],
+          "notes": "MONGIL STAR DIVE iOS 초기 다운로드 크기는 약 7 GB입니다."
+        },
+        {
+          "platform": "Android",
+          "minimum": [
+            "OS: Android 10",
+            "칩셋: Snapdragon 865 (Galaxy S20급)",
+            "메모리: 8 GB RAM",
+            "저장 공간: 10 GB"
+          ],
+          "recommended": [
+            "칩셋: Snapdragon 8 Gen 2 (Galaxy S23급)",
+            "메모리: 12 GB RAM",
+            "저장 공간: 15 GB"
+          ],
+          "notes": "MONGIL STAR DIVE Android 초기 다운로드 크기는 약 7 GB입니다."
+        },
+        {
+          "platform": "PC 다운로드 옵션",
+          "minimum": [
+            "클라이언트: Netmarble 런처 또는 Epic Games Store"
+          ],
+          "recommended": [
+            "가용성: 출시 시 PC 클라이언트 이용 가능"
+          ],
+          "notes": "MONGIL STAR DIVE PC는 Epic Games Store 또는 Netmarble 런처를 통해 플레이할 수 있습니다."
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "MONGIL STAR DIVE 최적 설정",
+      "displayType": "accordion",
+      "intro": "이 MONGIL STAR DIVE 프리셋을 사용하여 PC와 모바일에서 성능, 전투 가독성 및 조작 편의성의 균형을 맞춰보세요.",
+      "presets": [
+        {
+          "title": "MONGIL STAR DIVE PC 하이엔드 프리셋",
+          "target": "PC",
+          "description": "권장 PC 사양 수준의 시스템에서, 치열한 전투 중에도 효과 가독성을 유지하면서 전체 클라이언트 화질을 우선시합니다. 이 프리셋은 RTX 2060, RX 5700 XT 또는 Arc A750급 GPU와 16 GB RAM을 갖춘 Windows 11 시스템에 적합합니다."
+        },
+        {
+          "title": "MONGIL STAR DIVE PC 안정성 프리셋",
+          "target": "PC",
+          "description": "최소 사양 PC의 경우, 그래픽 부하를 먼저 낮추고 안정적인 전투 성능을 우선시합니다. 이 프리셋은 GTX 1060, RX 580 또는 Arc A380급 GPU와 8 GB RAM을 갖춘 Windows 10 시스템에 적합합니다."
+        },
+        {
+          "title": "MONGIL STAR DIVE 모바일 성능 프리셋",
+          "target": "모바일",
+          "description": "모바일에서는 복잡한 액션 장면과 태그 스킬 효과 시 시각적 강도보다 부드러운 게임플레이를 우선시합니다. 기준 기기는 iOS 15의 iPhone 11 또는 Android 10의 Snapdragon 865부터 시작합니다."
+        },
+        {
+          "title": "MONGIL STAR DIVE 입력 방식 옵션",
+          "target": "조작",
+          "description": "MONGIL STAR DIVE는 플랫폼별로 마우스 및 키보드, 컨트롤러, 터치스크린을 지원합니다. PC 플레이어는 키보드의 정밀함과 컨트롤러의 편안함 사이를 전환할 수 있으며, 모바일 플레이어는 터치스크린 조작을 사용합니다."
+        },
+        {
+          "title": "MONGIL STAR DIVE 핵심 설정 체크리스트",
+          "target": "체크리스트",
+          "description": "PC와 모바일 간에 전환하거나 안정성을 위해 최적화할 때마다 그래픽, 오디오, 언어 및 조작 설정을 먼저 검토하세요."
+        },
+        {
+          "title": "MONGIL STAR DIVE 추천 초기 설정 변경",
+          "target": "출시 주간",
+          "description": "출시 초기 성능이 무겁게 느껴진다면 다른 설정을 건드리기 전에 그래픽 부하를 줄이세요. 조작이 어색하다면 더 깔끔한 전투 수행을 위해 입력 방식과 조작 레이아웃을 조정하세요."
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "MONGIL STAR DIVE 크로스플레이",
+      "displayType": "accordion",
+      "intro": "MONGIL STAR DIVE 크로스플레이 안내는 계정 계획을 명확히 하기 위해 크로스플레이 및 크로스세이브 지원을 멀티플레이어 기대치와 분리하여 설명해야 합니다.",
+      "questions": [
+        {
+          "question": "Does MONGIL STAR DIVE support cross-play?",
+          "answer": "네. MONGIL STAR DIVE는 지원되는 출시 플랫폼 간 크로스플레이를 지원합니다."
+        },
+        {
+          "question": "Does MONGIL STAR DIVE support cross-save?",
+          "answer": "네. MONGIL STAR DIVE는 크로스세이브를 지원하므로 지원되는 플랫폼 간에 동일한 저장 데이터를 사용할 수 있습니다."
+        },
+        {
+          "question": "Which platforms are included in MONGIL STAR DIVE support?",
+          "answer": "MONGIL STAR DIVE는 PC, Android 및 iOS로 출시되었습니다. PC 버전은 Epic Games Store 및 Netmarble 런처를 통해 이용 가능합니다."
+        },
+        {
+          "question": "Can I continue one MONGIL STAR DIVE account on PC and mobile?",
+          "answer": "네. MONGIL STAR DIVE 크로스세이브 지원을 통해 PC와 모바일 간에 동일한 계정 진행도를 이어갈 수 있습니다."
+        },
+        {
+          "question": "MONGIL STAR DIVE의 멀티플레이어 기능이 출시 시점에 확정되었나요?",
+          "answer": "출시 시점에 MONGIL STAR DIVE는 파티 구성과 태그 스킬 전투를 중심으로 한 싱글 플레이어 진행에 집중합니다."
+        },
+        {
+          "question": "MONGIL STAR DIVE 플레이어들이 가장 먼저 우선시해야 할 것은 무엇인가요?",
+          "answer": "주로 기기를 변경하며 플레이한다면 계정 연동과 크로스 세이브 연속성 확인을 최우선으로 하고, 이후 추가될 기능에 대해서는 공식 플랫폼 업데이트를 확인하세요."
+        }
+      ],
+      "highlights": [
+        "MONGIL STAR DIVE의 크로스 플레이와 크로스 세이브는 출시 플랫폼 전체에서 지원되는 것으로 확정되었습니다.",
+        "MONGIL STAR DIVE의 출시 플랫폼은 PC, Android, iOS입니다.",
+        "MONGIL STAR DIVE의 출시 초기 게임플레이는 싱글 플레이어 파티 성장에 초점을 맞춥니다."
+      ]
+    }
+  },
+  "faq": {
+    "title": "MONGIL STAR DIVE 자주 묻는",
+    "titleHighlight": "질문",
+    "subtitle": "MONGIL STAR DIVE 플레이어를 위한 핵심 답변",
+    "questions": [
+      {
+        "question": "MONGIL STAR DIVE는 어떤 게임인가요?",
+        "answer": "MONGIL STAR DIVE는 iOS, Android, PC에서 즐길 수 있는 Netmarble의 몬스터 길들이기 액션 RPG로, 캐릭터 교체 전투가 특징입니다."
+      },
+      {
+        "question": "MONGIL STAR DIVE 쿠폰 코드는 어떻게 사용하나요?",
+        "answer": "게임 내 쿠폰 입력 메뉴를 열고, 활성화된 MONGIL STAR DIVE 코드를 정확히 입력한 뒤 우편함에서 보상을 받으세요."
+      },
+      {
+        "question": "MONGIL STAR DIVE에서 리세마라를 할 가치가 있나요?",
+        "answer": "더 강력한 시작 캐릭터와 원활한 초반 진행을 원한다면 MONGIL STAR DIVE 리세마라는 가치가 있습니다."
+      },
+      {
+        "question": "출시 시점에 가장 우선순위가 높은 MONGIL STAR DIVE 캐릭터는 누구인가요?",
+        "answer": "초기 랭킹 정보에 따르면 플레어, 에스더, 지원이 MONGIL STAR DIVE 출시 시점의 주요 우선순위 캐릭터입니다."
+      },
+      {
+        "question": "MONGIL STAR DIVE 업데이트 소식은 어디서 확인할 수 있나요?",
+        "answer": "공식 웹사이트, 포럼, Discord, X, YouTube 채널을 통해 MONGIL STAR DIVE 업데이트를 확인할 수 있습니다."
+      },
+      {
+        "question": "MONGIL STAR DIVE는 크로스 세이브를 지원하나요?",
+        "answer": "네. 동일한 연동 계정을 사용하면 PC, iOS, Android 간에 MONGIL STAR DIVE 크로스 세이브를 지원합니다."
+      }
+    ]
+  },
+  "cta": {
+    "title": "MONGIL STAR DIVE를 시작할 준비가 되셨나요?",
+    "description": "공식 MONGIL STAR DIVE Discord에 참여하고 공식 웹사이트에서 출시 이벤트, 배너, 업데이트 소식을 확인하세요.",
+    "joinCommunity": "MONGIL STAR DIVE Discord 참여하기",
+    "joinGame": "MONGIL STAR DIVE 공식 사이트 방문하기"
+  },
+  "footer": {
+    "title": "MONGIL STAR DIVE 위키",
+    "description": "MONGIL STAR DIVE 쿠폰 코드, 리세마라 경로, 티어표, 팀 구성, 빌드 및 성장 가이드를 제공하는 커뮤니티 리소스 허브입니다.",
+    "resources": "리소스",
+    "community": "커뮤니티",
+    "legal": "법적 고지",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "YouTube",
+    "steamStore": "공식 웹사이트",
+    "about": "정보",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "copyrightNotice": "저작권",
+    "copyright": "© 2026 MONGIL STAR DIVE Wiki. Netmarble과 관련이 없습니다.",
+    "disclaimer": "비공식 팬 제작 리소스 웹사이트입니다."
+  },
+  "pages": {
+    "codes": {
+      "title": "MONGIL STAR DIVE 쿠폰 코드",
+      "description": "무료 젬, 소환권, 출시 보상을 받을 수 있는 최신 MONGIL STAR DIVE 활성 코드입니다.",
+      "metaTitle": "MONGIL STAR DIVE 쿠폰 코드 - 활성 리스트 및 보상",
+      "metaDescription": "각 업데이트 주기별 쿠폰 사용 방법, 보상 상세 내용, 만료일이 포함된 MONGIL STAR DIVE 활성 코드를 확인하세요.",
+      "categoryLabel": "쿠폰 코드",
+      "whatIs": "MONGIL STAR DIVE 쿠폰 코드란 무엇인가요?",
+      "whatIsDescription": "MONGIL STAR DIVE 코드는 이벤트, 목표 달성, 점검 공지 등을 통해 배포되는 기간 한정 쿠폰 문자열입니다. 이를 사용하면 초반 성장을 앞당길 수 있는 계정 재화를 얻을 수 있습니다.",
+      "why": "왜 MONGIL STAR DIVE 코드를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "빠른 재화 획득",
+        "step1Description": "추가적인 노가다 없이 젬, 티켓, 게임 내 통화와 같은 무료 아이템을 획득하세요.",
+        "step2Title": "만료된 코드 방지",
+        "step2Description": "업데이트된 리스트를 사용하여 유효하지 않은 보상에 시간을 낭비하지 마세요.",
+        "step3Title": "뽑기 타이밍 계획",
+        "step3Description": "사용 가능한 쿠폰 보상을 현재 배너 우선순위에 맞춰 활용하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 MONGIL STAR DIVE 쿠폰 코드"
+    },
+    "guide": {
+      "title": "MONGIL STAR DIVE 가이드",
+      "description": "리세마라 우선순위, 일일 루틴, 성장 계획을 위한 실용적인 MONGIL STAR DIVE 가이드입니다.",
+      "metaTitle": "MONGIL STAR DIVE 가이드 - 초보자부터 중반 성장까지",
+      "metaDescription": "초기 설정, 자원 사용, 계정 성장, 효율적인 일일 루틴에 대한 실용적인 MONGIL STAR DIVE 가이드를 읽어보세요.",
+      "categoryLabel": "게임 가이드",
+      "whatIs": "MONGIL STAR DIVE 가이드 카테고리는 무엇인가요?",
+      "whatIsDescription": "이 카테고리는 핵심 시스템, 팀 구성, 일자별 성장 선택에 대한 실질적인 공략 콘텐츠를 모아둔 곳입니다.",
+      "why": "왜 MONGIL STAR DIVE 가이드를 사용해야 하나요?",
+      "whySteps": {
+        "step1Title": "명확한 경로로 시작",
+        "step1Description": "시행착오를 겪으며 자원을 낭비하는 대신 검증된 초반 경로를 따르세요.",
+        "step2Title": "효율적인 자원 사용",
+        "step2Description": "즉각적인 전투 및 파밍 가치를 제공하는 업그레이드를 우선시하세요.",
+        "step3Title": "꾸준한 성장",
+        "step3Description": "매일 계정을 성장시킬 수 있는 루틴을 만드세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 MONGIL STAR DIVE 가이드"
+    },
+    "tier-list": {
+      "title": "MONGIL STAR DIVE 티어표",
+      "description": "현재 몬길: STAR DIVE의 스토리 클리어, 보스 데미지, 자동 파밍 안정성에 따른 티어 리스트 순위입니다.",
+      "metaTitle": "몬길: STAR DIVE 티어 리스트 - 역할별 메타 순위",
+      "metaDescription": "역할별 순위, 모드별 가치, 로스터 구성 우선순위가 포함된 최신 몬길: STAR DIVE 티어 리스트를 확인하세요.",
+      "categoryLabel": "티어 리스트",
+      "whatIs": "몬길: STAR DIVE 티어 리스트란 무엇인가요?",
+      "whatIsDescription": "몬길: STAR DIVE 티어 리스트는 캠페인, 보스 콘텐츠, 반복 파밍 스테이지에서의 실질적인 성능을 기준으로 유닛의 순위를 매깁니다.",
+      "why": "왜 몬길: STAR DIVE 티어 리스트를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "강력한 핵심 팀 구성",
+        "step1Description": "여러 모드에서 뛰어난 성능을 발휘하는 유닛에 투자를 집중하세요.",
+        "step2Title": "업그레이드 낭비 방지",
+        "step2Description": "장기적 가치가 낮은 유닛에 과도하게 투자하는 것을 피하세요.",
+        "step3Title": "메타 변화에 적응",
+        "step3Description": "밸런스 조정 및 배너 주기마다 로스터 계획을 업데이트하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 몬길: STAR DIVE 티어 리스트"
+    },
+    "characters": {
+      "title": "몬길: STAR DIVE 캐릭터",
+      "description": "역할, 강점, 팀 조합, 업그레이드 우선순위에 따른 몬길: STAR DIVE 캐릭터 가이드입니다.",
+      "metaTitle": "몬길: STAR DIVE 캐릭터 - 역할 및 육성 우선순위",
+      "metaDescription": "안정적인 성장을 위한 역할 분석, 시너지 노트, 업그레이드 우선순위가 포함된 몬길: STAR DIVE 캐릭터 가이드를 살펴보세요.",
+      "categoryLabel": "캐릭터",
+      "whatIs": "몬길: STAR DIVE 캐릭터 카테고리는 무엇인가요?",
+      "whatIsDescription": "이 카테고리는 각 몬길: STAR DIVE 캐릭터의 역할 정체성, 팀 내 기능, 투자 효과를 설명합니다.",
+      "why": "왜 몬길: STAR DIVE 캐릭터 가이드를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "더 나은 팀 역할 선택",
+        "step1Description": "안정적인 클리어를 위해 딜러, 서포터, 유지력의 균형을 맞추세요.",
+        "step2Title": "올바른 유닛 업그레이드",
+        "step2Description": "계정 전체에 높은 가치를 제공하는 캐릭터에 먼저 투자하세요.",
+        "step3Title": "팀 시너지 향상",
+        "step3Description": "원활한 전투 로테이션을 위해 스킬과 패시브를 조합하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 몬길: STAR DIVE 캐릭터 가이드"
+    },
+    "download": {
+      "title": "몬길: STAR DIVE 다운로드",
+      "description": "PC 및 모바일 플랫폼용 공식 몬길: STAR DIVE 다운로드 안내입니다.",
+      "metaTitle": "몬길: STAR DIVE 다운로드 - PC 및 모바일 설치 가이드",
+      "metaDescription": "설치 단계, 실행 체크리스트, 계정 설정 팁이 포함된 PC 및 모바일용 공식 몬길: STAR DIVE 다운로드 옵션을 확인하세요.",
+      "categoryLabel": "다운로드",
+      "whatIs": "몬길: STAR DIVE 다운로드 카테고리는 무엇인가요?",
+      "whatIsDescription": "몬길: STAR DIVE 다운로드 카테고리는 공식 설치 채널, 런처 설정, 첫 실행 체크리스트 항목을 다룹니다.",
+      "why": "왜 몬길: STAR DIVE 다운로드 가이드를 사용해야 하나요?",
+      "whySteps": {
+        "step1Title": "공식 소스 사용",
+        "step1Description": "구버전 클라이언트를 피하기 위해 신뢰할 수 있는 채널에서 설치하세요.",
+        "step2Title": "빠른 설정",
+        "step2Description": "혼동 없이 계정 연동 및 패치 단계를 완료하세요.",
+        "step3Title": "실행 오류 방지",
+        "step3Description": "심각한 문제를 해결하기 전에 기본적인 체크 사항을 적용하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 몬길: STAR DIVE 다운로드 가이드"
+    },
+    "release": {
+      "title": "몬길: STAR DIVE 출시",
+      "description": "몬길: STAR DIVE 출시 시기, 패치 주기, 이벤트 일정 변경 사항을 확인하세요.",
+      "metaTitle": "몬길: STAR DIVE 출시 - 타임라인 및 업데이트 일정",
+      "metaDescription": "효율적인 리소스 계획을 위해 몬길: STAR DIVE 출시 업데이트, 점검 시간, 패치 주기, 이벤트 타이밍을 확인하세요.",
+      "categoryLabel": "출시",
+      "whatIs": "몬길: STAR DIVE 출시 카테고리는 무엇인가요?",
+      "whatIsDescription": "이 섹션은 몬길: STAR DIVE 출시 마일스톤, 주요 패치 기간, 라이브 업데이트 타이밍 변경 사항을 추적합니다.",
+      "why": "왜 몬길: STAR DIVE 출시 업데이트를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "배너 소비 계획",
+        "step1Description": "예상되는 업데이트에 앞서 주요 리소스를 절약하세요.",
+        "step2Title": "점검 대비",
+        "step2Description": "초기화 시간 전에 기간 한정 작업을 완료하세요.",
+        "step3Title": "성장 목표 시기 조절",
+        "step3Description": "새로운 콘텐츠 요구 사항에 맞춰 업그레이드 시기를 조정하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 몬길: STAR DIVE 출시 업데이트"
+    },
+    "system": {
+      "title": "몬길: STAR DIVE 시스템",
+      "description": "PC 및 모바일에서 안정적인 플레이를 위한 몬길: STAR DIVE 시스템 사양 및 성능 최적화 안내입니다.",
+      "metaTitle": "몬길: STAR DIVE 시스템 사양 - PC 및 모바일 성능",
+      "metaDescription": "몬길: STAR DIVE 시스템 사양, 권장 설정, 프레임 드랍, 발열, 로딩 문제에 대한 실질적인 해결 방법을 확인하세요.",
+      "categoryLabel": "시스템",
+      "whatIs": "몬길: STAR DIVE 시스템 카테고리는 무엇인가요?",
+      "whatIsDescription": "몬길: STAR DIVE 시스템 카테고리는 하드웨어 요구 사양, 그래픽 설정, 실질적인 최적화 단계를 설명합니다.",
+      "why": "왜 몬길: STAR DIVE 시스템 가이드를 사용해야 하나요?",
+      "whySteps": {
+        "step1Title": "기기 준비 상태 확인",
+        "step1Description": "현재 설정으로 게임을 원활하게 실행할 수 있는지 확인하세요.",
+        "step2Title": "성능 최적화",
+        "step2Description": "안정적인 프레임과 반응성을 위해 설정을 조정하세요.",
+        "step3Title": "일반적인 문제 해결",
+        "step3Description": "끊김 현상, 발열, 로딩 실패 문제를 신속하게 해결하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 몬길: STAR DIVE 시스템 가이드"
+    }
   }
 }

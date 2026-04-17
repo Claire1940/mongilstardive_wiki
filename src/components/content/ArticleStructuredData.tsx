@@ -14,6 +14,8 @@ export function ArticleStructuredData({
 	slug,
 }: ArticleStructuredDataProps) {
 	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mongilstardive.wiki'
+	const homeUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
+	const listUrl = locale === 'en' ? `${siteUrl}/${contentType}` : `${siteUrl}/${locale}/${contentType}`
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
@@ -34,13 +36,13 @@ export function ArticleStructuredData({
 				'@type': 'ListItem',
 				position: 1,
 				name: 'Home',
-				item: siteUrl,
+				item: homeUrl,
 			},
 			{
 				'@type': 'ListItem',
 				position: 2,
 				name: contentType.charAt(0).toUpperCase() + contentType.slice(1),
-				item: `${siteUrl}/${contentType}`,
+				item: listUrl,
 			},
 			{
 				'@type': 'ListItem',

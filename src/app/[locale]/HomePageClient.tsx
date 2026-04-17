@@ -21,6 +21,7 @@ import {
   TrendingUp,
 } from 'lucide-react'
 import Link from 'next/link'
+import { Link as I18nLink } from '@/i18n/navigation'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
@@ -1285,36 +1286,36 @@ export default function HomePageClient({
               <h4 className="font-semibold mb-4">{t.footer.legal}</h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link
+                  <I18nLink
                     href="/about"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.about}
-                  </Link>
+                  </I18nLink>
                 </li>
                 <li>
-                  <Link
+                  <I18nLink
                     href="/privacy-policy"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.privacy}
-                  </Link>
+                  </I18nLink>
                 </li>
                 <li>
-                  <Link
+                  <I18nLink
                     href="/terms-of-service"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.terms}
-                  </Link>
+                  </I18nLink>
                 </li>
                 <li>
-                  <Link
+                  <I18nLink
                     href="/copyright"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.copyrightNotice}
-                  </Link>
+                  </I18nLink>
                 </li>
               </ul>
             </div>

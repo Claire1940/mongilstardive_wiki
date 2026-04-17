@@ -189,6 +189,88 @@ def split_into_chunks(data: dict, chunk_count: int = 10) -> list:
         chunks.append(chunk)
     return chunks
 
+
+def extract_string_values(obj, path: str = '') -> dict:
+    """提取所有 string leaf，返回 {path: value}。"""
+    result = {}
+    if isinstance(obj, dict):
+        for key, value in obj.items():
+            child_path = f"{path}.{key}" if path else key
+            result.update(extract_string_values(value, child_path))
+    elif isinstance(obj, list):
+        for idx, value in enumerate(obj):
+            child_path = f"{path}[{idx}]"
+            result.update(extract_string_values(value, child_path))
+    elif isinstance(obj, str):
+        result[path] = obj
+    return result
+
+
+def should_preserve_string(path: str, value: str) -> bool:
+    """技术字段不翻译：icon 标识、URL、邮箱链接、站内绝对路径。"""
+    lower_path = path.lower()
+    if lower_path.endswith('.icon'):
+        return True
+    if value.startswith(('http://', 'https://', 'mailto:', '/')):
+        return True
+    return False
+
+
+def split_flat_map_into_chunks(flat_map: dict, chunk_count: int = 10) -> list:
+    """将 path->string 平铺映射按数量均分为多个 chunk。"""
+    items = list(flat_map.items())
+    if not items:
+        return []
+
+    target = max(1, len(items) // chunk_count)
+    chunks = []
+    current = {}
+
+    for key, value in items:
+        current[key] = value
+        if len(current) >= target and len(chunks) < chunk_count - 1:
+            chunks.append(current)
+            current = {}
+
+    if current:
+        chunks.append(current)
+
+    return chunks
+
+
+def _parse_path_tokens(path: str) -> list:
+    """把 a.b[0].c 解析为 ['a', 'b', 0, 'c']。"""
+    tokens = []
+    for key, idx in re.findall(r'([^\.\[\]]+)|\[(\d+)\]', path):
+        if key:
+            tokens.append(key)
+        else:
+            tokens.append(int(idx))
+    return tokens
+
+
+def set_value_by_path(data, path: str, value: str) -> None:
+    """按 path 写回字符串值。"""
+    tokens = _parse_path_tokens(path)
+    if not tokens:
+        return
+
+    cur = data
+    for token in tokens[:-1]:
+        cur = cur[token]
+
+    last = tokens[-1]
+    cur[last] = value
+
+
+def apply_translated_strings(base_data: dict, translated_map: dict) -> dict:
+    """将 path->string 翻译结果写回到 JSON 结构。"""
+    merged = json.loads(json.dumps(base_data, ensure_ascii=False))
+    for path, value in translated_map.items():
+        if isinstance(value, str):
+            set_value_by_path(merged, path, value)
+    return merged
+
 # ─── deep merge ──────────────────────────────────────────────────────────────
 
 
@@ -218,6 +300,10 @@ def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, conf
         cleaned = clean_json_response(result)
         try:
             parsed = json.loads(cleaned)
+            # 确保 key 集合完整，缺失或非字符串值自动回退英文
+            for key, original_value in chunk.items():
+                if key not in parsed or not isinstance(parsed.get(key), str):
+                    parsed[key] = original_value
             print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✓")
             return (idx, list(chunk.keys()), parsed)
         except json.JSONDecodeError as e:
@@ -263,10 +349,27 @@ def translate_language(
     else:
         to_translate = en_data
 
-    # 按 chunk_count 拆分
-    chunks = split_into_chunks(to_translate, chunk_count)
+    use_value_extraction = bool(config.get('use_value_extraction', False))
+
+    # 按模式拆分
+    if use_value_extraction:
+        flat_values = extract_string_values(to_translate)
+        preserved_values = {}
+        translatable_values = {}
+        for path, value in flat_values.items():
+            if should_preserve_string(path, value):
+                preserved_values[path] = value
+            else:
+                translatable_values[path] = value
+
+        chunks = split_flat_map_into_chunks(translatable_values, chunk_count)
+        mode_name = '值抽取模式'
+    else:
+        chunks = split_into_chunks(to_translate, chunk_count)
+        mode_name = '完整 JSON 模式'
+
     total = len(chunks)
-    print(f"  [开始] {lang.upper()} ({lang_name}) - {total} 个 chunk，并发度 {concurrency}")
+    print(f"  [开始] {lang.upper()} ({lang_name}) - {total} 个 chunk，并发度 {concurrency}，{mode_name}")
 
     # 并发度 concurrency 执行所有 chunk
     results = [None] * total
@@ -279,11 +382,18 @@ def translate_language(
             idx_result, _, translated_chunk = future.result()
             results[idx_result - 1] = translated_chunk
 
-    # 按原始顺序 deep merge（同一顶层 key 可能来自多个 chunk）
-    translated: dict = {}
-    for r in results:
-        if r:
-            translated = deep_merge(translated, r)
+    if use_value_extraction:
+        translated_flat = dict(preserved_values)
+        for r in results:
+            if r:
+                translated_flat.update(r)
+        translated = apply_translated_strings(to_translate, translated_flat)
+    else:
+        # 按原始顺序 deep merge（同一顶层 key 可能来自多个 chunk）
+        translated: dict = {}
+        for r in results:
+            if r:
+                translated = deep_merge(translated, r)
 
     # incremental 模式：保留已有翻译，新翻译补充；overwrite 模式：完全替换
     if incremental:
