@@ -1,0 +1,121 @@
+export const metadata = {
+  title: "Mongil Star Dive Linux：2026 安裝與優化指南",
+  description: "了解如何在 Linux 和 Steam Deck 上安裝並運行 Mongil Star Dive。本指南提供 2026 年使用 Heroic Games Launcher 和 Proton 的詳細步驟。",
+  category: "指南",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Mongil+Star+Dive+Linux+Guide",
+  date: "2026-04-20",
+  author: "Mongil Star Dive 維基團隊"
+}
+
+隨著 Linux 遊戲在 2026 年持續大幅成長，許多玩家都渴望投入 Netmarble 的最新作品。對於偏好開源作業系統或在 Steam Deck 等掌機上遊玩的粉絲來說，**Mongil Star Dive linux** 的相容性已成為熱門話題。雖然該遊戲沒有原生的 Linux 執行檔，但透過現代轉譯層與社群驅動啟動器的結合，使其完全可以遊玩。要讓 **mongil star dive linux** 順暢運行，需要一套特定的工具，包括 Heroic Games Launcher 和專門版本的 Proton。在這份綜合指南中，我們將引導您完成安裝過程的每個步驟，從下載正確的執行檔到優化 Wine 前綴（prefix），以在 2026 年獲得最佳的幀率與穩定性。
+
+## Linux 相容性的必備工具
+
+在嘗試安裝遊戲之前，您必須確保系統已配備必要的軟體。與 Windows 不同（您只需運行安裝程式），Linux 需要一個相容層來將 Windows API 調用轉譯為系統能理解的語言。對於 Mongil Star Dive，我們建議使用這些工具的 Flatpak 版本，以確保在 Ubuntu、Fedora 或 SteamOS 等不同發行版中獲得最大的相容性。
+
+| 工具 | 用途 | 推薦版本 |
+|---|---|---|
+| **Heroic Games Launcher** | 管理遊戲安裝與 Wine 前綴。 | 最新 Flatpak 版 |
+| **Proton Plus** | 簡化下載自定義 Proton/Wine 版本的流程。 | 最新 Flatpak 版 |
+| **GE-Proton / Proton-Catios** | 針對遊戲性能優化的轉譯層。 | 2026 年最新發布版 |
+| **Flatseal** | (選用) 管理 Flatpak 應用程式的權限。 | 最新版 |
+
+> **💡 提示：** 如果您使用的是 Steam Deck 或不可變發行版（immutable distribution），請務必使用 Flatpak 版本的 Heroic Games Launcher，以避免相依性衝突。
+
+## 第一步：下載 Mongil Star Dive 客戶端
+
+第一步是獲取官方遊戲客戶端。雖然 Mongil Star Dive 可能在多個商店上架，但對於 2026 年的 Linux 用戶來說，最可靠的方法是使用 Netmarble 直接提供的獨立 PC 版本。
+
+1.  導航至 Mongil Star Dive 官方網站。
+2.  找到 **PC 版本** 下載按鈕。
+3.  在此特定設定中，請避開 Epic Games Store 版本，因為獨立啟動器在自定義 Wine 前綴中更容易管理。
+4.  如果在 Brave 或 Librewolf 等瀏覽器中未自動觸發下載，請查看官方網站的 FAQ 部分以獲取直接鏡像連結。
+
+## 第二步：準備 Proton 環境
+
+Mongil Star Dive 利用了特定的圖形功能，這些功能在社群優化版的 Proton 上表現最佳。使用 **Proton Plus**，您可以輕鬆獲取這些版本，而無需手動將文件移動到隱藏的系統資料夾中。
+
+### 推薦的 Wine 版本
+
+| 版本名稱 | 最適合 | 為什麼使用它？ |
+|---|---|---|
+| **Proton-Catios** | 一般穩定性 | 針對現代韓國 RPG 啟動器進行了優化。 |
+| **DW-Proton** | 動漫美學 | 專門針對賽璐璐渲染（cel-shaded）和著色器進行調整。 |
+| **GE-Proton** | 功能支援 | 包含媒體基礎（media foundation）和影片播放的最新修正。 |
+
+安裝 Proton Plus 後，打開應用程式並選擇 **Steam** 作為目標。下載最新的「Catios」或「DW」版本。儘管我們使用的是 Heroic Games Launcher，但 Heroic 能夠檢測到安裝在 Steam 目錄中的任何 Proton 版本，這能為您節省磁碟空間並集中管理相容性工具。
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/25dvNQRNXvg"
+    title="Mongil Star Dive on Linux Guide"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## 第三步：透過 Heroic Games Launcher 安裝
+
+準備好 `.exe` 安裝程式和 Proton 版本後，就可以配置 Heroic Games Launcher 了。這個工具充當橋樑，讓您能以友善的使用者介面運行 **mongil star dive linux** 設定。
+
+1.  打開 **Heroic Games Launcher**，點擊左側邊欄的「新增遊戲（Add Game）」。
+2.  輸入「Mongil Star Dive」作為遊戲標題。
+3.  在 **Wine** 選項卡下，選擇您之前下載的 Proton 版本（例如 Proton-Catios）。
+4.  點擊「運行安裝程式（Run Installer）」並選擇您在第一步下載的 Netmarble 安裝程式 `.exe`。
+5.  按照標準安裝提示操作。**重要提示：** 將遊戲安裝在虛擬「C 槽」內的預設建議路徑中。
+
+> **警告：** 安裝程式運行時請勿關閉 Heroic。請等待 Netmarble 啟動器完成初始設定後再繼續。
+
+## 第四步：配置執行檔路徑
+
+安裝完成後，Heroic Games Launcher 需要知道哪個文件才是真正啟動遊戲的。預設情況下，它可能仍指向安裝程式。
+
+| 設定項目 | 數值/路徑 |
+|---|---|
+| **選擇執行檔 (Select Executable)** | `Drive C/Program Files (x86)/Netmarble/Netmarble Launcher/Netmarble Launcher.exe` |
+| **Wine 前綴 (Wine Prefix)** | 保持預設 (通常在 `~/Games/Heroic/Prefixes`) |
+| **C++ 運行庫 (C++ Runtime)** | 當啟動器提示時進行安裝 |
+
+路徑設定為 `Netmarble Launcher.exe` 後，點擊「完成」。現在，當您在 Heroic 中點擊「開始遊戲」時，它將打開官方 Netmarble 啟動器，隨後該啟動器將處理實際遊戲資源的下載（視 2026 年的更新週期而定，約為 8GB 至 15GB）。
+
+## 優化 Mongil Star Dive Linux 性能
+
+運行遊戲只是成功了一半；確保它以穩定的 60 FPS 運行則需要一些微調。由於 Mongil Star Dive 是一款視覺效果華麗的遊戲，著色器編譯（shader compilation）可能會在遊戲開始的前幾分鐘造成卡頓。
+
+### 性能調整技巧
+
+*   **啟用 Gamemode：** 在 Heroic 設定中，確保開啟「Enable Feral GameMode」。這會給予遊戲更高的 CPU 優先級。
+*   **使用 DXVK：** 確保已啟用 DXVK（Proton 中通常預設開啟），以將 DirectX 11/12 調用轉譯為 Vulkan。
+*   **登入問題：** 如果 Google 登入選項無法打開您的瀏覽器，請嘗試使用標準電子郵件和密碼登入。某些 Linux 沙盒環境會阻止啟動器與外部網頁瀏覽器通訊。
+
+> **💡 提示：** 如果遊戲無法啟動，請檢查您的主機系統是否已安裝 `vulkan-loader` 和 32 位元 Vulkan 驅動程式。
+
+## 常見錯誤疑難排解
+
+即使有完美的設定，您仍可能遇到障礙。**mongil star dive linux** 社群已針對 2026 年發現了幾個常見問題及其修正方法。
+
+1.  **C++ 運行庫錯誤：** 如果遊戲要求「Microsoft C++ Runtime」，請允許 Netmarble 啟動器進行安裝。它會安裝在 Wine 前綴中，不會影響您的 Linux 主系統。
+2.  **啟動時黑屏：** 這通常是由於缺少媒體編解碼器引起的。切換到 **GE-Proton** 通常可以解決此問題，因為它包含了遊戲內影片所需的補丁。
+3.  **貼圖品質低：** 確保 Heroic 的 Wine 配置中的「VRAM」設定與您實際的 GPU 記憶體相匹配。
+
+## 常見問題解答 (FAQ)
+
+**問：我可以在 Steam Deck 上玩 Mongil Star Dive 嗎？**
+
+答：可以。透過在桌面模式下使用 Heroic Games Launcher 方法，您可以將遊戲作為「非 Steam 遊戲捷徑」新增至 Steam，以便在具有完整控制器支援的遊戲模式下遊玩。
+
+**問：在 Linux 上遊玩會被封號嗎？**
+
+答：截至 2026 年，尚無專門因使用 Wine 或 Proton 而被封號的報告。但是，請務必確保不使用任何修改遊戲記憶體的額外腳本或「修改器」，因為這些會觸發反作弊機制。
+
+**問：為什麼 Netmarble 啟動器的下載速度很慢？**
+
+答：這有時是 Wine 處理多線程下載的已知問題。如果速度持續偏低，請嘗試禁用任何啟用的 VPN，或在 Flatseal 中檢查防火牆設定，以確保 Heroic 擁有完整的網路存取權限。
+
+**問：遊戲在 Linux 上支援控制器嗎？**
+
+答：支援。大多數控制器都能透過 Heroic 的「Wine Joystick」映射自動識別，或者如果是透過 Steam 介面啟動，則可透過 Steam 輸入封裝器識別。
+
+透過遵循本指南，您應該能夠讓 **mongil star dive linux** 以高性能且穩定地運行。欲了解更多關於 Linux 遊戲和相容性報告的更新，請關注我們的 2026 年指南系列。請查看 [官方 Netmarble 支援頁面](https://star-dive.netmarble.com/) 以獲取可能影響啟動器行為的最新遊戲特定修補程式說明。

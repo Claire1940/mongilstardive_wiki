@@ -1,0 +1,121 @@
+export const metadata = {
+  title: "Mongil Star Dive Linux：インストール＆最適化ガイド 2026",
+  description: "LinuxおよびSteam DeckでMongil Star Diveをインストールして実行する方法を学びましょう。Heroic Games LauncherとProtonを使用した2026年版ステップバイステップガイド。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Mongil+Star+Dive+Linux+Guide",
+  date: "2026-04-20",
+  author: "Mongil Star Dive Wikiチーム"
+}
+
+2026年、Linuxゲーミングが驚異的な成長を続ける中、多くのプレイヤーがNetmarbleの最新タイトルに注目しています。オープンソースのオペレーティングシステムを好むファンや、Steam Deckのような携帯機でプレイするユーザーにとって、**Mongil Star Dive linux** の互換性は大きな関心事となっています。このゲームにはネイティブのLinuxバイナリは存在しませんが、現代の翻訳レイヤーとコミュニティ主導のランチャーを組み合わせることで、完全にプレイ可能な状態になります。**mongil star dive linux** をスムーズに動作させるには、Heroic Games Launcherや特殊なバージョンのProtonを含む特定のツールセットが必要です。この包括的なガイドでは、正しい実行ファイルのダウンロードから、2026年における最高のフレームレートと安定性を実現するためのWineプレフィックスの最適化まで、インストールプロセスの全ステップを解説します。
+
+## Linux互換性のための必須ツール
+
+ゲームのインストールを試みる前に、システムに必要なソフトウェアが備わっているか確認する必要があります。インストーラーを実行するだけのWindowsとは異なり、LinuxではWindows APIの呼び出しをシステムが理解できる形式に変換するための互換レイヤーが必要です。Mongil Star Diveの場合、Ubuntu、Fedora、SteamOSなどの異なるディストリビューション間で最大限の互換性を確保するために、これらのツールのFlatpak版を使用することをお勧めします。
+
+| ツール | 目的 | 推奨バージョン |
+|---|---|---|
+| **Heroic Games Launcher** | ゲームのインストールとWineプレフィックスの管理。 | 最新のFlatpak版 |
+| **Proton Plus** | カスタムProton/Wineバージョンのダウンロードを簡略化。 | 最新のFlatpak版 |
+| **GE-Proton / Proton-Catios** | ゲーミングパフォーマンスに最適化された翻訳レイヤー。 | 2026年最新リリース |
+| **Flatseal** | （オプション）Flatpakアプリケーションの権限管理。 | 最新版 |
+
+> **💡 ヒント:** Steam Deckや不変（イミュータブル）ディストリビューションを使用している場合は、依存関係の競合を避けるために、必ずHeroic Games LauncherのFlatpak版を使用してください。
+
+## ステップ 1：Mongil Star Diveクライアントのダウンロード
+
+最初のステップは、公式ゲームクライアントを入手することです。Mongil Star Diveは様々なストアフロントで提供されている可能性がありますが、2026年時点でLinuxユーザーにとって最も信頼できる方法は、Netmarbleが直接提供しているスタンドアロンPC版を使用することです。
+
+1.  Mongil Star Diveの公式サイトにアクセスします。
+2.  **PC版**のダウンロードボタンを見つけます。
+3.  このセットアップでは、Epic Gamesストア版は避けてください。スタンドアロンのランチャーの方が、カスタムWineプレフィックス内での管理が容易です。
+4.  BraveやLibrewolfなどのブラウザでダウンロードが自動的に開始されない場合は、公式サイトのFAQセクションで直接のミラーリンクを確認してください。
+
+## ステップ 2：Proton環境の準備
+
+Mongil Star Diveは、コミュニティによって最適化されたバージョンのProtonで最高のパフォーマンスを発揮する特定のグラフィック機能を利用しています。**Proton Plus**を使用すれば、ファイルを隠しシステムフォルダに手動で移動することなく、これらのバージョンを簡単に取得できます。
+
+### 推奨されるWineバージョン
+
+| バージョン名 | 最適な用途 | 使用する理由 |
+|---|---|---|
+| **Proton-Catios** | 全般的な安定性 | 最新の韓国産RPGランチャー向けに最適化されています。 |
+| **DW-Proton** | アニメ調のグラフィック | セルシェーディングのレンダリングとシェーダーに特化して調整されています。 |
+| **GE-Proton** | 機能サポート | Media Foundationやビデオ再生に関する最新の修正が含まれています。 |
+
+Proton Plusをインストールした後、アプリケーションを開き、ターゲットとして**Steam**を選択します。最新の「Catios」または「DW」バージョンをダウンロードしてください。Heroic Games Launcherを使用する場合でも、HeroicはSteamディレクトリにインストールされたProtonバージョンを検出できるため、ディスク容量を節約し、互換ツールを一元管理できます。
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/25dvNQRNXvg"
+    title="Mongil Star Dive on Linux Guide"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## ステップ 3：Heroic Games Launcher経由でのインストール
+
+`.exe`インストーラーとProtonバージョンの準備ができたら、Heroic Games Launcherの設定を行います。このツールは架け橋として機能し、ユーザーフレンドリーなインターフェースで **mongil star dive linux** のセットアップを実行できるようにします。
+
+1.  **Heroic Games Launcher**を開き、左側のサイドバーにある「ゲームを追加 (Add Game)」をクリックします。
+2.  ゲームタイトルに「Mongil Star Dive」と入力します。
+3.  **Wine**タブで、先ほどダウンロードしたProtonバージョン（例：Proton-Catios）を選択します。
+4.  「インストーラーを実行 (Run Installer)」をクリックし、ステップ1でダウンロードしたNetmarbleのインストーラー`.exe`を選択します。
+5.  標準的なインストールプロンプトに従います。**重要：** ゲームは仮想的な「ドライブC」内のデフォルトの推奨パスにインストールしてください。
+
+> **警告:** インストーラーの実行中はHeroicを閉じないでください。Netmarbleランチャーの初期セットアップが完了するまで待ってから次に進んでください。
+
+## ステップ 4：実行ファイルパスの設定
+
+インストールが完了したら、Heroic Games Launcherに実際にゲームを開始するファイルを教える必要があります。デフォルトでは、まだインストーラーを指している可能性があります。
+
+| 設定項目 | 値/パス |
+|---|---|
+| **実行ファイルを選択 (Select Executable)** | `Drive C/Program Files (x86)/Netmarble/Netmarble Launcher/Netmarble Launcher.exe` |
+| **Wineプレフィックス (Wine Prefix)** | デフォルトのまま（通常は `~/Games/Heroic/Prefixes`） |
+| **C++ ランタイム** | ランチャーから要求されたらインストールする |
+
+パスを `Netmarble Launcher.exe` に設定したら、「完了 (Finish)」をクリックします。これでHeroicで「プレイ」をクリックすると、公式のNetmarbleランチャーが開き、実際のゲームアセット（2026年のアップデートサイクルによりますが、約8GB〜15GB）のダウンロードが開始されます。
+
+## Mongil Star Dive Linuxのパフォーマンス最適化
+
+ゲームを起動させるのは戦いの半分に過ぎません。安定した60 FPSを確保するには微調整が必要です。Mongil Star Diveは視覚的に鮮やかなゲームであるため、プレイ開始の数分間はシェーダーのコンパイルによってスタッタリング（カクつき）が発生することがあります。
+
+### パフォーマンスのヒント
+
+*   **Gamemodeを有効にする:** Heroicの設定で「Enable Feral GameMode」がオンになっていることを確認してください。これにより、ゲームに高いCPU優先度が割り当てられます。
+*   **DXVKを使用する:** DirectX 11/12の呼び出しをVulkanに変換するために、DXVKが有効になっていることを確認してください（Protonでは通常デフォルトで有効です）。
+*   **ログインの問題:** Googleログインでブラウザが開かない場合は、標準のメールアドレスとパスワードでのサインインを試してください。一部のLinuxサンドボックス環境では、ランチャーが外部のウェブブラウザと通信できない場合があります。
+
+> **💡 ヒント:** ゲームが起動しない場合は、ホストシステムに `vulkan-loader` と32ビットのVulkanドライバがインストールされているか確認してください。
+
+## よくあるエラーのトラブルシューティング
+
+完璧にセットアップしても、障害にぶつかることがあります。**mongil star dive linux** コミュニティは、2026年におけるいくつかの一般的な問題とその修正方法を特定しています。
+
+1.  **C++ ランタイムエラー:** ゲームが「Microsoft C++ Runtime」を要求した場合は、Netmarbleランチャーにインストールを許可してください。これはWineプレフィックス内にインストールされ、メインのLinuxシステムには影響しません。
+2.  **起動時の黒い画面:** これは多くの場合、メディアコーデックの不足が原因です。**GE-Proton**に切り替えると、ゲーム内ビデオに必要なパッチが含まれているため、通常は解決します。
+3.  **テクスチャ品質が低い:** HeroicのWine設定にある「VRAM」設定が、実際のGPUメモリと一致するように設定されているか確認してください。
+
+## FAQ
+
+**Q: Steam DeckでMongil Star Diveをプレイできますか？**
+
+A: はい。デスクトップモードでHeroic Games Launcherを使用する方法に従った後、ゲームを「非Steamショートカット」としてSteamに追加すれば、フルコントローラーサポートを備えたゲームモードでプレイできます。
+
+**Q: LinuxでプレイするとBANされますか？**
+
+A: 2026年現在、WineやProtonの使用のみを理由としたBANの報告はありません。ただし、ゲームメモリを修正する追加のスクリプトや「チートツール」は絶対に使用しないでください。これらはアンチチートメカニズムを誘発します。
+
+**Q: Netmarbleランチャーでのダウンロード速度が遅いのはなぜですか？**
+
+A: これはWineがマルチスレッドダウンロードを処理する方法に関連する既知の問題である場合があります。速度が常に低い場合は、有効なVPNを無効にするか、FlatsealでHeroicが完全なネットワークアクセス権限を持っているか確認してください。
+
+**Q: Linuxでコントローラーは使えますか？**
+
+A: はい。ほとんどのコントローラーは、Heroicの「Wine Joystick」マッピング、またはSteamインターフェース経由で起動した場合はSteam入力ラッパーを通じて自動的に認識されます。
+
+このガイドに従うことで、**mongil star dive linux** を高いパフォーマンスと安定性で動作させることができるはずです。Linuxゲーミングや互換性レポートに関するさらなるアップデートについては、当サイトの2026年ガイドシリーズをチェックしてください。ランチャーの動作に影響を与える可能性のある最新のパッチノートについては、[Netmarble公式サイトのサポートページ](https://star-dive.netmarble.com/)を確認してください。
